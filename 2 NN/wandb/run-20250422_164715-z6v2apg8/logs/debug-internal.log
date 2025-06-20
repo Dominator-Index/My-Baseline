@@ -1,0 +1,15 @@
+{"time":"2025-04-22T16:47:15.876888558+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/2 NN/wandb/run-20250422_164715-z6v2apg8/logs/debug-core.log"}
+{"time":"2025-04-22T16:47:16.095119962+08:00","level":"INFO","msg":"created new stream","id":"z6v2apg8"}
+{"time":"2025-04-22T16:47:16.095200087+08:00","level":"INFO","msg":"stream: started","id":"z6v2apg8"}
+{"time":"2025-04-22T16:47:16.095274212+08:00","level":"INFO","msg":"handler: started","stream_id":"z6v2apg8"}
+{"time":"2025-04-22T16:47:16.095264212+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"z6v2apg8"}
+{"time":"2025-04-22T16:47:16.095306295+08:00","level":"INFO","msg":"sender: started","stream_id":"z6v2apg8"}
+{"time":"2025-04-22T16:47:16.754008753+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T16:47:16.937255269+08:00","level":"INFO","msg":"stream: closing","id":"z6v2apg8"}
+{"time":"2025-04-22T16:47:16.937616061+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-22T16:47:16.938268769+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-22T16:47:18.911707395+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-22T16:47:19.278442706+08:00","level":"INFO","msg":"handler: closed","stream_id":"z6v2apg8"}
+{"time":"2025-04-22T16:47:19.278487581+08:00","level":"INFO","msg":"sender: closed","stream_id":"z6v2apg8"}
+{"time":"2025-04-22T16:47:19.278478789+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"z6v2apg8"}
+{"time":"2025-04-22T16:47:19.278567164+08:00","level":"INFO","msg":"stream: closed","id":"z6v2apg8"}

@@ -1,0 +1,43 @@
+将在以下步骤计算特征值: [0, 1, 2, 3, 4, 5, 10, 20, 30, 40]...
+总共 56 个计算点
+
+============================================================
+🚀 开始训练 - 2025-05-30 17:51:54
+总步数: 501, Seeds: [12138]
+特征值计算步骤: 56 个
+============================================================
+
+
+🌱 Seed 12138 (1/1)
+Seed 12138:   0%|                                                                               | 0/501 [00:00<?, ?it/s]/home/ouyangzl/.local/lib/python3.12/site-packages/torch/nn/modules/loss.py:610: UserWarning: Using a target size (torch.Size([1, 10, 16])) that is different to the input size (torch.Size([10, 16])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/ouyangzl/.local/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: Using backward() with create_graph=True will create a reference cycle between the parameter and its gradient which can cause a memory leak. We recommend using autograd.grad when creating the graph to avoid this. If you have to use this function, make sure to reset the .grad fields of your parameters to None after use to break the cycle and avoid the leak. (Triggered internally at /pytorch/torch/csrc/autograd/engine.cpp:1260.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Seed 12138: 100%|███████████████████████████████████████████████████████████████████| 501/501 [3:03:02<00:00, 21.92s/it]
+📊 Step   0 | 17:54:14 | Loss: 0.339426 | Time: 139.12s | EigenTime: 138.98s
+📊 Step   1 | 17:56:28 | Loss: 0.339214 | Time: 134.54s | EigenTime: 134.54s
+📊 Step   5 | 18:04:31 | Loss: 0.336571 | Time: 131.09s | EigenTime: 131.09s
+📊 Step  10 | 18:08:54 | Loss: 0.324610 | Time: 262.82s | EigenTime: 262.82s
+📊 Step  50 | 18:20:59 | Loss: 0.017293 | Time: 111.30s | EigenTime: 111.30s
+📊 Step 100 | 18:31:03 | Loss: 0.002530 | Time: 146.93s | EigenTime: 146.92s
+📊 Step 150 | 18:43:25 | Loss: 0.001504 | Time: 149.57s | EigenTime: 149.57s
+📊 Step 200 | 18:56:21 | Loss: 0.001362 | Time: 158.55s | EigenTime: 158.55s
+📊 Step 250 | 19:12:04 | Loss: 0.001077 | Time: 264.93s | EigenTime: 264.93s
+📊 Step 300 | 19:29:51 | Loss: 0.000020 | Time: 221.20s | EigenTime: 221.20s
+📊 Step 350 | 19:49:52 | Loss: 0.000000 | Time: 234.22s | EigenTime: 234.21s
+📊 Step 400 | 20:11:22 | Loss: 0.000000 | Time: 240.97s | EigenTime: 240.96s
+📊 Step 450 | 20:32:39 | Loss: 0.000000 | Time: 268.32s | EigenTime: 268.32s
+📊 Step 500 | 20:54:57 | Loss: 0.000000 | Time: 227.35s | EigenTime: 227.34s
+
+✅ Seed 12138 完成!
+
+🎨 开始生成可视化图表...
+📉 训练损失图已保存: /home/ouyangzl/BaseLine/3 NN/images/training_loss_SGD_lr1.0_var0.010000_seed12138.png
+wandb: Network error (ProxyError), entering retry loop.
+📊 Top-50特征值演化图已保存: /home/ouyangzl/BaseLine/3 NN/images/top50_eigenvalues_SGD_lr1.0_var0.010000_seed12138.png
+✅ 所有可视化图表已生成完成!
+📁 图片保存位置: /home/ouyangzl/BaseLine/3 NN/images
+
+🎉 所有训练完成! 总耗时: 3h 47m 13.4s
+📝 结果已保存到 wandb: https://wandb.ai/bxl307-university-of-birmingham/Baseline/runs/bxkg4mul
+📁 所有图片已保存到: /home/ouyangzl/BaseLine/3 NN/images

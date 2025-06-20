@@ -1,0 +1,7 @@
+{"time":"2025-04-16T22:01:24.689240547+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/MNIST/wandb/run-20250416_220124-a09i45vt/logs/debug-core.log"}
+{"time":"2025-04-16T22:01:24.911856654+08:00","level":"INFO","msg":"created new stream","id":"a09i45vt"}
+{"time":"2025-04-16T22:01:24.911904903+08:00","level":"INFO","msg":"stream: started","id":"a09i45vt"}
+{"time":"2025-04-16T22:01:24.913690176+08:00","level":"INFO","msg":"sender: started","stream_id":"a09i45vt"}
+{"time":"2025-04-16T22:01:24.913751259+08:00","level":"INFO","msg":"handler: started","stream_id":"a09i45vt"}
+{"time":"2025-04-16T22:01:24.913781759+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"a09i45vt"}
+{"time":"2025-04-16T22:01:25.283365592+08:00","level":"INFO","msg":"Starting system monitor"}

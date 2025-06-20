@@ -1,0 +1,24 @@
+{"time":"2025-03-23T22:38:31.342849+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/wandb/run-20250323_223831-1saw2i7p/logs/debug-core.log"}
+{"time":"2025-03-23T22:38:31.558472+08:00","level":"INFO","msg":"created new stream","id":"1saw2i7p"}
+{"time":"2025-03-23T22:38:31.55855+08:00","level":"INFO","msg":"stream: started","id":"1saw2i7p"}
+{"time":"2025-03-23T22:38:31.558585+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"1saw2i7p"}
+{"time":"2025-03-23T22:38:31.558784+08:00","level":"INFO","msg":"handler: started","stream_id":"1saw2i7p"}
+{"time":"2025-03-23T22:38:31.558915+08:00","level":"INFO","msg":"sender: started","stream_id":"1saw2i7p"}
+{"time":"2025-03-23T22:38:32.046641+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-23T22:40:33.762429+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":502}
+{"time":"2025-03-23T22:40:33.930171+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":502}
+{"time":"2025-03-23T22:40:34.054694+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":502}
+{"time":"2025-03-23T22:40:34.213725+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":502}
+{"time":"2025-03-23T22:40:34.336183+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":502}
+{"time":"2025-03-23T22:40:34.563771+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":502}
+{"time":"2025-03-23T22:40:34.654816+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":502}
+{"time":"2025-03-23T22:40:34.755316+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":502}
+{"time":"2025-03-23T22:41:19.664063+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-23T22:41:19.668541+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-23T22:41:20.672882+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/pca_top_k_step_350_vs_last_517_6decc0af33fe0e3ba17e.png","runtime_seconds":1.309337833,"progress":"30.4KB/30.4KB"},{"desc":"uploading output.log","runtime_seconds":0.484537166,"progress":"3.0KB/3.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4845185,"progress":"31.3KB/31.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.209443709,"progress":"1001B/1001B"}],"total_operations":4}}
+{"time":"2025-03-23T22:41:24.405866+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-23T22:41:25.105527+08:00","level":"INFO","msg":"stream: closing","id":"1saw2i7p"}
+{"time":"2025-03-23T22:41:25.106067+08:00","level":"INFO","msg":"handler: closed","stream_id":"1saw2i7p"}
+{"time":"2025-03-23T22:41:25.106105+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1saw2i7p"}
+{"time":"2025-03-23T22:41:25.106485+08:00","level":"INFO","msg":"sender: closed","stream_id":"1saw2i7p"}
+{"time":"2025-03-23T22:41:25.106569+08:00","level":"INFO","msg":"stream: closed","id":"1saw2i7p"}

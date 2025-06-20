@@ -1,0 +1,55 @@
+将在以下步骤计算特征值: [0, 1, 2, 3, 4, 5, 10, 20, 30, 40]...
+总共 56 个计算点
+
+============================================================
+🚀 开始训练 - 2025-05-30 00:27:17
+总步数: 501, Seeds: [12138]
+特征值计算步骤: 56 个
+============================================================
+
+
+🌱 Seed 12138 (1/1)
+Seed 12138:   0%|                                                                               | 0/501 [00:00<?, ?it/s]/home/ouyangzl/.local/lib/python3.12/site-packages/torch/nn/modules/loss.py:610: UserWarning: Using a target size (torch.Size([1, 10, 16])) that is different to the input size (torch.Size([10, 16])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/ouyangzl/.local/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: Using backward() with create_graph=True will create a reference cycle between the parameter and its gradient which can cause a memory leak. We recommend using autograd.grad when creating the graph to avoid this. If you have to use this function, make sure to reset the .grad fields of your parameters to None after use to break the cycle and avoid the leak. (Triggered internally at /pytorch/torch/csrc/autograd/engine.cpp:1260.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Seed 12138:   0%|▏                                                                   | 1/501 [01:24<11:47:42, 84.92s/it]/home/ouyangzl/.local/lib/python3.12/site-packages/torch/nn/modules/loss.py:610: UserWarning: Using a target size (torch.Size([1, 10, 16])) that is different to the input size (torch.Size([10, 16])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+📊 Step   0 | 00:28:42 | Loss: 0.339426 | Time: 84.92s | EigenTime: 84.69s
+  return F.mse_loss(input, target, reduction=self.reduction)
+Seed 12138: 100%|█████████████████████████████████████████████████████████████████████| 501/501 [47:22<00:00,  5.67s/it]
+📊 Step   1 | 00:30:11 | Loss: 0.339214 | Time: 89.02s | EigenTime: 89.01s
+📊 Step   5 | 00:36:48 | Loss: 0.336571 | Time: 95.59s | EigenTime: 95.59s
+📊 Step  10 | 00:38:19 | Loss: 0.324610 | Time: 90.93s | EigenTime: 90.93s
+📊 Step  50 | 00:41:12 | Loss: 0.017293 | Time: 22.27s | EigenTime: 22.27s
+   📈 Avg Step: 16.36s | Avg Hessian: 75.83s | Total: 13m 54.6s
+📊 Step 100 | 00:43:25 | Loss: 0.002530 | Time: 27.27s | EigenTime: 27.27s
+   📈 Avg Step: 9.58s | Avg Hessian: 60.47s | Total: 16m 8.1s
+📊 Step 150 | 00:45:53 | Loss: 0.001504 | Time: 33.24s | EigenTime: 33.23s
+   📈 Avg Step: 7.39s | Avg Hessian: 53.11s | Total: 18m 35.9s
+📊 Step 200 | 00:48:31 | Loss: 0.001362 | Time: 35.10s | EigenTime: 35.09s
+   📈 Avg Step: 6.33s | Avg Hessian: 48.94s | Total: 21m 13.1s
+📊 Step 250 | 00:52:41 | Loss: 0.001077 | Time: 41.21s | EigenTime: 41.21s
+   📈 Avg Step: 6.07s | Avg Hessian: 49.11s | Total: 25m 23.1s
+📊 Step 300 | 00:56:40 | Loss: 0.000020 | Time: 47.07s | EigenTime: 47.07s
+   📈 Avg Step: 5.86s | Avg Hessian: 48.94s | Total: 29m 22.9s
+📊 Step 350 | 01:01:08 | Loss: 0.000000 | Time: 59.77s | EigenTime: 59.77s
+   📈 Avg Step: 5.78s | Avg Hessian: 49.50s | Total: 33m 50.6s
+📊 Step 400 | 01:05:40 | Loss: 0.000000 | Time: 49.01s | EigenTime: 49.01s
+   📈 Avg Step: 5.74s | Avg Hessian: 50.02s | Total: 38m 22.3s
+📊 Step 450 | 01:10:29 | Loss: 0.000000 | Time: 52.83s | EigenTime: 52.83s
+   📈 Avg Step: 5.75s | Avg Hessian: 50.79s | Total: 43m 11.9s
+📊 Step 500 | 01:14:40 | Loss: 0.000000 | Time: 60.31s | EigenTime: 60.31s
+   📈 Avg Step: 5.67s | Avg Hessian: 50.73s | Total: 47m 22.6s
+
+✅ Seed 12138 完成!
+📊 时间统计:
+   平均每步时间: 5.673s
+   Forward平均: 0.000s
+   Backward平均: 0.001s
+   Hessian平均: 50.730s
+   特征值计算次数: 56
+   Logging平均: 0.000s
+   总训练时间: 47m 22.3s
+
+🎉 所有训练完成! 总耗时: 47m 22.6s
+📝 结果已保存到 wandb: https://wandb.ai/bxl307-university-of-birmingham/Baseline/runs/x8qzf0re

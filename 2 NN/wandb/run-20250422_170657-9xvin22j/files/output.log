@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/2 NN/test-plot-curvature-1.py", line 97, in <module>
+    model.zero_grad()
+
+  File "/home/ouyangzl/BaseLine/2 NN/hessian_utils.py", line 44, in compute_hessian_eigen
+    eigenvalues, eigenvectors = np.linalg.eigh(hessian_numpy)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/numpy/linalg/_linalg.py", line 1627, in eigh
+    w, vt = gufunc(a, signature=signature)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

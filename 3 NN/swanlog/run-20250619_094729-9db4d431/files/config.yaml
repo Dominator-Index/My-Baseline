@@ -1,0 +1,77 @@
+eigenvalue_interval:
+  desc: ''
+  sort: 13
+  value: 10
+eigenvalue_type:
+  desc: ''
+  sort: 14
+  value: raw_unnormalized
+hidden_dim:
+  desc: ''
+  sort: 6
+  value: 32
+input_dim:
+  desc: ''
+  sort: 5
+  value: 16
+learning_rate:
+  desc: ''
+  sort: 2
+  value: 1.0
+matrix_type:
+  desc: ''
+  sort: 16
+  value: low_rank_identity
+np_seed:
+  desc: ''
+  sort: 0
+  value: 12138
+output_dim:
+  desc: ''
+  sort: 7
+  value: 10
+rank:
+  desc: ''
+  sort: 10
+  value: 8
+record_steps:
+  desc: ''
+  sort: 4
+  value:
+  - 5
+  - 10
+  - 15
+  - 50
+  - 100
+  - 150
+  - 200
+  - 350
+  - 500
+steps:
+  desc: ''
+  sort: 3
+  value: 500
+target_rank:
+  desc: ''
+  sort: 15
+  value: 8
+top_k_pca_number:
+  desc: ''
+  sort: 9
+  value: 50
+torch_seed:
+  desc: ''
+  sort: 1
+  value: 12138
+variance:
+  desc: ''
+  sort: 8
+  value: 0.01
+wandb_project_name:
+  desc: ''
+  sort: 11
+  value: Baseline
+wandb_run_name:
+  desc: ''
+  sort: 12
+  value: 3NN+GD+without activate function+traditional loss

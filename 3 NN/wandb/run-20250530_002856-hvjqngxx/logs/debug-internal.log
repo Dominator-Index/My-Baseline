@@ -1,0 +1,17 @@
+{"time":"2025-05-30T00:28:56.278672719+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/3 NN/wandb/run-20250530_002856-hvjqngxx/logs/debug-core.log"}
+{"time":"2025-05-30T00:28:56.500362625+08:00","level":"INFO","msg":"created new stream","id":"hvjqngxx"}
+{"time":"2025-05-30T00:28:56.500412667+08:00","level":"INFO","msg":"stream: started","id":"hvjqngxx"}
+{"time":"2025-05-30T00:28:56.50061962+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"hvjqngxx"}
+{"time":"2025-05-30T00:28:56.500605796+08:00","level":"INFO","msg":"handler: started","stream_id":"hvjqngxx"}
+{"time":"2025-05-30T00:28:56.500858825+08:00","level":"INFO","msg":"sender: started","stream_id":"hvjqngxx"}
+{"time":"2025-05-30T00:28:57.030812849+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-30T00:58:16.38047959+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": unexpected EOF"}
+{"time":"2025-05-30T01:07:33.836947001+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-30T01:07:33.838196516+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-30T01:07:34.801339178+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.361787672,"progress":"4.2KB/4.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.361765095,"progress":"1.2KB/1.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.114508324,"progress":"1019B/1019B"}],"total_operations":3}}
+{"time":"2025-05-30T01:07:35.034370947+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-30T01:07:35.430534805+08:00","level":"INFO","msg":"stream: closing","id":"hvjqngxx"}
+{"time":"2025-05-30T01:07:35.430563867+08:00","level":"INFO","msg":"handler: closed","stream_id":"hvjqngxx"}
+{"time":"2025-05-30T01:07:35.430579972+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hvjqngxx"}
+{"time":"2025-05-30T01:07:35.430591983+08:00","level":"INFO","msg":"sender: closed","stream_id":"hvjqngxx"}
+{"time":"2025-05-30T01:07:35.430672283+08:00","level":"INFO","msg":"stream: closed","id":"hvjqngxx"}

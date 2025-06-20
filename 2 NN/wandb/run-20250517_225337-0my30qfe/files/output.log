@@ -1,0 +1,94 @@
+Step 0: Loss = 83.80489349365234
+Step 1: Loss = 57.75326156616211
+/home/ouyangzl/.conda/envs/Baseline/lib/python3.11/site-packages/torch/autograd/graph.py:824: UserWarning: Using backward() with create_graph=True will create a reference cycle between the parameter and its gradient which can cause a memory leak. We recommend using autograd.grad when creating the graph to avoid this. If you have to use this function, make sure to reset the .grad fields of your parameters to None after use to break the cycle and avoid the leak. (Triggered internally at /pytorch/torch/csrc/autograd/engine.cpp:1273.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Step 2: Loss = 18.618337631225586
+Step 3: Loss = 104.46337127685547
+Step 4: Loss = 19.121259689331055
+Step 5: Loss = 10.93262004852295
+Step 6: Loss = 87.2201919555664
+Step 7: Loss = 30.29537010192871
+Step 8: Loss = 14.32366943359375
+Step 9: Loss = 4.922994136810303
+Step 10: Loss = 2.648894786834717
+Step 11: Loss = 6.481109142303467
+Step 12: Loss = 8.41212272644043
+Step 13: Loss = 26.925840377807617
+Step 14: Loss = 49.13920593261719
+Step 15: Loss = 77.47196960449219
+Step 16: Loss = 7.232692241668701
+Step 17: Loss = 2.578138828277588
+Step 18: Loss = 100.19380950927734
+Step 19: Loss = 30.18568229675293
+Step 20: Loss = 12.99596118927002
+Step 21: Loss = 46.777828216552734
+Step 22: Loss = 18.67757225036621
+Step 23: Loss = 1.4336271286010742
+Step 24: Loss = 2.2608048915863037
+Step 25: Loss = 14.431581497192383
+Step 26: Loss = 2.628851890563965
+Step 27: Loss = 32.087162017822266
+Step 28: Loss = 100.4078369140625
+Step 29: Loss = 94.06453704833984
+Step 30: Loss = 23.174152374267578
+Step 31: Loss = 54.53816604614258
+Step 32: Loss = 691.756103515625
+Step 33: Loss = 4530.34326171875
+Step 34: Loss = 2927074.5
+Step 35: Loss = 5566434381922304.0
+Step 36: Loss = inf
+Step 37: Loss = nan
+Step 38: Loss = nan
+Step 39: Loss = nan
+Step 40: Loss = nan
+Step 41: Loss = nan
+Step 42: Loss = nan
+Step 43: Loss = nan
+Step 44: Loss = nan
+Step 45: Loss = nan
+Step 46: Loss = nan
+Step 47: Loss = nan
+Step 48: Loss = nan
+Step 49: Loss = nan
+Step 50: Loss = nan
+Step 51: Loss = nan
+Step 52: Loss = nan
+Step 53: Loss = nan
+Step 54: Loss = nan
+Step 55: Loss = nan
+Step 56: Loss = nan
+Step 57: Loss = nan
+Step 58: Loss = nan
+Step 59: Loss = nan
+Step 60: Loss = nan
+Step 61: Loss = nan
+Step 62: Loss = nan
+Step 63: Loss = nan
+Step 64: Loss = nan
+Step 65: Loss = nan
+Step 66: Loss = nan
+Step 67: Loss = nan
+Step 68: Loss = nan
+Step 69: Loss = nan
+Step 70: Loss = nan
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/2 NN/Top_1_eigenvalue.py", line 151, in <module>
+    hessian_eigenvalues = compute_hessian_eigenvalues_pyhessian(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/BaseLine/2 NN/hessian_utils.py", line 94, in compute_hessian_eigenvalues_pyhessian
+    hessian_eigen= hessian_computer.eigenvalues(maxIter=1000, tol=1e-8, top_n=top_k, )
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Baseline/lib/python3.11/site-packages/pyhessian/hessian.py", line 139, in eigenvalues
+    tmp_eigenvalue, Hv = self.dataloader_hv_product(v)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Baseline/lib/python3.11/site-packages/pyhessian/hessian.py", line 93, in dataloader_hv_product
+    loss.backward(create_graph=True)
+  File "/home/ouyangzl/.conda/envs/Baseline/lib/python3.11/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/home/ouyangzl/.conda/envs/Baseline/lib/python3.11/site-packages/torch/autograd/__init__.py", line 346, in backward
+    grad_tensors_ = _make_grads(tensors, grad_tensors_, is_grads_batched=False)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Baseline/lib/python3.11/site-packages/torch/autograd/__init__.py", line 197, in _make_grads
+    out_numel_is_1 = out.numel() == 1
+                     ^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,108 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Appending key for api.wandb.ai to your netrc file: /home/ouyangzl/.netrc
+wandb: W&B API key is configured. Use `wandb login --relogin` to force relogin
+wandb: creating run
+wandb: Network error (ProxyError), entering retry loop.
+Total parameters: 1856
+Learning rate is: 1.0
+Variance is: 0.01
+Computing top 50 Hessian eigenvalues
+特征值计算间隔: 每 10 步计算一次
+Using SGD optimizer
+wandb: ERROR Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+Traceback (most recent call last):
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/asyncio/tasks.py", line 510, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/mailbox/response_handle.py", line 109, in wait_async
+    await asyncio.wait_for(evt.wait(), timeout=timeout)
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/asyncio/tasks.py", line 509, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/asyncio/timeouts.py", line 111, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 941, in init
+    result = wait_with_progress(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_compat.py", line 74, in run
+    return asyncio.run(self._run_or_cancel(fn))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/asyncio/base_events.py", line 664, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_compat.py", line 98, in _run_or_cancel
+    return fn_task.result()
+           ^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 82, in progress_loop_with_timeout
+    return await _wait_handles_async(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 130, in _wait_handles_async
+    async with asyncio_compat.open_task_group() as task_group:
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/contextlib.py", line 211, in __aexit__
+    await anext(self.gen)
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_compat.py", line 190, in open_task_group
+    await task_group._wait_all()
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_compat.py", line 159, in _wait_all
+    raise exc
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 128, in wait_single
+    results[index] = await handle.wait_async(timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/mailbox/mailbox_handle.py", line 126, in wait_async
+    response = await self._handle.wait_async(timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/mailbox/response_handle.py", line 118, in wait_async
+    raise TimeoutError(
+TimeoutError: Timed out waiting for response on vbku8q3vemwm
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/3 NN/Top_k_Dom_space_group.py", line 87, in <module>
+    wandb.init(project=config["wandb_project_name"], name=f"3NN+GD+{lr}+{var}+{method}_top{top_k}",)
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1482, in init
+    wandb._sentry.reraise(e)
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/analytics/sentry.py", line 156, in reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1468, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.conda/envs/Hessian/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 954, in init
+    raise CommError(
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33m3NN+GD+1.0+0.01+SGD_top50[0m at: [34m[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250530_142022-qhd00z4v/logs[0m

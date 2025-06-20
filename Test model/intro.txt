@@ -1,0 +1,119 @@
+test_model.py is used to test if model (artitruary layers) is equivalent to 3 NN model if num_layer is 3.
+Test Result:
+🚀 开始模型验证
+🖥️ 设备: cuda
+
+🧪 测试3NN模型创建:
+   模型设备: cpu
+   W1形状: torch.Size([32, 16])
+   W2形状: torch.Size([32, 32])
+   W3形状: torch.Size([10, 32])
+
+🧪 测试Experiment_10模型创建:
+   模型设备: cuda:0
+   层数: 3
+   Layer0形状: torch.Size([32, 16])
+   Layer1形状: torch.Size([32, 32])
+   Layer2形状: torch.Size([10, 32])
+
+==================================================
+🖥️ 使用设备: cuda
+🏗️ 创建3NN模型...
+🏗️ 创建Experiment_10模型...
+🔍 Model3NN设备: cuda:0
+🔍 ModelExp10设备: cuda:0
+🔍 Identity设备: cuda:0
+⚡ 计算3NN输出...
+3NN输出形状: torch.Size([10, 16]), 设备: cuda:0
+⚡ 计算Experiment_10输出...
+Exp10输出形状: torch.Size([1, 10, 16]), 设备: cuda:0
+🔍 输出差异: 0.0
+🔍 验证权重乘积...
+🔍 权重乘积差异: 0.0
+✅ 模型等价 (阈值1e-5): True
+
+📊 详细分析:
+   输出差异: 0.00e+00
+   权重差异: 0.00e+00
+   是否等价: True
+
+They are equal.
+
+test_learning.py is used to test if the two model are equivalent when they are trained using SGD optimizer.
+🚀 开始SGD训练等价性测试
+🖥️ 使用设备: cuda
+📊 训练数据:
+   输入形状: torch.Size([1, 16, 16])
+   目标形状: torch.Size([1, 10, 16])
+   目标rank: 3
+
+🏗️ 创建并训练3NN模型...
+🚀 开始训练3NN模型...
+   Step   0: Loss = 0.018633
+   Step  10: Loss = 0.018622
+   Step  20: Loss = 0.018611
+   Step  30: Loss = 0.018599
+   Step  40: Loss = 0.018588
+   Step  50: Loss = 0.018576
+   Step  60: Loss = 0.018565
+   Step  70: Loss = 0.018553
+   Step  80: Loss = 0.018541
+   Step  90: Loss = 0.018530
+
+🏗️ 创建并训练Experiment_10模型...
+🚀 开始训练Experiment_10模型...
+   Step   0: Loss = 0.018633
+   Step  10: Loss = 0.018622
+   Step  20: Loss = 0.018611
+   Step  30: Loss = 0.018599
+   Step  40: Loss = 0.018588
+   Step  50: Loss = 0.018576
+   Step  60: Loss = 0.018565
+   Step  70: Loss = 0.018553
+   Step  80: Loss = 0.018541
+   Step  90: Loss = 0.018530
+
+📊 训练结果比较:
+   最终损失差异: 0.00e+00
+   最终输出差异: 0.00e+00
+   权重乘积差异: 0.00e+00
+
+✅ 训练等价性: True
+/home/ouyangzl/BaseLine/Test model/test_learning.py:146: UserWarning: Data has no positive values, and therefore cannot be log-scaled.
+  plt.yscale('log')
+/home/ouyangzl/BaseLine/Test model/test_learning.py:161: UserWarning: Data has no positive values, and therefore cannot be log-scaled.
+  plt.yscale('log')
+
+📈 图表已保存为 'training_comparison.png'
+
+============================================================
+
+🧪 测试不同输入类型:
+
+📋 测试输入类型: identity
+   输出差异: 0.00e+00
+   预期相等: True
+   实际相等: True
+
+📋 测试输入类型: random
+   输出差异: 1.26e-01
+   预期相等: False
+   实际相等: False
+
+📋 测试输入类型: ones
+   输出差异: 6.52e-02
+   预期相等: False
+   实际相等: False
+
+📋 测试输入类型: scaled_identity
+   输出差异: 2.62e-02
+   预期相等: False
+   实际相等: False
+
+============================================================
+🎯 测试总结:
+   SGD训练等价性: True
+   最终输出差异: 0.00e+00
+   最终权重差异: 0.00e+00
+   最终损失差异: 0.00e+00
+✅ 两个模型在SGD训练下完全等价！

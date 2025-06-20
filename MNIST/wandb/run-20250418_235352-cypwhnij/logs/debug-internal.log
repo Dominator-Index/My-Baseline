@@ -1,0 +1,16 @@
+{"time":"2025-04-18T23:53:52.093950954+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/MNIST/wandb/run-20250418_235352-cypwhnij/logs/debug-core.log"}
+{"time":"2025-04-18T23:53:52.31572347+08:00","level":"INFO","msg":"created new stream","id":"cypwhnij"}
+{"time":"2025-04-18T23:53:52.31580147+08:00","level":"INFO","msg":"stream: started","id":"cypwhnij"}
+{"time":"2025-04-18T23:53:52.31586147+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"cypwhnij"}
+{"time":"2025-04-18T23:53:52.315910137+08:00","level":"INFO","msg":"handler: started","stream_id":"cypwhnij"}
+{"time":"2025-04-18T23:53:52.315942637+08:00","level":"INFO","msg":"sender: started","stream_id":"cypwhnij"}
+{"time":"2025-04-18T23:53:52.71587094+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T23:53:56.19922727+08:00","level":"INFO","msg":"stream: closing","id":"cypwhnij"}
+{"time":"2025-04-18T23:53:56.19928452+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T23:53:56.200326562+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T23:54:22.889167064+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-18T23:54:25.687377637+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T23:54:26.580794463+08:00","level":"INFO","msg":"handler: closed","stream_id":"cypwhnij"}
+{"time":"2025-04-18T23:54:26.58084588+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cypwhnij"}
+{"time":"2025-04-18T23:54:26.58096588+08:00","level":"INFO","msg":"sender: closed","stream_id":"cypwhnij"}
+{"time":"2025-04-18T23:54:26.58098238+08:00","level":"INFO","msg":"stream: closed","id":"cypwhnij"}

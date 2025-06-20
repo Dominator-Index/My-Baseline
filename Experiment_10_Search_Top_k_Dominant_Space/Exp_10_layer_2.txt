@@ -1,0 +1,344 @@
+[32m2025-06-18 01:32:57 - INFO - 🎨 初始化彩色日志系统[0m
+[32m2025-06-18 01:32:57 - INFO - 🔑 设置 SwanLab API Key[0m
+[32m2025-06-18 01:32:57 - INFO - 📈 初始化 SwanLab[0m
+[1m[34mswanlab[0m[0m: \ Waiting for the swanlab cloud response.[1m[34mswanlab[0m[0m: | Waiting for the swanlab cloud response.                                                                                                    [1m[34mswanlab[0m[0m: \ Getting project...[1m[34mswanlab[0m[0m: | Getting project...                                                                                                    [1m[34mswanlab[0m[0m: \ Creating experiment...[1m[34mswanlab[0m[0m: | Creating experiment...                                                                                                    [32m2025-06-18 01:33:00 - INFO - ✅ SwanLab 初始化成功![0m
+[32m2025-06-18 01:33:00 - INFO - 🎲 设置随机种子: numpy=12138, torch=12138[0m
+[32m2025-06-18 01:33:00 - INFO - 🖥️  使用设备: cuda[0m
+[32m2025-06-18 01:33:00 - INFO - 📊 Hessian 计算策略: 仅在指定步数计算 (51 个检查点)[0m
+[32m2025-06-18 01:33:00 - INFO - 📝 记录步数范围: 0 -> 500, 间隔: 10[0m
+[32m2025-06-18 01:33:00 - INFO - 🔄 生成训练数据[0m
+[32m2025-06-18 01:33:01 - INFO - 📦 数据形状: data=torch.Size([1, 16, 16]), label=torch.Size([1, 10, 16])[0m
+[32m2025-06-18 01:33:01 - INFO - 🏗️  初始化模型[0m
+[32m2025-06-18 01:33:01 - INFO - 🔢 模型总参数数量: 832[0m
+[32m2025-06-18 01:33:02 - INFO - 📊 损失函数: MSELoss[0m
+[32m2025-06-18 01:33:02 - INFO - ⚙️  优化器: SGD, 学习率=0.01[0m
+[32m2025-06-18 01:33:02 - INFO - 🔢 Top-k 数量: 200[0m
+[32m2025-06-18 01:33:02 - INFO - ============================================================[0m
+[32m2025-06-18 01:33:02 - INFO - 🚀 开始训练![0m
+[32m2025-06-18 01:33:02 - INFO - ============================================================[0m
+[32m2025-06-18 01:33:02 - INFO - 🚀 开始训练 - 种子: 12138, 总步数: 500[0m
+[1m[34mswanlab[0m[0m: Tracking run with swanlab version 0.6.3
+[1m[34mswanlab[0m[0m: Run data will be saved locally in [35m[1m/home/ouyangzl/BaseLine/Experiment_10_Search_Top_k_Dominant_Space/swanlog/run-20250618_013259-a8907722[0m[0m
+[1m[34mswanlab[0m[0m: 👋 Hi [1m[39mcollapsar[0m[0m, welcome to swanlab!
+[1m[34mswanlab[0m[0m: Syncing run [33mExperiment-10 for 2NN[0m to the cloud
+[1m[34mswanlab[0m[0m: 🏠 View project at [34m[4mhttps://swanlab.cn/@collapsar/Baseline[0m[0m
+[1m[34mswanlab[0m[0m: 🚀 View run at [34m[4mhttps://swanlab.cn/@collapsar/Baseline/runs/2o4pky61ia6yxocahre7c[0m[0m
+训练进度 (Seed 12138):   0%|                                                                    | 0/501 [00:00<?, ?it/s][32m2025-06-18 01:33:02 - INFO - 📊 步骤 0: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 01:33:02 - INFO - 📉 步骤 0: 损失 = 0.259874[0m
+[32m2025-06-18 01:33:02 - INFO - 🔄 步骤 0: 开始计算 Top-200 Hessian 特征值...[0m
+/home/ouyangzl/.conda/envs/Baseline/lib/python3.11/site-packages/torch/autograd/graph.py:824: UserWarning: Using backward() with create_graph=True will create a reference cycle between the parameter and its gradient which can cause a memory leak. We recommend using autograd.grad when creating the graph to avoid this. If you have to use this function, make sure to reset the .grad fields of your parameters to None after use to break the cycle and avoid the leak. (Triggered internally at /pytorch/torch/csrc/autograd/engine.cpp:1273.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[31m2025-06-18 01:59:40 - ERROR - ❌ 步骤 0 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 01:59:40 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):   0%|                                                      | 1/501 [26:38<221:59:10, 1598.30s/it][32m2025-06-18 01:59:40 - INFO - 📊 步骤 10: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 01:59:40 - INFO - 📉 步骤 10: 损失 = 0.258057[0m
+[32m2025-06-18 01:59:40 - INFO - 🔄 步骤 10: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 02:23:50 - ERROR - ❌ 步骤 10 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 02:23:50 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):   2%|█▏                                                     | 11/501 [50:47<32:40:05, 240.01s/it][32m2025-06-18 02:23:50 - INFO - 📊 步骤 20: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 02:23:50 - INFO - 📉 步骤 20: 损失 = 0.256212[0m
+[32m2025-06-18 02:23:50 - INFO - 🔄 步骤 20: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 02:44:02 - ERROR - ❌ 步骤 20 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 02:44:02 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):   4%|██▏                                                  | 21/501 [1:10:59<22:56:34, 172.07s/it][32m2025-06-18 02:44:02 - INFO - 📊 步骤 30: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 02:44:02 - INFO - 📉 步骤 30: 损失 = 0.254318[0m
+[32m2025-06-18 02:44:02 - INFO - 🔄 步骤 30: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 03:07:09 - ERROR - ❌ 步骤 30 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 03:07:09 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):   6%|███▎                                                 | 31/501 [1:34:06<20:30:25, 157.08s/it][32m2025-06-18 03:07:09 - INFO - 📊 步骤 40: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 03:07:09 - INFO - 📉 步骤 40: 损失 = 0.252354[0m
+[32m2025-06-18 03:07:09 - INFO - 🔄 步骤 40: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 03:30:08 - ERROR - ❌ 步骤 40 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 03:30:08 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):   8%|████▎                                                | 41/501 [1:57:06<19:06:56, 149.60s/it][32m2025-06-18 03:30:08 - INFO - 📊 步骤 50: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 03:30:08 - INFO - 📉 步骤 50: 损失 = 0.250300[0m
+[32m2025-06-18 03:30:08 - INFO - 🔄 步骤 50: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 03:58:52 - ERROR - ❌ 步骤 50 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 03:58:52 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  10%|█████▍                                               | 51/501 [2:25:49<19:43:04, 157.74s/it][32m2025-06-18 03:58:52 - INFO - 📊 步骤 60: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 03:58:52 - INFO - 📉 步骤 60: 损失 = 0.248136[0m
+[32m2025-06-18 03:58:52 - INFO - 🔄 步骤 60: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 04:18:51 - ERROR - ❌ 步骤 60 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 04:18:51 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  12%|██████▍                                              | 61/501 [2:45:48<17:42:47, 144.93s/it][32m2025-06-18 04:18:51 - INFO - 📊 步骤 70: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 04:18:51 - INFO - 📉 步骤 70: 损失 = 0.245842[0m
+[32m2025-06-18 04:18:51 - INFO - 🔄 步骤 70: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 04:42:34 - ERROR - ❌ 步骤 70 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 04:42:34 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  14%|███████▌                                             | 71/501 [3:09:31<17:12:31, 144.07s/it][32m2025-06-18 04:42:34 - INFO - 📊 步骤 80: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 04:42:34 - INFO - 📉 步骤 80: 损失 = 0.243397[0m
+[32m2025-06-18 04:42:34 - INFO - 🔄 步骤 80: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 05:06:16 - ERROR - ❌ 步骤 80 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 05:06:16 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  16%|████████▌                                            | 81/501 [3:33:14<16:44:31, 143.50s/it][32m2025-06-18 05:06:16 - INFO - 📊 步骤 90: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 05:06:16 - INFO - 📉 步骤 90: 损失 = 0.240783[0m
+[32m2025-06-18 05:06:16 - INFO - 🔄 步骤 90: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 05:33:12 - ERROR - ❌ 步骤 90 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 05:33:12 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  18%|█████████▋                                           | 91/501 [4:00:10<16:59:13, 149.15s/it][32m2025-06-18 05:33:12 - INFO - 📊 步骤 100: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 05:33:12 - INFO - 📉 步骤 100: 损失 = 0.237979[0m
+[32m2025-06-18 05:33:12 - INFO - 🔄 步骤 100: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 05:59:37 - ERROR - ❌ 步骤 100 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 05:59:37 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  20%|██████████▍                                         | 101/501 [4:26:35<16:53:35, 152.04s/it][32m2025-06-18 05:59:37 - INFO - 📊 步骤 110: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 05:59:37 - INFO - 📉 步骤 110: 损失 = 0.234967[0m
+[32m2025-06-18 05:59:37 - INFO - 🔄 步骤 110: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 06:21:41 - ERROR - ❌ 步骤 110 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 06:21:41 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  22%|███████████▌                                        | 111/501 [4:48:38<15:49:02, 146.01s/it][32m2025-06-18 06:21:41 - INFO - 📊 步骤 120: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 06:21:41 - INFO - 📉 步骤 120: 损失 = 0.231729[0m
+[32m2025-06-18 06:21:41 - INFO - 🔄 步骤 120: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 06:43:44 - ERROR - ❌ 步骤 120 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 06:43:44 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  24%|████████████▌                                       | 121/501 [5:10:41<14:58:24, 141.85s/it][32m2025-06-18 06:43:44 - INFO - 📊 步骤 130: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 06:43:44 - INFO - 📉 步骤 130: 损失 = 0.228248[0m
+[32m2025-06-18 06:43:44 - INFO - 🔄 步骤 130: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 07:10:20 - ERROR - ❌ 步骤 130 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 07:10:20 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  26%|█████████████▌                                      | 131/501 [5:37:18<15:07:57, 147.24s/it][32m2025-06-18 07:10:20 - INFO - 📊 步骤 140: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 07:10:20 - INFO - 📉 步骤 140: 损失 = 0.224507[0m
+[32m2025-06-18 07:10:20 - INFO - 🔄 步骤 140: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 07:37:09 - ERROR - ❌ 步骤 140 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 07:37:09 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  28%|██████████████▋                                     | 141/501 [6:04:07<15:08:11, 151.37s/it][32m2025-06-18 07:37:10 - INFO - 📊 步骤 150: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 07:37:10 - INFO - 📉 步骤 150: 损失 = 0.220493[0m
+[32m2025-06-18 07:37:10 - INFO - 🔄 步骤 150: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 08:03:45 - ERROR - ❌ 步骤 150 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 08:03:45 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  30%|███████████████▋                                    | 151/501 [6:30:42<14:57:17, 153.82s/it][32m2025-06-18 08:03:45 - INFO - 📊 步骤 160: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 08:03:45 - INFO - 📉 步骤 160: 损失 = 0.216196[0m
+[32m2025-06-18 08:03:45 - INFO - 🔄 步骤 160: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 08:31:47 - ERROR - ❌ 步骤 160 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 08:31:47 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  32%|████████████████▋                                   | 161/501 [6:58:45<14:56:18, 158.17s/it][32m2025-06-18 08:31:47 - INFO - 📊 步骤 170: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 08:31:47 - INFO - 📉 步骤 170: 损失 = 0.211606[0m
+[32m2025-06-18 08:31:47 - INFO - 🔄 步骤 170: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 08:55:07 - ERROR - ❌ 步骤 170 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 08:55:07 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  34%|█████████████████▋                                  | 171/501 [7:22:04<13:59:45, 152.68s/it][32m2025-06-18 08:55:07 - INFO - 📊 步骤 180: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 08:55:07 - INFO - 📉 步骤 180: 损失 = 0.206720[0m
+[32m2025-06-18 08:55:07 - INFO - 🔄 步骤 180: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 09:03:02 - ERROR - ❌ 步骤 180 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 09:03:02 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  36%|██████████████████▊                                 | 181/501 [7:30:00<10:45:51, 121.10s/it][32m2025-06-18 09:03:02 - INFO - 📊 步骤 190: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 09:03:02 - INFO - 📉 步骤 190: 损失 = 0.201538[0m
+[32m2025-06-18 09:03:02 - INFO - 🔄 步骤 190: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 09:32:01 - ERROR - ❌ 步骤 190 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 09:32:01 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  38%|███████████████████▊                                | 191/501 [7:58:59<11:47:35, 136.95s/it][32m2025-06-18 09:32:01 - INFO - 📊 步骤 200: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 09:32:01 - INFO - 📉 步骤 200: 损失 = 0.196065[0m
+[32m2025-06-18 09:32:01 - INFO - 🔄 步骤 200: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 09:59:37 - ERROR - ❌ 步骤 200 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 09:59:37 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  40%|████████████████████▊                               | 201/501 [8:26:34<12:07:42, 145.54s/it][32m2025-06-18 09:59:37 - INFO - 📊 步骤 210: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 09:59:37 - INFO - 📉 步骤 210: 损失 = 0.190313[0m
+[32m2025-06-18 09:59:37 - INFO - 🔄 步骤 210: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 10:21:40 - ERROR - ❌ 步骤 210 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 10:21:40 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  42%|█████████████████████▉                              | 211/501 [8:48:38<11:24:19, 141.58s/it][32m2025-06-18 10:21:40 - INFO - 📊 步骤 220: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 10:21:40 - INFO - 📉 步骤 220: 损失 = 0.184298[0m
+[32m2025-06-18 10:21:40 - INFO - 🔄 步骤 220: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 10:34:50 - ERROR - ❌ 步骤 220 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 10:34:50 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  44%|███████████████████████▍                             | 221/501 [9:01:48<9:33:05, 122.81s/it][32m2025-06-18 10:34:50 - INFO - 📊 步骤 230: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 10:34:50 - INFO - 📉 步骤 230: 损失 = 0.178044[0m
+[32m2025-06-18 10:34:50 - INFO - 🔄 步骤 230: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 11:03:01 - ERROR - ❌ 步骤 230 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 11:03:01 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  46%|███████████████████████▉                            | 231/501 [9:29:58<10:15:04, 136.68s/it][32m2025-06-18 11:03:01 - INFO - 📊 步骤 240: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 11:03:01 - INFO - 📉 步骤 240: 损失 = 0.171583[0m
+[32m2025-06-18 11:03:01 - INFO - 🔄 步骤 240: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 11:33:04 - ERROR - ❌ 步骤 240 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 11:33:04 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  48%|████████████████████████▌                          | 241/501 [10:00:01<10:48:57, 149.76s/it][32m2025-06-18 11:33:04 - INFO - 📊 步骤 250: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 11:33:04 - INFO - 📉 步骤 250: 损失 = 0.164951[0m
+[32m2025-06-18 11:33:04 - INFO - 🔄 步骤 250: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 12:00:19 - ERROR - ❌ 步骤 250 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 12:00:19 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  50%|█████████████████████████▌                         | 251/501 [10:27:17<10:41:15, 153.90s/it][32m2025-06-18 12:00:19 - INFO - 📊 步骤 260: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 12:00:19 - INFO - 📉 步骤 260: 损失 = 0.158192[0m
+[32m2025-06-18 12:00:19 - INFO - 🔄 步骤 260: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 12:26:57 - ERROR - ❌ 步骤 260 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 12:26:57 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  52%|██████████████████████████▌                        | 261/501 [10:53:54<10:22:36, 155.65s/it][32m2025-06-18 12:26:57 - INFO - 📊 步骤 270: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 12:26:57 - INFO - 📉 步骤 270: 损失 = 0.151356[0m
+[32m2025-06-18 12:26:57 - INFO - 🔄 步骤 270: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 12:54:26 - ERROR - ❌ 步骤 270 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 12:54:26 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  54%|███████████████████████████▌                       | 271/501 [11:21:23<10:07:21, 158.44s/it][32m2025-06-18 12:54:26 - INFO - 📊 步骤 280: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 12:54:26 - INFO - 📉 步骤 280: 损失 = 0.144495[0m
+[32m2025-06-18 12:54:26 - INFO - 🔄 步骤 280: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 13:22:42 - ERROR - ❌ 步骤 280 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 13:22:42 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  56%|█████████████████████████████▏                      | 281/501 [11:49:39<9:53:13, 161.79s/it][32m2025-06-18 13:22:42 - INFO - 📊 步骤 290: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 13:22:42 - INFO - 📉 步骤 290: 损失 = 0.137665[0m
+[32m2025-06-18 13:22:42 - INFO - 🔄 步骤 290: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 13:28:14 - ERROR - ❌ 步骤 290 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 13:28:14 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  58%|██████████████████████████████▏                     | 291/501 [11:55:11<7:11:14, 123.21s/it][32m2025-06-18 13:28:14 - INFO - 📊 步骤 300: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 13:28:14 - INFO - 📉 步骤 300: 损失 = 0.130925[0m
+[32m2025-06-18 13:28:14 - INFO - 🔄 步骤 300: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 13:50:22 - ERROR - ❌ 步骤 300 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 13:50:22 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  60%|███████████████████████████████▏                    | 301/501 [12:17:19<7:00:15, 126.08s/it][32m2025-06-18 13:50:22 - INFO - 📊 步骤 310: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 13:50:22 - INFO - 📉 步骤 310: 损失 = 0.124332[0m
+[32m2025-06-18 13:50:22 - INFO - 🔄 步骤 310: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 14:19:36 - ERROR - ❌ 步骤 310 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 14:19:36 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  62%|████████████████████████████████▎                   | 311/501 [12:46:34<7:26:10, 140.90s/it][32m2025-06-18 14:19:36 - INFO - 📊 步骤 320: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 14:19:36 - INFO - 📉 步骤 320: 损失 = 0.117939[0m
+[32m2025-06-18 14:19:36 - INFO - 🔄 步骤 320: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 14:43:44 - ERROR - ❌ 步骤 320 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 14:43:44 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  64%|█████████████████████████████████▎                  | 321/501 [13:10:41<7:06:09, 142.05s/it][32m2025-06-18 14:43:44 - INFO - 📊 步骤 330: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 14:43:44 - INFO - 📉 步骤 330: 损失 = 0.111799[0m
+[32m2025-06-18 14:43:44 - INFO - 🔄 步骤 330: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 15:12:43 - ERROR - ❌ 步骤 330 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 15:12:43 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  66%|██████████████████████████████████▎                 | 331/501 [13:39:40<7:09:32, 151.60s/it][32m2025-06-18 15:12:43 - INFO - 📊 步骤 340: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 15:12:43 - INFO - 📉 步骤 340: 损失 = 0.105954[0m
+[32m2025-06-18 15:12:43 - INFO - 🔄 步骤 340: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 15:36:38 - ERROR - ❌ 步骤 340 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 15:36:38 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  68%|███████████████████████████████████▍                | 341/501 [14:03:36<6:37:49, 149.18s/it][32m2025-06-18 15:36:38 - INFO - 📊 步骤 350: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 15:36:38 - INFO - 📉 步骤 350: 损失 = 0.100443[0m
+[32m2025-06-18 15:36:38 - INFO - 🔄 步骤 350: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 16:05:34 - ERROR - ❌ 步骤 350 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 16:05:34 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  70%|████████████████████████████████████▍               | 351/501 [14:32:31<6:31:14, 156.50s/it][32m2025-06-18 16:05:34 - INFO - 📊 步骤 360: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 16:05:34 - INFO - 📉 步骤 360: 损失 = 0.095294[0m
+[32m2025-06-18 16:05:34 - INFO - 🔄 步骤 360: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 16:37:03 - ERROR - ❌ 步骤 360 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 16:37:03 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  72%|█████████████████████████████████████▍              | 361/501 [15:04:00<6:27:49, 166.21s/it][32m2025-06-18 16:37:03 - INFO - 📊 步骤 370: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 16:37:03 - INFO - 📉 步骤 370: 损失 = 0.090528[0m
+[32m2025-06-18 16:37:03 - INFO - 🔄 步骤 370: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 17:07:45 - ERROR - ❌ 步骤 370 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 17:07:45 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  74%|██████████████████████████████████████▌             | 371/501 [15:34:42<6:11:50, 171.62s/it][32m2025-06-18 17:07:45 - INFO - 📊 步骤 380: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 17:07:45 - INFO - 📉 步骤 380: 损失 = 0.086155[0m
+[32m2025-06-18 17:07:45 - INFO - 🔄 步骤 380: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 17:37:02 - ERROR - ❌ 步骤 380 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 17:37:02 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  76%|███████████████████████████████████████▌            | 381/501 [16:03:59<5:45:40, 172.83s/it][32m2025-06-18 17:37:02 - INFO - 📊 步骤 390: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 17:37:02 - INFO - 📉 步骤 390: 损失 = 0.082178[0m
+[32m2025-06-18 17:37:02 - INFO - 🔄 步骤 390: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 18:04:38 - ERROR - ❌ 步骤 390 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 18:04:38 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  78%|████████████████████████████████████████▌           | 391/501 [16:31:35<5:12:54, 170.67s/it][32m2025-06-18 18:04:38 - INFO - 📊 步骤 400: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 18:04:38 - INFO - 📉 步骤 400: 损失 = 0.078592[0m
+[32m2025-06-18 18:04:38 - INFO - 🔄 步骤 400: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 18:32:57 - ERROR - ❌ 步骤 400 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 18:32:57 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  80%|█████████████████████████████████████████▌          | 401/501 [16:59:55<4:44:05, 170.45s/it][32m2025-06-18 18:32:57 - INFO - 📊 步骤 410: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 18:32:57 - INFO - 📉 步骤 410: 损失 = 0.075386[0m
+[32m2025-06-18 18:32:57 - INFO - 🔄 步骤 410: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 18:59:32 - ERROR - ❌ 步骤 410 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 18:59:32 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  82%|██████████████████████████████████████████▋         | 411/501 [17:26:29<4:10:43, 167.15s/it][32m2025-06-18 18:59:32 - INFO - 📊 步骤 420: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 18:59:32 - INFO - 📉 步骤 420: 损失 = 0.072541[0m
+[32m2025-06-18 18:59:32 - INFO - 🔄 步骤 420: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 19:25:57 - ERROR - ❌ 步骤 420 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 19:25:57 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  84%|███████████████████████████████████████████▋        | 421/501 [17:52:54<3:39:23, 164.55s/it][32m2025-06-18 19:25:57 - INFO - 📊 步骤 430: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 19:25:57 - INFO - 📉 步骤 430: 损失 = 0.070035[0m
+[32m2025-06-18 19:25:57 - INFO - 🔄 步骤 430: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 19:59:11 - ERROR - ❌ 步骤 430 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 19:59:11 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  86%|████████████████████████████████████████████▋       | 431/501 [18:26:08<3:24:11, 175.01s/it][32m2025-06-18 19:59:11 - INFO - 📊 步骤 440: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 19:59:11 - INFO - 📉 步骤 440: 损失 = 0.067844[0m
+[32m2025-06-18 19:59:11 - INFO - 🔄 步骤 440: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 20:28:00 - ERROR - ❌ 步骤 440 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 20:28:00 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  88%|█████████████████████████████████████████████▊      | 441/501 [18:54:57<2:54:22, 174.38s/it][32m2025-06-18 20:28:00 - INFO - 📊 步骤 450: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 20:28:00 - INFO - 📉 步骤 450: 损失 = 0.065940[0m
+[32m2025-06-18 20:28:00 - INFO - 🔄 步骤 450: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 20:58:38 - ERROR - ❌ 步骤 450 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 20:58:38 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  90%|██████████████████████████████████████████████▊     | 451/501 [19:25:35<2:27:40, 177.20s/it][32m2025-06-18 20:58:38 - INFO - 📊 步骤 460: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 20:58:38 - INFO - 📉 步骤 460: 损失 = 0.064295[0m
+[32m2025-06-18 20:58:38 - INFO - 🔄 步骤 460: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 21:30:48 - ERROR - ❌ 步骤 460 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 21:30:48 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  92%|███████████████████████████████████████████████▊    | 461/501 [19:57:45<2:01:17, 181.95s/it][32m2025-06-18 21:30:48 - INFO - 📊 步骤 470: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 21:30:48 - INFO - 📉 步骤 470: 损失 = 0.062883[0m
+[32m2025-06-18 21:30:48 - INFO - 🔄 步骤 470: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 22:03:35 - ERROR - ❌ 步骤 470 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 22:03:35 - ERROR - 🔍 错误类型: ValueError[0m
+[1m[31mswanlab[0m[0m: Data type error, key: Error, data type: str, expected: float
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.训练进度 (Seed 12138):  94%|████████████████████████████████████████████████▉   | 471/501 [20:30:33<1:33:11, 186.38s/it][32m2025-06-18 22:03:35 - INFO - 📊 步骤 480: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 22:03:35 - INFO - 📉 步骤 480: 损失 = 0.061675[0m
+[32m2025-06-18 22:03:35 - INFO - 🔄 步骤 480: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 22:34:34 - ERROR - ❌ 步骤 480 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 22:34:34 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  96%|█████████████████████████████████████████████████▉  | 481/501 [21:01:32<1:02:04, 186.23s/it][32m2025-06-18 22:34:34 - INFO - 📊 步骤 490: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 22:34:34 - INFO - 📉 步骤 490: 损失 = 0.060647[0m
+[32m2025-06-18 22:34:34 - INFO - 🔄 步骤 490: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 23:07:00 - ERROR - ❌ 步骤 490 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 23:07:00 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138):  98%|████████████████████████████████████████████████████▉ | 491/501 [21:33:58<31:27, 188.75s/it][32m2025-06-18 23:07:00 - INFO - 📊 步骤 500: 开始计算 Hessian 特征值和主导空间[0m
+[32m2025-06-18 23:07:00 - INFO - 📉 步骤 500: 损失 = 0.059776[0m
+[32m2025-06-18 23:07:00 - INFO - 🔄 步骤 500: 开始计算 Top-200 Hessian 特征值...[0m
+[31m2025-06-18 23:39:57 - ERROR - ❌ 步骤 500 计算失败: too many values to unpack (expected 2)[0m
+[31m2025-06-18 23:39:57 - ERROR - 🔍 错误类型: ValueError[0m
+训练进度 (Seed 12138): 100%|██████████████████████████████████████████████████████| 501/501 [22:06:54<00:00, 191.42s/it]训练进度 (Seed 12138): 100%|██████████████████████████████████████████████████████| 501/501 [22:06:54<00:00, 158.91s/it]
+[32m2025-06-18 23:39:57 - INFO - ✅ 训练完成![0m
+[32m2025-06-18 23:39:57 - INFO - ============================================================[0m
+[32m2025-06-18 23:39:57 - INFO - 🎉 训练完成! 总用时: 79614.71 秒[0m
+[32m2025-06-18 23:39:57 - INFO - ⚡ 平均每个 Hessian 计算点用时: 1561.07 秒[0m
+[32m2025-06-18 23:39:57 - INFO - 💾 总共记录了 51 个检查点[0m
+
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[33mswanlab[0m[0m: Chart 'Error' creation failed. Reason: The expected value type for the chart 'Error' is one of int,float or BaseType, but the input type is str.
+[1m[34mswanlab[0m[0m: 🏠 View project at [34m[4mhttps://swanlab.cn/@collapsar/Baseline[0m[0m
+[1m[34mswanlab[0m[0m: 🚀 View run at [34m[4mhttps://swanlab.cn/@collapsar/Baseline/runs/2o4pky61ia6yxocahre7c[0m[0m
+[1m[34mswanlab[0m[0m: \ Waiting for uploading complete                                                                                                    [1m[34mswanlab[0m[0m: \ Updating experiment status...[31m2025-06-18 23:39:58 - ERROR - ❌ SwanLab 记录保存失败: ('Trace id: mc24brgs1dc7a6p8', 'PUT https://api.swanlab.cn/api/project/collapsar/Baseline/runs/2o4pky61ia6yxocahre7c/state', '404 Not Found')[0m
+[32m2025-06-18 23:39:58 - INFO - ✅ 程序执行完成![0m

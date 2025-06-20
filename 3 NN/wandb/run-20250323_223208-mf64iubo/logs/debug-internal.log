@@ -1,0 +1,7 @@
+{"time":"2025-03-23T22:32:08.826507+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/wandb/run-20250323_223208-mf64iubo/logs/debug-core.log"}
+{"time":"2025-03-23T22:32:09.362749+08:00","level":"INFO","msg":"created new stream","id":"mf64iubo"}
+{"time":"2025-03-23T22:32:09.363587+08:00","level":"INFO","msg":"stream: started","id":"mf64iubo"}
+{"time":"2025-03-23T22:32:09.36434+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"mf64iubo"}
+{"time":"2025-03-23T22:32:09.364462+08:00","level":"INFO","msg":"handler: started","stream_id":"mf64iubo"}
+{"time":"2025-03-23T22:32:09.365154+08:00","level":"INFO","msg":"sender: started","stream_id":"mf64iubo"}
+{"time":"2025-03-23T22:32:09.997089+08:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,47 @@
+{"time":"2025-03-24T01:06:11.692394+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/wandb/run-20250324_010611-csj8enek/logs/debug-core.log"}
+{"time":"2025-03-24T01:06:11.808031+08:00","level":"INFO","msg":"created new stream","id":"csj8enek"}
+{"time":"2025-03-24T01:06:11.808235+08:00","level":"INFO","msg":"stream: started","id":"csj8enek"}
+{"time":"2025-03-24T01:06:11.808475+08:00","level":"INFO","msg":"handler: started","stream_id":"csj8enek"}
+{"time":"2025-03-24T01:06:11.8085+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"csj8enek"}
+{"time":"2025-03-24T01:06:11.808697+08:00","level":"INFO","msg":"sender: started","stream_id":"csj8enek"}
+{"time":"2025-03-24T01:06:12.226517+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-24T01:06:35.63139+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T01:06:35.632504+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T01:06:35.633534+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T01:06:35.634394+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T01:06:35.635308+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T01:06:35.635931+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T01:06:35.636485+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T01:06:35.63757+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":500}
+{"time":"2025-03-24T01:06:35.638111+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T01:06:35.638647+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T01:06:35.639143+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T01:06:35.639664+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T01:06:35.640184+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T01:06:35.6407+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T01:06:35.641235+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T01:06:35.64169+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":500}
+{"time":"2025-03-24T01:06:35.645972+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T01:06:35.646298+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T01:06:35.646616+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T01:06:35.646931+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T01:06:35.647251+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T01:06:35.647554+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T01:06:35.64786+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T01:06:35.64849+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":500}
+{"time":"2025-03-24T01:06:35.648798+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T01:06:35.649109+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T01:06:35.649415+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T01:06:35.64972+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T01:06:35.650028+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T01:06:35.650336+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T01:06:35.650635+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T01:06:56.083676+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-24T01:06:56.086454+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-24T01:06:57.090763+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.726147833,"progress":"7.3KB/7.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.459240875,"progress":"1001B/1001B"}],"total_operations":2}}
+{"time":"2025-03-24T01:06:57.670058+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-24T01:06:58.13925+08:00","level":"INFO","msg":"stream: closing","id":"csj8enek"}
+{"time":"2025-03-24T01:06:58.139328+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"csj8enek"}
+{"time":"2025-03-24T01:06:58.139482+08:00","level":"INFO","msg":"handler: closed","stream_id":"csj8enek"}
+{"time":"2025-03-24T01:06:58.139623+08:00","level":"INFO","msg":"sender: closed","stream_id":"csj8enek"}
+{"time":"2025-03-24T01:06:58.139642+08:00","level":"INFO","msg":"stream: closed","id":"csj8enek"}

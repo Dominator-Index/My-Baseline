@@ -1,0 +1,47 @@
+Total parameters: 832
+SGD step 0: 84.6749
+SGD step 1: 69.5072
+SGD step 2: 58.3134
+SGD step 3: 49.7692
+SGD step 4: 43.0716
+SGD step 5: 37.7072
+SGD step 6: 33.3331
+SGD step 7: 29.7123
+SGD step 8: 26.6763
+SGD step 9: 24.1020
+SGD step 10: 21.8978
+SGD step 11: 19.9941
+SGD step 12: 18.3372
+SGD step 13: 16.8853
+SGD step 14: 15.6050
+SGD step 15: 14.4697
+SGD step 16: 13.4579
+SGD step 17: 12.5517
+SGD step 18: 11.7368
+SGD step 19: 11.0010
+SGD step 20: 10.3341
+SGD step 21: 9.7278
+SGD step 22: 9.1746
+SGD step 23: 8.6685
+SGD step 24: 8.2042
+SGD step 25: 7.7771
+SGD step 26: 7.3832
+SGD step 27: 7.0192
+SGD step 28: 6.6821
+SGD step 29: 6.3692
+SGD step 30: 6.0783
+SGD step 31: 5.8072
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/2 NN/test-plot-curvature-1.py", line 104, in <module>
+    grads_flat = torch.cat([g.view(-1) for g in grads if g is not None]).cpu()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/BaseLine/2 NN/hessian_utils.py", line 22, in compute_hessian_eigen
+    hessian_row = torch.autograd.grad(
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.local/lib/python3.12/site-packages/torch/autograd/__init__.py", line 496, in grad
+    result = _engine_run_backward(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.local/lib/python3.12/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

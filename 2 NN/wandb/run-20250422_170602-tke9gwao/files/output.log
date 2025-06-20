@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/2 NN/test-plot-curvature-1.py", line 98, in <module>
+    hessian_eigs[step] = eigvals.detach().cpu()
+                         ^^^^^^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'detach'

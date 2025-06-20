@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/train.py", line 46, in <module>
+    output = model.forward()
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/model.py", line 40, in forward
+    return torch.matmul(self.W3, torch.matmul(self.W2, torch.matmul(self.W1, x)))
+TypeError: matmul(): argument 'other' (position 2) must be Tensor, not NoneType
+Traceback (most recent call last):
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/train.py", line 46, in <module>
+    output = model.forward()
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/model.py", line 40, in forward
+    return torch.matmul(self.W3, torch.matmul(self.W2, torch.matmul(self.W1, x)))
+TypeError: matmul(): argument 'other' (position 2) must be Tensor, not NoneType

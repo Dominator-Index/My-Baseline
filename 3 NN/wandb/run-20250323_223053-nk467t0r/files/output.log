@@ -1,0 +1,9 @@
+Step 5: Loss = 71.22388458251953
+Traceback (most recent call last):
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/train.py", line 80, in <module>
+    recorded_top_eigenvectors[step] = np.real(top_eigenvectors[:, :config.top_k_pca_number]) # 存储 top-k 特征向量
+AttributeError: 'dict' object has no attribute 'top_k_pca_number'
+Traceback (most recent call last):
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/train.py", line 80, in <module>
+    recorded_top_eigenvectors[step] = np.real(top_eigenvectors[:, :config.top_k_pca_number]) # 存储 top-k 特征向量
+AttributeError: 'dict' object has no attribute 'top_k_pca_number'

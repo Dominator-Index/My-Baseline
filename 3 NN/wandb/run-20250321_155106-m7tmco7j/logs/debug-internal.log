@@ -1,0 +1,24 @@
+{"time":"2025-03-21T15:51:06.576431+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/wandb/run-20250321_155106-m7tmco7j/logs/debug-core.log"}
+{"time":"2025-03-21T15:51:06.68945+08:00","level":"INFO","msg":"created new stream","id":"m7tmco7j"}
+{"time":"2025-03-21T15:51:06.68952+08:00","level":"INFO","msg":"stream: started","id":"m7tmco7j"}
+{"time":"2025-03-21T15:51:06.689759+08:00","level":"INFO","msg":"handler: started","stream_id":"m7tmco7j"}
+{"time":"2025-03-21T15:51:06.68988+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"m7tmco7j"}
+{"time":"2025-03-21T15:51:06.691614+08:00","level":"INFO","msg":"sender: started","stream_id":"m7tmco7j"}
+{"time":"2025-03-21T15:51:07.206785+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-21T15:51:25.512636+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":502}
+{"time":"2025-03-21T15:51:25.512934+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":502}
+{"time":"2025-03-21T15:51:25.513283+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":502}
+{"time":"2025-03-21T15:51:25.513659+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":502}
+{"time":"2025-03-21T15:51:25.51404+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":502}
+{"time":"2025-03-21T15:51:25.514418+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":502}
+{"time":"2025-03-21T15:51:25.514804+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":502}
+{"time":"2025-03-21T15:51:25.51517+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":502}
+{"time":"2025-03-21T15:51:57.512869+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-21T15:51:57.514943+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-21T15:51:58.51928+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/pca_top_k_step_5_vs_last_510_245d789157602f6666c0.png","runtime_seconds":6.7471538330000005,"progress":"37.7KB/37.7KB"},{"desc":"uploading media/images/pca_top_k_step_10_vs_last_511_69daa9ea3db0e1691777.png","runtime_seconds":5.388102125,"progress":"36.3KB/36.3KB"},{"desc":"uploading media/images/pca_top_k_step_15_vs_last_512_4b684d5bda8e0ce603b7.png","runtime_seconds":4.612629,"progress":"38.3KB/38.3KB"},{"desc":"uploading media/images/pca_top_k_step_50_vs_last_513_94299b3d466cb2210650.png","runtime_seconds":3.9300091249999998,"progress":"36.0KB/36.0KB"},{"desc":"uploading media/images/pca_top_k_step_100_vs_last_514_3da94b4b4080bafdb004.png","runtime_seconds":3.200675416,"progress":"36.1KB/36.1KB"},{"desc":"uploading media/images/pca_top_k_step_150_vs_last_515_c141cee255014d8ce54c.png","runtime_seconds":2.346811083,"progress":"36.1KB/36.1KB"},{"desc":"uploading media/images/pca_top_k_step_200_vs_last_516_0013c6661842eab46538.png","runtime_seconds":1.782215917,"progress":"36.8KB/36.8KB"},{"desc":"uploading media/images/pca_top_k_step_350_vs_last_517_e4514fd36a4c2954a7d9.png","runtime_seconds":1.236106208,"progress":"34.6KB/34.6KB"},{"desc":"uploading output.log","runtime_seconds":0.717948458,"progress":"3.1KB/3.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.717928458,"progress":"31.4KB/31.4KB"}],"total_operations":11}}
+{"time":"2025-03-21T15:52:07.686548+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-21T15:52:09.561297+08:00","level":"INFO","msg":"stream: closing","id":"m7tmco7j"}
+{"time":"2025-03-21T15:52:09.562284+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m7tmco7j"}
+{"time":"2025-03-21T15:52:09.638452+08:00","level":"INFO","msg":"handler: closed","stream_id":"m7tmco7j"}
+{"time":"2025-03-21T15:52:09.732377+08:00","level":"INFO","msg":"sender: closed","stream_id":"m7tmco7j"}
+{"time":"2025-03-21T15:52:09.732822+08:00","level":"INFO","msg":"stream: closed","id":"m7tmco7j"}

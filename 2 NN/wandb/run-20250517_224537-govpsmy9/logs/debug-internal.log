@@ -1,0 +1,15 @@
+{"time":"2025-05-17T22:45:37.705508649+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/ouyangzl/BaseLine/2 NN/wandb/run-20250517_224537-govpsmy9/logs/debug-core.log"}
+{"time":"2025-05-17T22:45:38.363416962+08:00","level":"INFO","msg":"created new stream","id":"govpsmy9"}
+{"time":"2025-05-17T22:45:38.363490777+08:00","level":"INFO","msg":"stream: started","id":"govpsmy9"}
+{"time":"2025-05-17T22:45:38.363537856+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"govpsmy9"}
+{"time":"2025-05-17T22:45:38.36355203+08:00","level":"INFO","msg":"sender: started","stream_id":"govpsmy9"}
+{"time":"2025-05-17T22:45:38.363734697+08:00","level":"INFO","msg":"handler: started","stream_id":"govpsmy9"}
+{"time":"2025-05-17T22:45:38.632497432+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-17T22:45:51.710458154+08:00","level":"INFO","msg":"stream: closing","id":"govpsmy9"}
+{"time":"2025-05-17T22:45:51.710513919+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-17T22:45:51.710573272+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-17T22:45:52.630250943+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-17T22:45:53.001415319+08:00","level":"INFO","msg":"handler: closed","stream_id":"govpsmy9"}
+{"time":"2025-05-17T22:45:53.001519696+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"govpsmy9"}
+{"time":"2025-05-17T22:45:53.001531912+08:00","level":"INFO","msg":"sender: closed","stream_id":"govpsmy9"}
+{"time":"2025-05-17T22:45:53.001644985+08:00","level":"INFO","msg":"stream: closed","id":"govpsmy9"}

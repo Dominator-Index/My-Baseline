@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/MNIST/MNIST_train.py", line 63, in <module>
+    X_test_full, Y_test_labels_full, Y_test_onehot_full) = load_mnist_data(config, device)
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/BaseLine/MNIST/MNIST_data_utils.py", line 17, in load_mnist_data
+    train_set = datasets.MNIST(
+                ^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/.local/lib/python3.12/site-packages/torchvision/datasets/mnist.py", line 100, in __init__
+    self.download()
+  File "/home/ouyangzl/.local/lib/python3.12/site-packages/torchvision/datasets/mnist.py", line 180, in download
+    os.makedirs(self.raw_folder, exist_ok=True)
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 215, in makedirs
+  [Previous line repeated 2 more times]
+  File "<frozen os>", line 225, in makedirs
+PermissionError: [Errno 13] Permission denied: '/jumbo'

@@ -1,0 +1,48 @@
+device:
+  desc: ''
+  sort: 9
+  value: cuda
+eigenvalue_interval:
+  desc: ''
+  sort: 6
+  value: 10
+epochs:
+  desc: ''
+  sort: 10
+  value: 500
+hidden_dim:
+  desc: ''
+  sort: 2
+  value: 32
+input_dim:
+  desc: ''
+  sort: 1
+  value: 16
+learning_rate:
+  desc: ''
+  sort: 0
+  value: 0.01
+method:
+  desc: ''
+  sort: 7
+  value: gap
+num_layer:
+  desc: ''
+  sort: 8
+  value: 3
+output_dim:
+  desc: ''
+  sort: 3
+  value: 10
+record_steps_count:
+  desc: ''
+  sort: 11
+  value: 51
+top_k_pca_number:
+  desc: ''
+  sort: 5
+  value: 400
+variance:
+  desc: ''
+  sort: 4
+  value: 0.01

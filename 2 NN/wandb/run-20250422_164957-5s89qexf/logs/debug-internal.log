@@ -1,0 +1,18 @@
+{"time":"2025-04-22T16:49:57.791106332+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/2 NN/wandb/run-20250422_164957-5s89qexf/logs/debug-core.log"}
+{"time":"2025-04-22T16:49:58.001420289+08:00","level":"INFO","msg":"created new stream","id":"5s89qexf"}
+{"time":"2025-04-22T16:49:58.001468289+08:00","level":"INFO","msg":"stream: started","id":"5s89qexf"}
+{"time":"2025-04-22T16:49:58.001546497+08:00","level":"INFO","msg":"handler: started","stream_id":"5s89qexf"}
+{"time":"2025-04-22T16:49:58.001608081+08:00","level":"INFO","msg":"sender: started","stream_id":"5s89qexf"}
+{"time":"2025-04-22T16:49:58.001599581+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"5s89qexf"}
+{"time":"2025-04-22T16:50:08.242448015+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": EOF"}
+{"time":"2025-04-22T16:50:20.595248308+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": EOF"}
+{"time":"2025-04-22T16:50:35.527231903+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": EOF"}
+{"time":"2025-04-22T16:50:54.33445022+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": EOF"}
+{"time":"2025-04-22T16:51:21.189625244+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": EOF"}
+{"time":"2025-04-22T16:51:28.464320672+08:00","level":"INFO","msg":"stream: closing","id":"5s89qexf"}
+{"time":"2025-04-22T16:51:28.464365756+08:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: api: failed sending: context canceled"}
+{"time":"2025-04-22T16:51:28.464516755+08:00","level":"INFO","msg":"handler: closed","stream_id":"5s89qexf"}
+{"time":"2025-04-22T16:51:28.464628213+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5s89qexf"}
+{"time":"2025-04-22T16:51:28.464662963+08:00","level":"INFO","msg":"sender: closed","stream_id":"5s89qexf"}
+{"time":"2025-04-22T16:51:28.464712171+08:00","level":"WARN","msg":"runwork: ignoring record after close","work":{}}
+{"time":"2025-04-22T16:51:28.464890921+08:00","level":"INFO","msg":"stream: closed","id":"5s89qexf"}

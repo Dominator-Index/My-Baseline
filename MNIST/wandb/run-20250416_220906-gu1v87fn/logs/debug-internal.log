@@ -1,0 +1,66 @@
+{"time":"2025-04-16T22:09:06.937091253+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/MNIST/wandb/run-20250416_220906-gu1v87fn/logs/debug-core.log"}
+{"time":"2025-04-16T22:09:07.157459153+08:00","level":"INFO","msg":"created new stream","id":"gu1v87fn"}
+{"time":"2025-04-16T22:09:07.157521319+08:00","level":"INFO","msg":"stream: started","id":"gu1v87fn"}
+{"time":"2025-04-16T22:09:07.15759411+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"gu1v87fn"}
+{"time":"2025-04-16T22:09:07.157636485+08:00","level":"INFO","msg":"handler: started","stream_id":"gu1v87fn"}
+{"time":"2025-04-16T22:09:07.157671693+08:00","level":"INFO","msg":"sender: started","stream_id":"gu1v87fn"}
+{"time":"2025-04-16T22:09:07.585651763+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T22:22:33.828598262+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:22:46.188684748+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:23:01.162626504+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:23:07.711822943+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-16T22:23:20.322482631+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:23:39.795177755+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:23:49.119548011+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:24:14.704532812+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:24:32.81943812+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:24:52.936890297+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:25:41.150320802+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:25:43.102457718+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:26:50.019515903+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:26:54.352717849+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:27:07.048436526+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:27:21.865562559+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:27:41.802481552+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:28:08.983109631+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:28:20.021660839+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-16T22:28:51.672439029+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:29:50.023429854+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-16T22:30:01.772134098+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:31:20.025118183+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:31:42.558781113+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:32:12.537838597+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:32:28.106384921+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.16.50.81:49790->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-04-16T22:32:37.711502727+08:00","level":"WARN","msg":"sender: taking a long time","seconds":600.000186716,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"z6f34okxwa3w\" connection_id:\"127.0.0.1:54730\")"}
+{"time":"2025-04-16T22:33:28.614755159+08:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":650.9033414,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"z6f34okxwa3w\" connection_id:\"127.0.0.1:54730\")"}
+{"time":"2025-04-16T22:44:23.719198131+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:44:36.000927031+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:44:50.310891566+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:45:10.911613395+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:45:28.794447164+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:45:41.018944069+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:45:56.031954307+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:46:32.658468175+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:47:17.675711639+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:47:30.169766859+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:47:44.851030518+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:48:03.314241062+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:48:29.929746091+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:49:07.737018634+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:49:15.487702729+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:49:40.030139441+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:50:14.739172787+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-16T22:50:25.722063457+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:50:53.37122473+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:51:35.844171041+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:51:42.482501093+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:52:45.927947388+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/gu1v87fn/file_stream\": EOF"}
+{"time":"2025-04-16T22:52:47.937499382+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T22:53:48.366696871+08:00","level":"INFO","msg":"stream: closing","id":"gu1v87fn"}
+{"time":"2025-04-16T22:53:48.36748878+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T22:53:48.368686518+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T22:53:50.550134177+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T22:53:51.80931349+08:00","level":"INFO","msg":"handler: closed","stream_id":"gu1v87fn"}
+{"time":"2025-04-16T22:53:51.809357615+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gu1v87fn"}
+{"time":"2025-04-16T22:53:51.809375073+08:00","level":"INFO","msg":"sender: closed","stream_id":"gu1v87fn"}
+{"time":"2025-04-16T22:53:51.809455572+08:00","level":"INFO","msg":"stream: closed","id":"gu1v87fn"}

@@ -1,0 +1,7 @@
+# Python Version: == 3.9
+
+numpy == 1.24.3
+torch == 2.4.1
+wandb == 0.19.8
+matplotlib == 3.9.2
+scikit-learn == 1.5.2

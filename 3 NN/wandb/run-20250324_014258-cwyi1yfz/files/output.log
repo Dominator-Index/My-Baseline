@@ -1,0 +1,9 @@
+Step 5: Loss = 21.947574615478516
+Traceback (most recent call last):
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/2.py", line 220, in <module>
+    wandb.log({f"pca_spectrum_step_{step}": wandb.Histogram(pca.explained_variance_)}, step=step)
+NameError: name 'pca' is not defined
+Traceback (most recent call last):
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/2.py", line 220, in <module>
+    wandb.log({f"pca_spectrum_step_{step}": wandb.Histogram(pca.explained_variance_)}, step=step)
+NameError: name 'pca' is not defined

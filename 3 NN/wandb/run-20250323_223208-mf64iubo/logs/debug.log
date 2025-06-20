@@ -1,0 +1,23 @@
+2025-03-23 22:32:08,451 INFO    MainThread:88081 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-23 22:32:08,452 INFO    MainThread:88081 [wandb_setup.py:_flush():67] Configure stats pid to 88081
+2025-03-23 22:32:08,453 INFO    MainThread:88081 [wandb_setup.py:_flush():67] Loading settings from /Users/xuanxuan/.config/wandb/settings
+2025-03-23 22:32:08,453 INFO    MainThread:88081 [wandb_setup.py:_flush():67] Loading settings from /Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/wandb/settings
+2025-03-23 22:32:08,453 INFO    MainThread:88081 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-23 22:32:08,453 INFO    MainThread:88081 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/wandb/run-20250323_223208-mf64iubo/logs/debug.log
+2025-03-23 22:32:08,454 INFO    MainThread:88081 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/wandb/run-20250323_223208-mf64iubo/logs/debug-internal.log
+2025-03-23 22:32:08,454 INFO    MainThread:88081 [wandb_init.py:init():761] calling init triggers
+2025-03-23 22:32:08,454 INFO    MainThread:88081 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-23 22:32:08,454 INFO    MainThread:88081 [wandb_init.py:init():784] starting backend
+2025-03-23 22:32:08,454 INFO    MainThread:88081 [wandb_init.py:init():788] sending inform_init request
+2025-03-23 22:32:08,778 INFO    MainThread:88081 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-03-23 22:32:08,780 INFO    MainThread:88081 [wandb_init.py:init():798] backend started and connected
+2025-03-23 22:32:09,058 INFO    MainThread:88081 [wandb_init.py:init():891] updated telemetry
+2025-03-23 22:32:09,079 INFO    MainThread:88081 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-23 22:32:09,928 INFO    MainThread:88081 [wandb_init.py:init():990] starting run threads in backend
+2025-03-23 22:32:13,007 INFO    MainThread:88081 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-23 22:32:13,008 INFO    MainThread:88081 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-23 22:32:13,009 INFO    MainThread:88081 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-23 22:32:13,010 INFO    MainThread:88081 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-23 22:32:13,021 INFO    MainThread:88081 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-23 22:32:13,023 INFO    MainThread:88081 [wandb_run.py:_config_callback():1261] config_cb None None {'np_seed': 12138, 'torch_seed': 12138, 'learning_rate': 0.01, 'steps': 500, 'record_steps': [5, 10, 15, 50, 100, 150, 200, 350, 500], 'input_dim': 16, 'hidden_dim': 32, 'output_dim': 10, 'top_k_pca_number': 5, 'wandb_project_name': 'Baseline', 'wandb_run_name': 'Baseline'}

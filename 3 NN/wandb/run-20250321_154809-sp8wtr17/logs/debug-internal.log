@@ -1,0 +1,24 @@
+{"time":"2025-03-21T15:48:09.855632+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/wandb/run-20250321_154809-sp8wtr17/logs/debug-core.log"}
+{"time":"2025-03-21T15:48:09.979622+08:00","level":"INFO","msg":"created new stream","id":"sp8wtr17"}
+{"time":"2025-03-21T15:48:09.979735+08:00","level":"INFO","msg":"stream: started","id":"sp8wtr17"}
+{"time":"2025-03-21T15:48:09.981341+08:00","level":"INFO","msg":"handler: started","stream_id":"sp8wtr17"}
+{"time":"2025-03-21T15:48:09.981437+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"sp8wtr17"}
+{"time":"2025-03-21T15:48:09.983042+08:00","level":"INFO","msg":"sender: started","stream_id":"sp8wtr17"}
+{"time":"2025-03-21T15:48:10.474157+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-21T15:48:31.969017+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":502}
+{"time":"2025-03-21T15:48:31.969524+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":502}
+{"time":"2025-03-21T15:48:31.969543+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":502}
+{"time":"2025-03-21T15:48:31.969559+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":502}
+{"time":"2025-03-21T15:48:31.969573+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":502}
+{"time":"2025-03-21T15:48:31.969982+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":502}
+{"time":"2025-03-21T15:48:31.970912+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":502}
+{"time":"2025-03-21T15:48:31.970949+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":502}
+{"time":"2025-03-21T15:49:06.519916+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-21T15:49:06.521067+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-21T15:49:07.525112+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/pca_top_k_step_10_vs_last_511_89dddf7ba66896105a2f.png","runtime_seconds":5.70681025,"progress":"35.1KB/35.1KB"},{"desc":"uploading media/images/pca_top_k_step_15_vs_last_512_25041012378ed74f0267.png","runtime_seconds":4.899180792,"progress":"38.2KB/38.2KB"},{"desc":"uploading media/images/pca_top_k_step_50_vs_last_513_e92e36c867f2eae6f152.png","runtime_seconds":4.170922958,"progress":"35.0KB/35.0KB"},{"desc":"uploading media/images/pca_top_k_step_100_vs_last_514_2ae0d712603cad2d4251.png","runtime_seconds":3.426557125,"progress":"36.6KB/36.6KB"},{"desc":"uploading media/images/pca_top_k_step_150_vs_last_515_2d120354cdaac946c177.png","runtime_seconds":2.635291708,"progress":"35.0KB/35.0KB"},{"desc":"uploading media/images/pca_top_k_step_200_vs_last_516_ffc4a6525912c97468cf.png","runtime_seconds":1.914746292,"progress":"35.4KB/35.4KB"},{"desc":"uploading media/images/pca_top_k_step_350_vs_last_517_15e48a0c3150595ff1eb.png","runtime_seconds":1.300817709,"progress":"33.5KB/33.5KB"},{"desc":"uploading output.log","runtime_seconds":0.724645167,"progress":"3.1KB/3.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.724609459,"progress":"31.5KB/31.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.469313291,"progress":"1001B/1001B"}],"total_operations":10}}
+{"time":"2025-03-21T15:49:20.252792+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-21T15:49:20.650253+08:00","level":"INFO","msg":"stream: closing","id":"sp8wtr17"}
+{"time":"2025-03-21T15:49:20.650298+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sp8wtr17"}
+{"time":"2025-03-21T15:49:20.650456+08:00","level":"INFO","msg":"handler: closed","stream_id":"sp8wtr17"}
+{"time":"2025-03-21T15:49:20.650473+08:00","level":"INFO","msg":"sender: closed","stream_id":"sp8wtr17"}
+{"time":"2025-03-21T15:49:20.650725+08:00","level":"INFO","msg":"stream: closed","id":"sp8wtr17"}

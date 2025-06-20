@@ -1,0 +1,16 @@
+{"time":"2025-04-22T21:14:38.844184421+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/2 NN/wandb/run-20250422_211438-0slwmowi/logs/debug-core.log"}
+{"time":"2025-04-22T21:14:39.06474708+08:00","level":"INFO","msg":"created new stream","id":"0slwmowi"}
+{"time":"2025-04-22T21:14:39.064809163+08:00","level":"INFO","msg":"stream: started","id":"0slwmowi"}
+{"time":"2025-04-22T21:14:39.06497162+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"0slwmowi"}
+{"time":"2025-04-22T21:14:39.064976953+08:00","level":"INFO","msg":"handler: started","stream_id":"0slwmowi"}
+{"time":"2025-04-22T21:14:39.065058953+08:00","level":"INFO","msg":"sender: started","stream_id":"0slwmowi"}
+{"time":"2025-04-22T21:14:39.485170543+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T21:27:44.985797175+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-22T21:27:44.987106768+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-22T21:27:45.989623918+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/loss_curve/SGD_0_cba1290f4cf72f1e4bb7.png","runtime_seconds":2.9698769069999997,"progress":"18.7KB/18.7KB"},{"desc":"uploading media/images/loss_curve/Adam_1_766ed63f27edc062ce0c.png","runtime_seconds":2.785434576,"progress":"18.8KB/18.8KB"},{"desc":"uploading media/images/loss_curve/SAM_2_d6704e6290a62e3d701d.png","runtime_seconds":2.676219163,"progress":"17.3KB/17.3KB"},{"desc":"uploading media/images/Top 1 Eigenvalue/SGD_3_c0f1c3ad4e4a25ceb234.png","runtime_seconds":2.5107208439999997,"progress":"27.9KB/27.9KB"},{"desc":"uploading media/images/Top 1 Eigenvalue/SAM_5_f2d80abb0c5e5eb673d8.png","runtime_seconds":2.207307864,"progress":"26.2KB/26.2KB"},{"desc":"uploading media/images/Top 1 Eigenvalue Full_6_803969d54c76fc8ab11c.png","runtime_seconds":2.034569326,"progress":"43.6KB/43.6KB"},{"desc":"uploading media/images/Curvature Trajectory_7_b44572e3950d68d2cc14.png","runtime_seconds":1.85922098,"progress":"28.0KB/28.0KB"},{"desc":"uploading media/images/Curvature Trajectory_8_ff38f78f47d7ad93b2ee.png","runtime_seconds":1.715094776,"progress":"28.4KB/28.4KB"},{"desc":"uploading media/images/Curvature Trajectory_9_48c0c2ead9fe5a62b140.png","runtime_seconds":1.565203073,"progress":"26.6KB/26.6KB"},{"desc":"uploading media/images/Curvature Trajectory Full_10_5f7462c695cc7100007f.png","runtime_seconds":1.393813298}],"total_operations":17}}
+{"time":"2025-04-22T21:27:56.88106694+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-22T21:27:57.192856231+08:00","level":"INFO","msg":"stream: closing","id":"0slwmowi"}
+{"time":"2025-04-22T21:27:57.192899814+08:00","level":"INFO","msg":"handler: closed","stream_id":"0slwmowi"}
+{"time":"2025-04-22T21:27:57.192925565+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0slwmowi"}
+{"time":"2025-04-22T21:27:57.19294594+08:00","level":"INFO","msg":"sender: closed","stream_id":"0slwmowi"}
+{"time":"2025-04-22T21:27:57.193051899+08:00","level":"INFO","msg":"stream: closed","id":"0slwmowi"}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/2 NN/test-plot-curvature-1.py", line 47, in <module>
+    model = LinearNetwork(config["input_dim"], config["hidden_dim"], config["output_dim"], device).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/BaseLine/2 NN/model_update.py", line 35, in __init__
+    W1_init, W2_init = balanced_init(input_dim, hidden_dim, output_dim, device)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/BaseLine/2 NN/model_update.py", line 24, in balanced_init
+    W1[:min_d, :] = (Sigma_power @ V[:min_d, :]).float()
+    ~~^^^^^^^^^^^
+RuntimeError: The expanded size of the tensor (16) must match the existing size (10) at non-singleton dimension 1.  Target sizes: [10, 16].  Tensor sizes: [10, 10]

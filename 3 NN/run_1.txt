@@ -1,0 +1,54 @@
+Total parameters: 1856
+Learning rate is: 1.0
+Variance is: 0.01
+Computing top 5 Hessian eigenvalues
+特征值计算间隔: 每 10 步计算一次
+Using SGD optimizer
+将在以下步骤计算特征值: [0, 1, 2, 3, 4, 5, 10, 20, 30, 40]...
+总共 56 个计算点
+
+============================================================
+🚀 开始训练 - 2025-05-30 00:18:48
+总步数: 501, Seeds: [12138]
+特征值计算步骤: 56 个
+============================================================
+
+
+🌱 Seed 12138 (1/1)
+📊 Step   0 | 00:19:12 | Loss: 0.339426 | Time: 23.40s | EigenTime: 23.03s
+📊 Step   1 | 00:19:31 | Loss: 0.339404 | Time: 19.21s | EigenTime: 19.19s
+📊 Step   5 | 00:21:11 | Loss: 0.339148 | Time: 23.30s | EigenTime: 23.29s
+📊 Step  10 | 00:21:33 | Loss: 0.338552 | Time: 22.22s | EigenTime: 22.21s
+📊 Step  50 | 00:22:38 | Loss: 0.314545 | Time: 10.56s | EigenTime: 10.56s
+   📈 Avg Step: 4.51s | Avg Hessian: 20.87s | Total: 3m 50.2s
+📊 Step 100 | 00:23:24 | Loss: 0.061194 | Time: 6.96s | EigenTime: 6.96s
+   📈 Avg Step: 2.73s | Avg Hessian: 17.18s | Total: 4m 35.7s
+📊 Step 150 | 00:23:49 | Loss: 0.046745 | Time: 4.47s | EigenTime: 4.47s
+   📈 Avg Step: 1.99s | Avg Hessian: 14.27s | Total: 5m 0.8s
+📊 Step 200 | 00:24:13 | Loss: 0.030771 | Time: 4.46s | EigenTime: 4.46s
+   📈 Avg Step: 1.61s | Avg Hessian: 12.45s | Total: 5m 24.7s
+📊 Step 250 | 00:24:50 | Loss: 0.023628 | Time: 11.28s | EigenTime: 11.27s
+   📈 Avg Step: 1.44s | Avg Hessian: 11.63s | Total: 6m 1.8s
+📊 Step 300 | 00:25:25 | Loss: 0.016509 | Time: 6.98s | EigenTime: 6.98s
+   📈 Avg Step: 1.32s | Avg Hessian: 10.97s | Total: 6m 36.4s
+📊 Step 350 | 00:25:58 | Loss: 0.010347 | Time: 7.13s | EigenTime: 7.13s
+   📈 Avg Step: 1.22s | Avg Hessian: 10.44s | Total: 7m 9.5s
+📊 Step 400 | 00:26:37 | Loss: 0.007657 | Time: 7.08s | EigenTime: 7.08s
+   📈 Avg Step: 1.17s | Avg Hessian: 10.16s | Total: 7m 49.0s
+📊 Step 450 | 00:27:18 | Loss: 0.006130 | Time: 12.63s | EigenTime: 12.62s
+   📈 Avg Step: 1.13s | Avg Hessian: 9.96s | Total: 8m 29.9s
+📊 Step 500 | 00:27:59 | Loss: 0.004922 | Time: 5.06s | EigenTime: 5.06s
+   📈 Avg Step: 1.10s | Avg Hessian: 9.80s | Total: 9m 10.6s
+
+✅ Seed 12138 完成!
+📊 时间统计:
+   平均每步时间: 1.098s
+   Forward平均: 0.000s
+   Backward平均: 0.002s
+   Hessian平均: 9.796s
+   特征值计算次数: 56
+   Logging平均: 0.001s
+   总训练时间: 9m 10.1s
+
+🎉 所有训练完成! 总耗时: 9m 10.6s
+📝 结果已保存到 wandb: https://wandb.ai/bxl307-university-of-birmingham/Baseline/runs/qbiallhk

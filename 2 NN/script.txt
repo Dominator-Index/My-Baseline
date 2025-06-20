@@ -1,0 +1,12 @@
+# Use SAM
+python train.py --use_sam --rho 0.05 --threshold 0.98
+
+Grid search
+rho = {0.01, 0.02, 0.05, 0.1, 0.2, 0.5}
+tau = {0.85, 0.875, 0.90, 0.92, 0.94, 0.95, 0.97, 0.98, 0.99, 1.0}
+adaptive = True or False
+# Use Adam
+python train.py --use_adam --threshold 0.98
+
+# Use SGD
+python train.py --use_optimizer --threshold 0.98

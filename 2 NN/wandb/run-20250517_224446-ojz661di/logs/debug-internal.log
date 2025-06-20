@@ -1,0 +1,11 @@
+{"time":"2025-05-17T22:44:46.448189596+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/ouyangzl/BaseLine/2 NN/wandb/run-20250517_224446-ojz661di/logs/debug-core.log"}
+{"time":"2025-05-17T22:44:47.219448256+08:00","level":"INFO","msg":"created new stream","id":"ojz661di"}
+{"time":"2025-05-17T22:44:47.219536335+08:00","level":"INFO","msg":"stream: started","id":"ojz661di"}
+{"time":"2025-05-17T22:44:47.219748122+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ojz661di"}
+{"time":"2025-05-17T22:44:47.219861015+08:00","level":"INFO","msg":"handler: started","stream_id":"ojz661di"}
+{"time":"2025-05-17T22:44:47.219976118+08:00","level":"INFO","msg":"sender: started","stream_id":"ojz661di"}
+{"time":"2025-05-17T22:44:47.632136768+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-17T22:45:24.021762065+08:00","level":"INFO","msg":"stream: closing","id":"ojz661di"}
+{"time":"2025-05-17T22:45:24.021824379+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-17T22:45:24.021909949+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-17T22:45:25.190272865+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

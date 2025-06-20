@@ -1,0 +1,17 @@
+{"time":"2025-05-30T00:29:07.477535046+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/3 NN/wandb/run-20250530_002907-oxks4wod/logs/debug-core.log"}
+{"time":"2025-05-30T00:29:07.697787929+08:00","level":"INFO","msg":"created new stream","id":"oxks4wod"}
+{"time":"2025-05-30T00:29:07.697842923+08:00","level":"INFO","msg":"stream: started","id":"oxks4wod"}
+{"time":"2025-05-30T00:29:07.697886228+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"oxks4wod"}
+{"time":"2025-05-30T00:29:07.697992653+08:00","level":"INFO","msg":"sender: started","stream_id":"oxks4wod"}
+{"time":"2025-05-30T00:29:07.698003298+08:00","level":"INFO","msg":"handler: started","stream_id":"oxks4wod"}
+{"time":"2025-05-30T00:29:08.637136949+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-30T00:52:08.785444496+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-30T02:20:39.500661802+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-30T02:20:39.501657286+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-30T02:20:40.464464179+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.41544152,"progress":"4.3KB/4.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.415253257,"progress":"2.4KB/2.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.152257506,"progress":"1019B/1019B"}],"total_operations":3}}
+{"time":"2025-05-30T02:20:41.145537223+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-30T02:20:41.958667395+08:00","level":"INFO","msg":"stream: closing","id":"oxks4wod"}
+{"time":"2025-05-30T02:20:41.958694848+08:00","level":"INFO","msg":"handler: closed","stream_id":"oxks4wod"}
+{"time":"2025-05-30T02:20:41.958715612+08:00","level":"INFO","msg":"sender: closed","stream_id":"oxks4wod"}
+{"time":"2025-05-30T02:20:41.958709847+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oxks4wod"}
+{"time":"2025-05-30T02:20:41.958784099+08:00","level":"INFO","msg":"stream: closed","id":"oxks4wod"}

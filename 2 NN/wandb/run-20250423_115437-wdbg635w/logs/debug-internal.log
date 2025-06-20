@@ -1,0 +1,15 @@
+{"time":"2025-04-23T11:54:37.133918426+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/2 NN/wandb/run-20250423_115437-wdbg635w/logs/debug-core.log"}
+{"time":"2025-04-23T11:54:37.356463724+08:00","level":"INFO","msg":"created new stream","id":"wdbg635w"}
+{"time":"2025-04-23T11:54:37.356572432+08:00","level":"INFO","msg":"stream: started","id":"wdbg635w"}
+{"time":"2025-04-23T11:54:37.356606307+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"wdbg635w"}
+{"time":"2025-04-23T11:54:37.356653223+08:00","level":"INFO","msg":"handler: started","stream_id":"wdbg635w"}
+{"time":"2025-04-23T11:54:37.356650556+08:00","level":"INFO","msg":"sender: started","stream_id":"wdbg635w"}
+{"time":"2025-04-23T11:54:38.030609408+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-23T11:54:40.524443709+08:00","level":"INFO","msg":"stream: closing","id":"wdbg635w"}
+{"time":"2025-04-23T11:54:40.524530458+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-23T11:54:40.525831575+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-23T11:54:41.566732545+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-23T11:54:41.970061629+08:00","level":"INFO","msg":"handler: closed","stream_id":"wdbg635w"}
+{"time":"2025-04-23T11:54:41.970132878+08:00","level":"INFO","msg":"sender: closed","stream_id":"wdbg635w"}
+{"time":"2025-04-23T11:54:41.97011642+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wdbg635w"}
+{"time":"2025-04-23T11:54:41.970290586+08:00","level":"INFO","msg":"stream: closed","id":"wdbg635w"}

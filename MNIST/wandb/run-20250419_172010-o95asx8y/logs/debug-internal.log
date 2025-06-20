@@ -1,0 +1,16 @@
+{"time":"2025-04-19T17:20:10.092630451+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/MNIST/wandb/run-20250419_172010-o95asx8y/logs/debug-core.log"}
+{"time":"2025-04-19T17:20:10.314904039+08:00","level":"INFO","msg":"created new stream","id":"o95asx8y"}
+{"time":"2025-04-19T17:20:10.315000956+08:00","level":"INFO","msg":"stream: started","id":"o95asx8y"}
+{"time":"2025-04-19T17:20:10.315128456+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"o95asx8y"}
+{"time":"2025-04-19T17:20:10.315160081+08:00","level":"INFO","msg":"handler: started","stream_id":"o95asx8y"}
+{"time":"2025-04-19T17:20:10.315299331+08:00","level":"INFO","msg":"sender: started","stream_id":"o95asx8y"}
+{"time":"2025-04-19T17:20:10.750213533+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T17:20:11.98392698+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T17:20:11.985169649+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T17:20:12.988966528+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/image_0_69bb2f9946c5d2a42177.png","runtime_seconds":1.32042744,"progress":"160.0KB/182.4KB"},{"desc":"uploading media/images/image_1_6e8eed0beb39e10bd47b.png","runtime_seconds":1.20875298,"progress":"48.0KB/62.3KB"},{"desc":"uploading media/images/image_2_2c26e17bc33e40005de1.png","runtime_seconds":1.171842758},{"desc":"uploading media/images/image_3_259e25bf2ddc180baa96.png","runtime_seconds":1.074926111},{"desc":"uploading media/images/image_4_44ec417c06204b8f315e.png","runtime_seconds":0.99638716},{"desc":"uploading media/images/image_5_96423aa955000261795b.png","runtime_seconds":0.921747089},{"desc":"uploading media/images/image_6_02c3c188135126d1f60b.png","runtime_seconds":0.820602813},{"desc":"uploading wandb-summary.json","runtime_seconds":0.767387608},{"desc":"uploading media/images/image_7_d17f31f5edeb14b2ef8e.png","runtime_seconds":0.767364399},{"desc":"uploading output.log","runtime_seconds":0.767353317}],"total_operations":12}}
+{"time":"2025-04-19T17:20:22.142332273+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T17:20:22.427694755+08:00","level":"INFO","msg":"stream: closing","id":"o95asx8y"}
+{"time":"2025-04-19T17:20:22.427731839+08:00","level":"INFO","msg":"handler: closed","stream_id":"o95asx8y"}
+{"time":"2025-04-19T17:20:22.427756672+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"o95asx8y"}
+{"time":"2025-04-19T17:20:22.427784422+08:00","level":"INFO","msg":"sender: closed","stream_id":"o95asx8y"}
+{"time":"2025-04-19T17:20:22.42788788+08:00","level":"INFO","msg":"stream: closed","id":"o95asx8y"}

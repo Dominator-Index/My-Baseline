@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/MNIST/Experiment_7_test_1.py", line 165, in <module>
+    flat_batch_gradients = flatten_gradients(batch_gradients)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/BaseLine/MNIST/Experiment_7_test_1.py", line 92, in flatten_gradients
+    return torch.cat([g.view(-1) for g in grad_dict.values()])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: torch.cat(): expected a non-empty list of Tensors

@@ -1,0 +1,123 @@
+device:
+  desc: ''
+  sort: 15
+  value: cuda
+eigenvalue_interval:
+  desc: ''
+  sort: 13
+  value: 10
+hidden_dim:
+  desc: ''
+  sort: 6
+  value: 32
+input_dim:
+  desc: ''
+  sort: 5
+  value: 16
+learning_rate:
+  desc: ''
+  sort: 2
+  value: 1.0
+method:
+  desc: ''
+  sort: 14
+  value: gap
+np_seed:
+  desc: ''
+  sort: 0
+  value: 42
+num_layer:
+  desc: ''
+  sort: 12
+  value: 2
+output_dim:
+  desc: ''
+  sort: 7
+  value: 10
+rank:
+  desc: ''
+  sort: 9
+  value: 1
+record_steps:
+  desc: ''
+  sort: 4
+  value:
+  - 0
+  - 10
+  - 20
+  - 30
+  - 40
+  - 50
+  - 60
+  - 70
+  - 80
+  - 90
+  - 100
+  - 110
+  - 120
+  - 130
+  - 140
+  - 150
+  - 160
+  - 170
+  - 180
+  - 190
+  - 200
+  - 210
+  - 220
+  - 230
+  - 240
+  - 250
+  - 260
+  - 270
+  - 280
+  - 290
+  - 300
+  - 310
+  - 320
+  - 330
+  - 340
+  - 350
+  - 360
+  - 370
+  - 380
+  - 390
+  - 400
+  - 410
+  - 420
+  - 430
+  - 440
+  - 450
+  - 460
+  - 470
+  - 480
+  - 490
+  - 500
+steps:
+  desc: ''
+  sort: 3
+  value: 500
+swanlab_api_key:
+  desc: ''
+  sort: 17
+  value: zrVzavwSxtY7Gs0GWo9xV
+swanlab_project_name:
+  desc: ''
+  sort: 11
+  value: Baseline
+swanlab_run_name:
+  desc: ''
+  sort: 16
+  value: Exp-Seed42-2Layer-Rank1
+top_k_pca_number:
+  desc: ''
+  sort: 10
+  value: 400
+torch_seed:
+  desc: ''
+  sort: 1
+  value: 42
+variance:
+  desc: ''
+  sort: 8
+  value: 0.01

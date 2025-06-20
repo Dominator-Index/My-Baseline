@@ -1,0 +1,76 @@
+{"time":"2025-04-22T17:44:03.245117107+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/2 NN/wandb/run-20250422_174403-6kpqxvxs/logs/debug-core.log"}
+{"time":"2025-04-22T17:44:03.457222036+08:00","level":"INFO","msg":"created new stream","id":"6kpqxvxs"}
+{"time":"2025-04-22T17:44:03.457274828+08:00","level":"INFO","msg":"stream: started","id":"6kpqxvxs"}
+{"time":"2025-04-22T17:44:03.457301827+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"6kpqxvxs"}
+{"time":"2025-04-22T17:44:03.457314244+08:00","level":"INFO","msg":"handler: started","stream_id":"6kpqxvxs"}
+{"time":"2025-04-22T17:44:03.457406535+08:00","level":"INFO","msg":"sender: started","stream_id":"6kpqxvxs"}
+{"time":"2025-04-22T17:44:03.877762795+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T18:27:14.882287163+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T18:30:29.884547202+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T18:30:42.18556229+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T18:30:56.833029759+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T18:31:15.376496067+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T18:31:42.065974814+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T18:32:27.11660673+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T18:51:16.41684904+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":0,"current":499}
+{"time":"2025-04-22T18:51:25.093196985+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":1,"current":499}
+{"time":"2025-04-22T18:51:32.476020275+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":2,"current":499}
+{"time":"2025-04-22T18:51:40.80618732+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":3,"current":499}
+{"time":"2025-04-22T18:51:49.1978038+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":4,"current":499}
+{"time":"2025-04-22T18:51:58.038612605+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":499}
+{"time":"2025-04-22T18:52:07.514294111+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":6,"current":499}
+{"time":"2025-04-22T18:52:14.685109136+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":7,"current":499}
+{"time":"2025-04-22T18:52:21.805077644+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":8,"current":499}
+{"time":"2025-04-22T18:52:28.815515781+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":9,"current":499}
+{"time":"2025-04-22T18:52:36.656915168+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":499}
+{"time":"2025-04-22T18:52:44.708490701+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":11,"current":499}
+{"time":"2025-04-22T18:52:51.806215165+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":12,"current":499}
+{"time":"2025-04-22T18:52:59.560921103+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":13,"current":499}
+{"time":"2025-04-22T18:53:08.563878729+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":14,"current":499}
+{"time":"2025-04-22T18:53:18.156378546+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":499}
+{"time":"2025-04-22T18:53:26.168022891+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":16,"current":499}
+{"time":"2025-04-22T18:53:33.073657635+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":17,"current":499}
+{"time":"2025-04-22T18:53:39.988159747+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":18,"current":499}
+{"time":"2025-04-22T18:53:46.899632409+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":19,"current":499}
+{"time":"2025-04-22T18:53:56.192946666+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":20,"current":499}
+{"time":"2025-04-22T18:54:04.320343895+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":21,"current":499}
+{"time":"2025-04-22T18:54:11.271826724+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":22,"current":499}
+{"time":"2025-04-22T18:54:18.108307922+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":23,"current":499}
+{"time":"2025-04-22T18:54:25.915285362+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":24,"current":499}
+{"time":"2025-04-22T18:54:34.10212149+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":25,"current":499}
+{"time":"2025-04-22T18:54:42.876136091+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":26,"current":499}
+{"time":"2025-04-22T18:54:49.913143858+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":27,"current":499}
+{"time":"2025-04-22T18:54:56.974111234+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":28,"current":499}
+{"time":"2025-04-22T18:55:05.149292361+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":29,"current":499}
+{"time":"2025-04-22T18:55:12.005177173+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":30,"current":499}
+{"time":"2025-04-22T18:55:18.888963013+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":31,"current":499}
+{"time":"2025-04-22T18:55:25.876449647+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":32,"current":499}
+{"time":"2025-04-22T18:55:33.407285932+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":33,"current":499}
+{"time":"2025-04-22T18:55:40.356620918+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":34,"current":499}
+{"time":"2025-04-22T18:55:47.276557686+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":35,"current":499}
+{"time":"2025-04-22T18:55:55.609964781+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":36,"current":499}
+{"time":"2025-04-22T18:56:03.138486714+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":37,"current":499}
+{"time":"2025-04-22T18:56:10.450665496+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":38,"current":499}
+{"time":"2025-04-22T18:56:17.544880389+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":39,"current":499}
+{"time":"2025-04-22T18:56:25.892678738+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":40,"current":499}
+{"time":"2025-04-22T18:56:33.202530135+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":41,"current":499}
+{"time":"2025-04-22T18:56:40.464193013+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":42,"current":499}
+{"time":"2025-04-22T18:56:48.394393022+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":43,"current":499}
+{"time":"2025-04-22T18:56:58.515906554+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":44,"current":499}
+{"time":"2025-04-22T19:13:41.539872927+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T19:14:04.10194365+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-22T19:14:36.21010153+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-22T19:14:56.549524207+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T19:15:11.053828748+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-22T19:15:49.231798203+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-22T19:15:56.54148123+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T19:16:26.492503379+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T19:16:38.830861536+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-22T19:17:43.753714419+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-22T19:18:26.543508762+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T19:19:13.75502882+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-22T19:20:26.513825453+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/Baseline/6kpqxvxs/file_stream\": EOF"}
+{"time":"2025-04-22T19:20:43.756721822+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-22T19:22:02.375884279+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.16.50.81:52914->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-04-22T20:24:03.747890892+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":45,"current":499}
+{"time":"2025-04-22T20:24:10.658160778+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":46,"current":499}

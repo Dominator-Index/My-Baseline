@@ -1,0 +1,35 @@
+Step 5: Loss = 19.07023811340332
+Step 10: Loss = 11.49520206451416
+Step 10: Cosine Similarity (Max Eigenvector) = 0.8853
+Step 15: Loss = 8.276334762573242
+Step 15: Cosine Similarity (Max Eigenvector) = 0.9625
+Step 50: Loss = 3.158205986022949
+Step 50: Cosine Similarity (Max Eigenvector) = 0.8322
+Step 100: Loss = 1.9214541912078857
+Step 100: Cosine Similarity (Max Eigenvector) = 0.9847
+Step 150: Loss = 1.4135420322418213
+Step 150: Cosine Similarity (Max Eigenvector) = 0.9892
+Step 200: Loss = 1.0614566802978516
+Step 200: Cosine Similarity (Max Eigenvector) = 0.5731
+Step 350: Loss = 0.26614809036254883
+Step 350: Cosine Similarity (Max Eigenvector) = 0.6507
+Step 500: Loss = 0.012559191323816776
+Step 500: Cosine Similarity (Max Eigenvector) = 0.8693
+Step 5: Cosine Similarity (Max Eigenvector to Last Step) = 0.0688
+Step 10: Cosine Similarity (Max Eigenvector to Last Step) = 0.0469
+Step 15: Cosine Similarity (Max Eigenvector to Last Step) = 0.0376
+Step 50: Cosine Similarity (Max Eigenvector to Last Step) = 0.0552
+Step 100: Cosine Similarity (Max Eigenvector to Last Step) = 0.0672
+Step 150: Cosine Similarity (Max Eigenvector to Last Step) = 0.1085
+Step 200: Cosine Similarity (Max Eigenvector to Last Step) = 0.5694
+Step 350: Cosine Similarity (Max Eigenvector to Last Step) = 0.8693
+Final Cosine Similarity (First vs Last Max Eigenvector): 0.06881427764892578
+Final Norm Difference (First vs Last Max Eigenvector): 1.3646873235702515
+wandb: WARNING Tried to log to step 5 that is less than the current step 502. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+wandb: WARNING Tried to log to step 10 that is less than the current step 502. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+wandb: WARNING Tried to log to step 15 that is less than the current step 502. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+wandb: WARNING Tried to log to step 50 that is less than the current step 502. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+wandb: WARNING Tried to log to step 100 that is less than the current step 502. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+wandb: WARNING Tried to log to step 150 that is less than the current step 502. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+wandb: WARNING Tried to log to step 200 that is less than the current step 502. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+wandb: WARNING Tried to log to step 350 that is less than the current step 502. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.

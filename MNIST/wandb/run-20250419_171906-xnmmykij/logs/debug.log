@@ -1,0 +1,14 @@
+2025-04-19 17:19:06,959 INFO    MainThread:2942841 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/ouyangzl/BaseLine/MNIST/wandb/run-20250419_171906-xnmmykij/logs/debug.log
+2025-04-19 17:19:06,959 INFO    MainThread:2942841 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/ouyangzl/BaseLine/MNIST/wandb/run-20250419_171906-xnmmykij/logs/debug-internal.log
+2025-04-19 17:19:06,959 INFO    MainThread:2942841 [wandb_init.py:init():761] calling init triggers
+2025-04-19 17:19:06,959 INFO    MainThread:2942841 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-19 17:19:06,959 INFO    MainThread:2942841 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-04-19 17:19:07,945 INFO    MainThread:2942841 [wandb_run.py:_finish():2112] finishing run bxl307-university-of-birmingham/your_project_name/xh47v5j0
+2025-04-19 17:19:07,946 INFO    MainThread:2942841 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-04-19 17:19:07,946 INFO    MainThread:2942841 [wandb_run.py:_restore():2322] restore
+2025-04-19 17:19:07,946 INFO    MainThread:2942841 [wandb_run.py:_restore():2328] restore done
+2025-04-19 17:19:09,615 INFO    MainThread:2942841 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-19 17:19:09,615 INFO    MainThread:2942841 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-19 17:19:09,615 INFO    MainThread:2942841 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-04-19 17:19:10,615 INFO    MsgRouterThr:2942841 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

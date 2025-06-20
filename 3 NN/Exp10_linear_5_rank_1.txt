@@ -1,0 +1,58 @@
+📁 图片将保存到: /home/ouyangzl/BaseLine/Exp10/images
+Total parameters: 3904
+Learning rate is: 1.0
+Variance is: 0.01
+Computing top 200 Hessian eigenvalues (原始值，不归一化)
+Rank is: 1
+特征值计算间隔: 每 10 步计算一次
+Using SGD optimizer
+[1m[34mswanlab[0m[0m: \ Waiting for the swanlab cloud response.                                                                                                    [1m[34mswanlab[0m[0m: swanlab version 0.6.4 is available!  Upgrade: `pip install -U swanlab`
+[1m[34mswanlab[0m[0m: \ Getting project...[1m[34mswanlab[0m[0m: | Getting project...                                                                                                    [1m[34mswanlab[0m[0m: \ Creating experiment...[1m[34mswanlab[0m[0m: | Creating experiment...                                                                                                    [1m[34mswanlab[0m[0m: Tracking run with swanlab version 0.6.3
+[1m[34mswanlab[0m[0m: Run data will be saved locally in [35m[1m/home/ouyangzl/BaseLine/3 NN/swanlog/run-20250620_013749-e31e63f8[0m[0m
+[1m[34mswanlab[0m[0m: 👋 Hi [1m[39mcollapsar[0m[0m, welcome to swanlab!
+[1m[34mswanlab[0m[0m: Syncing run [33mLinear5+SGD+lr1.0+var0.010000_rank1_top200_raw[0m to the cloud
+[1m[34mswanlab[0m[0m: 🏠 View project at [34m[4mhttps://swanlab.cn/@collapsar/Baseline[0m[0m
+[1m[34mswanlab[0m[0m: 🚀 View run at [34m[4mhttps://swanlab.cn/@collapsar/Baseline/runs/p36ax6hd8cw07j7wbdyvc[0m[0m
+将在以下步骤计算特征值: [0, 1, 2, 3, 4, 5, 10, 20, 30, 40]...
+总共 56 个计算点
+
+============================================================
+🚀 开始训练 - 2025-06-20 01:37:50
+总步数: 501, Seeds: [12138]
+特征值计算步骤: 56 个
+特征值类型: 原始值（不归一化）
+============================================================
+
+
+🌱 Seed 12138 (1/1)
+📊 生成低秩矩阵:
+   形状: torch.Size([10, 16])
+   期望秩: 1
+   实际秩: 1
+   设备: cuda
+🎯 使用自定义rank=1的低秩矩阵作为目标
+📏 数据维度: x=torch.Size([16, 16]), y=torch.Size([10, 16])
+📊 生成低秩矩阵:
+   形状: torch.Size([10, 16])
+   期望秩: 1
+   实际秩: 1
+   设备: cuda
+
+📊 Low Rank Matrix (rank=1):
+tensor([[1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]],
+       device='cuda:0')
+矩阵形状: torch.Size([10, 16])
+实际秩: 1
+📏 原始数据维度: data=torch.Size([16, 16]), label=torch.Size([10, 16])
+📏 调整后数据维度: data=torch.Size([1, 16, 16]), label=torch.Size([1, 10, 16])
+Seed 12138:   0%|                                                                               | 0/501 [00:00<?, ?it/s]/home/ouyangzl/.conda/envs/Baseline/lib/python3.11/site-packages/torch/autograd/graph.py:824: UserWarning: Using backward() with create_graph=True will create a reference cycle between the parameter and its gradient which can cause a memory leak. We recommend using autograd.grad when creating the graph to avoid this. If you have to use this function, make sure to reset the .grad fields of your parameters to None after use to break the cycle and avoid the leak. (Triggered internally at /pytorch/torch/csrc/autograd/engine.cpp:1273.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass

@@ -1,0 +1,40 @@
+{
+  "os": "macOS-14.6-arm64-arm-64bit",
+  "python": "CPython 3.9.13",
+  "startedAt": "2025-03-23T16:25:07.113837Z",
+  "program": "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/train.py",
+  "codePath": "train.py",
+  "email": "bxl307@student.bham.ac.uk",
+  "root": "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank",
+  "host": "s-MacBook-Air.local",
+  "executable": "/usr/local/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "226255667200"
+    },
+    "/System/Volumes/Data": {
+      "total": "494384795648",
+      "used": "226255667200"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M3",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 8,
+    "swapTotalBytes": "9663676416",
+    "ramTotalBytes": "8589934592"
+  }
+}

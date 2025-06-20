@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/2 NN/test-plot-curvature-1.py", line 47, in <module>
+    model = LinearNetwork(
+            ^^^^^^^^^^^^^^
+  File "/home/ouyangzl/BaseLine/2 NN/model.py", line 33, in __init__
+    W1_init, W2_init = balanced_init(input_dim, hidden_dim, output_dim, device)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ouyangzl/BaseLine/2 NN/model.py", line 20, in balanced_init
+    W1 = torch.zeros_like(hidden_dim, input_dim)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: zeros_like() takes 1 positional argument but 2 were given

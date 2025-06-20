@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/3 NN/Top_k_divergence_Linear.py", line 12, in <module>
+    from model_linear import LinearNetwork
+  File "/home/ouyangzl/BaseLine/3 NN/model_linear.py", line 6, in <module>
+    from config_linaer import training_config
+ModuleNotFoundError: No module named 'config_linaer'

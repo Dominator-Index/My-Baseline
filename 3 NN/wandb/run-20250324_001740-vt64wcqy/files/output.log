@@ -1,0 +1,21 @@
+Step 5: Loss = 71.22388458251953
+Step 10: Loss = 53.56959533691406
+Step 15: Loss = 68.58885955810547
+Step 50: Loss = 57.97011184692383
+Step 100: Loss = 37.986610412597656
+Step 150: Loss = 41.654911041259766
+Step 200: Loss = 54.702049255371094
+Step 350: Loss = 40.088008880615234
+Step 500: Loss = 43.26713562011719
+Traceback (most recent call last):
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/train.py", line 93, in <module>
+    successive_pca_spectrum = Successive_Record_Steps_PCA(recorded_steps_top_eigenvectors)
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/PCA.py", line 11, in Successive_Record_Steps_PCA
+    current = recorded_steps_top_eigenvectors[i]
+KeyError: 0
+Traceback (most recent call last):
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/train.py", line 93, in <module>
+    successive_pca_spectrum = Successive_Record_Steps_PCA(recorded_steps_top_eigenvectors)
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/PCA.py", line 11, in Successive_Record_Steps_PCA
+    current = recorded_steps_top_eigenvectors[i]
+KeyError: 0

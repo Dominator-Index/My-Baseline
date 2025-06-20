@@ -1,0 +1,15 @@
+
+===> Starting training with SGD...
+Total parameters: 832
+SGD training:   1%|      | 5/500 [00:00<00:22, 22.33it/s, loss=34.2367]
+SGD step 0: 72.9158
+SGD step 1: 60.7618
+SGD step 2: 51.5988
+SGD step 3: 44.4828
+SGD step 4: 38.8242
+SGD step 5: 34.2367
+Traceback (most recent call last):
+  File "/home/ouyangzl/BaseLine/2 NN/test-plot-curvature-1.py", line 126, in <module>
+    eigvals, eigvecs = compute_hessian_eigen_pyhessian(loss_hessian, model.parameters())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: compute_hessian_eigen_pyhessian() missing 2 required positional arguments: 'dataloader' and 'device'

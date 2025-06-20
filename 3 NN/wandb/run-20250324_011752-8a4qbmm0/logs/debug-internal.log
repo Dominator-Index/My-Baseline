@@ -1,0 +1,40 @@
+{"time":"2025-03-24T01:17:52.124053+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/wandb/run-20250324_011752-8a4qbmm0/logs/debug-core.log"}
+{"time":"2025-03-24T01:17:52.239982+08:00","level":"INFO","msg":"created new stream","id":"8a4qbmm0"}
+{"time":"2025-03-24T01:17:52.240056+08:00","level":"INFO","msg":"stream: started","id":"8a4qbmm0"}
+{"time":"2025-03-24T01:17:52.240394+08:00","level":"INFO","msg":"handler: started","stream_id":"8a4qbmm0"}
+{"time":"2025-03-24T01:17:52.240462+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"8a4qbmm0"}
+{"time":"2025-03-24T01:17:52.240662+08:00","level":"INFO","msg":"sender: started","stream_id":"8a4qbmm0"}
+{"time":"2025-03-24T01:17:53.415008+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-24T01:18:14.981294+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":500}
+{"time":"2025-03-24T01:18:14.981946+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T01:18:14.981968+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T01:18:14.981982+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T01:18:14.985889+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T01:18:14.985946+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T01:18:14.985957+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T01:18:14.985966+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T01:18:14.985973+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":500}
+{"time":"2025-03-24T01:18:14.990984+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T01:18:14.991053+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T01:18:14.991072+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T01:18:14.991087+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T01:18:14.991102+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T01:18:14.991117+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T01:18:14.991131+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T01:18:14.991777+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":500}
+{"time":"2025-03-24T01:18:14.99179+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T01:18:14.996888+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T01:18:14.996946+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T01:18:14.996955+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T01:18:14.996964+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T01:18:14.996973+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T01:18:14.996981+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T01:18:36.248619+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-24T01:18:36.249955+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-24T01:18:37.25178+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.708739875,"progress":"5.8KB/5.8KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.708674666,"progress":"17.3KB/17.3KB"}],"total_operations":2}}
+{"time":"2025-03-24T01:18:37.858727+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-24T01:18:38.334278+08:00","level":"INFO","msg":"stream: closing","id":"8a4qbmm0"}
+{"time":"2025-03-24T01:18:38.334361+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8a4qbmm0"}
+{"time":"2025-03-24T01:18:38.334751+08:00","level":"INFO","msg":"handler: closed","stream_id":"8a4qbmm0"}
+{"time":"2025-03-24T01:18:38.334788+08:00","level":"INFO","msg":"sender: closed","stream_id":"8a4qbmm0"}
+{"time":"2025-03-24T01:18:38.33514+08:00","level":"INFO","msg":"stream: closed","id":"8a4qbmm0"}

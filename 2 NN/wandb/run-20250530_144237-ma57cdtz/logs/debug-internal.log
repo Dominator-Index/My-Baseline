@@ -1,0 +1,15 @@
+{"time":"2025-05-30T14:42:37.696819952+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/2 NN/wandb/run-20250530_144237-ma57cdtz/logs/debug-core.log"}
+{"time":"2025-05-30T14:42:37.915451473+08:00","level":"INFO","msg":"created new stream","id":"ma57cdtz"}
+{"time":"2025-05-30T14:42:37.915502008+08:00","level":"INFO","msg":"stream: started","id":"ma57cdtz"}
+{"time":"2025-05-30T14:42:37.915640262+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ma57cdtz"}
+{"time":"2025-05-30T14:42:37.915751861+08:00","level":"INFO","msg":"sender: started","stream_id":"ma57cdtz"}
+{"time":"2025-05-30T14:42:37.915891939+08:00","level":"INFO","msg":"handler: started","stream_id":"ma57cdtz"}
+{"time":"2025-05-30T14:43:07.920440449+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-30T14:43:40.366849254+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-30T14:44:08.504525101+08:00","level":"INFO","msg":"stream: closing","id":"ma57cdtz"}
+{"time":"2025-05-30T14:44:08.50466282+08:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: api: failed sending: POST https://api.wandb.ai/graphql giving up after 3 attempt(s): context canceled"}
+{"time":"2025-05-30T14:44:08.504651664+08:00","level":"INFO","msg":"handler: closed","stream_id":"ma57cdtz"}
+{"time":"2025-05-30T14:44:08.504676584+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ma57cdtz"}
+{"time":"2025-05-30T14:44:08.504726719+08:00","level":"INFO","msg":"sender: closed","stream_id":"ma57cdtz"}
+{"time":"2025-05-30T14:44:08.504761544+08:00","level":"WARN","msg":"runwork: ignoring record after close","work":{}}
+{"time":"2025-05-30T14:44:08.504993451+08:00","level":"INFO","msg":"stream: closed","id":"ma57cdtz"}

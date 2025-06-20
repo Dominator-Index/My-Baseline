@@ -1,0 +1,8 @@
+experiment_info
+seed_42_layer_2
+total_steps_51
+max_eigenvalues_200
+max_gaps_200
+final_loss_9.174871229333803e-05
+final_top_k_1
+total_hessian_time_332.78s

@@ -1,0 +1,16 @@
+architecture:
+  desc: ''
+  sort: 1
+  value: CNN
+dataset:
+  desc: ''
+  sort: 2
+  value: CIFAR-100
+epochs:
+  desc: ''
+  sort: 3
+  value: 10
+learning_rate:
+  desc: ''
+  sort: 0
+  value: 0.02

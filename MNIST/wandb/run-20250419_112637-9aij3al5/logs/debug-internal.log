@@ -1,0 +1,16 @@
+{"time":"2025-04-19T11:26:37.923211657+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/MNIST/wandb/run-20250419_112637-9aij3al5/logs/debug-core.log"}
+{"time":"2025-04-19T11:26:38.143327216+08:00","level":"INFO","msg":"created new stream","id":"9aij3al5"}
+{"time":"2025-04-19T11:26:38.143392592+08:00","level":"INFO","msg":"stream: started","id":"9aij3al5"}
+{"time":"2025-04-19T11:26:38.143455885+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"9aij3al5"}
+{"time":"2025-04-19T11:26:38.143628429+08:00","level":"INFO","msg":"sender: started","stream_id":"9aij3al5"}
+{"time":"2025-04-19T11:26:38.143778306+08:00","level":"INFO","msg":"handler: started","stream_id":"9aij3al5"}
+{"time":"2025-04-19T11:26:38.633365054+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T11:58:05.723156169+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/bxl307-university-of-birmingham/MNIST/9aij3al5/file_stream\": EOF"}
+{"time":"2025-04-19T11:59:33.79259371+08:00","level":"INFO","msg":"stream: closing","id":"9aij3al5"}
+{"time":"2025-04-19T11:59:33.79266796+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T11:59:33.793842832+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T11:59:35.850773637+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T11:59:36.153895542+08:00","level":"INFO","msg":"handler: closed","stream_id":"9aij3al5"}
+{"time":"2025-04-19T11:59:36.153960417+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9aij3al5"}
+{"time":"2025-04-19T11:59:36.154004125+08:00","level":"INFO","msg":"sender: closed","stream_id":"9aij3al5"}
+{"time":"2025-04-19T11:59:36.154069083+08:00","level":"INFO","msg":"stream: closed","id":"9aij3al5"}

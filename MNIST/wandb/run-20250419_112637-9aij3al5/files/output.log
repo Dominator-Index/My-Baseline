@@ -1,0 +1,1619 @@
+Start training...
+/home/ouyangzl/.local/lib/python3.12/site-packages/torch/autograd/graph.py:823: UserWarning: Using backward() with create_graph=True will create a reference cycle between the parameter and its gradient which can cause a memory leak. We recommend using autograd.grad when creating the graph to avoid this. If you have to use this function, make sure to reset the .grad fields of your parameters to None after use to break the cycle and avoid the leak. (Triggered internally at /pytorch/torch/csrc/autograd/engine.cpp:1260.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Step 0: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002761788899078965
+Step 0: Cosine similarity between full gradient and Hessian's top eigenvector: 0.006994564551860094
+Step 0: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006741342134773731
+Step 0 finished: Loss: 0.11740369349718094
+Step 50: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0059852683916687965
+Step 50: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004546245560050011
+Step 50: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003811456263065338
+Step 50 finished: Loss: 0.088760606944561
+Step 100: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005094744730740786
+Step 100: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004491426981985569
+Step 100: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003224689280614257
+Step 100 finished: Loss: 0.07408399879932404
+Step 150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.007983056828379631
+Step 150: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0037069793324917555
+Step 150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.006987426895648241
+Step 150 finished: Loss: 0.0737094134092331
+Step 200: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006544912699609995
+Step 200: Cosine similarity between full gradient and Hessian's top eigenvector: 0.005172219593077898
+Step 200: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004854761995375156
+Step 200 finished: Loss: 0.06175554171204567
+Step 250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.006848348770290613
+Step 250: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0010314633836969733
+Step 250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00766222458332777
+Step 250 finished: Loss: 0.06722048670053482
+Step 300: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.007411993108689785
+Step 300: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00642215833067894
+Step 300: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00552389957010746
+Step 300 finished: Loss: 0.05553470924496651
+Step 350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.010536241345107555
+Step 350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.005016149487346411
+Step 350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.009609002619981766
+Step 350 finished: Loss: 0.06363992393016815
+Step 400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004173714201897383
+Step 400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00654134526848793
+Step 400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002259550616145134
+Step 400 finished: Loss: 0.05179698392748833
+Step 450: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.01110271830111742
+Step 450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004895588383078575
+Step 450: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.01037966925650835
+Step 450 finished: Loss: 0.061330102384090424
+Step 500: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004665519576519728
+Step 500: Cosine similarity between full gradient and Hessian's top eigenvector: 0.006375649943947792
+Step 500: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0030602612532675266
+Step 500 finished: Loss: 0.04927879571914673
+Step 550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.010754096321761608
+Step 550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004122630693018436
+Step 550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.010289058089256287
+Step 550 finished: Loss: 0.059679657220840454
+Step 600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006188733037561178
+Step 600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.006051534786820412
+Step 600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004898282699286938
+Step 600 finished: Loss: 0.047441285103559494
+Step 650: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.007397302892059088
+Step 650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0048920470289886
+Step 650: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0067352671176195145
+Step 650 finished: Loss: 0.058418210595846176
+Step 700: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006965930573642254
+Step 700: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00521083502098918
+Step 700: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.006012382451444864
+Step 700 finished: Loss: 0.04602007195353508
+Step 750: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.010094826109707355
+Step 750: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0034779219422489405
+Step 750: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.009836651384830475
+Step 750 finished: Loss: 0.05740857869386673
+Step 800: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.007765522692352533
+Step 800: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004515616688877344
+Step 800: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.007060046307742596
+Step 800 finished: Loss: 0.0448717437684536
+Step 850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.007350808475166559
+Step 850: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003910919185727835
+Step 850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.006969345733523369
+Step 850 finished: Loss: 0.05657316744327545
+Step 900: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.007425149902701378
+Step 900: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0042597153224051
+Step 900: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006805222947150469
+Step 900 finished: Loss: 0.04391231760382652
+Step 950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.008216491900384426
+Step 950: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0034348759800195694
+Step 950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.007967201061546803
+Step 950 finished: Loss: 0.05586422234773636
+Step 1000: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.007091979496181011
+Step 1000: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004499795846641064
+Step 1000: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006451458670198917
+Step 1000 finished: Loss: 0.04308948665857315
+Step 1050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.011326335370540619
+Step 1050: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002351492876186967
+Step 1050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.011346991173923016
+Step 1050 finished: Loss: 0.055250391364097595
+Step 1100: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.008087596856057644
+Step 1100: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00378282624296844
+Step 1100: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.007639580871909857
+Step 1100 finished: Loss: 0.042368967086076736
+Step 1150: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.009987279772758484
+Step 1150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0022324540186673403
+Step 1150: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.009993676096200943
+Step 1150 finished: Loss: 0.054709985852241516
+Step 1200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.006413272116333246
+Step 1200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004090992733836174
+Step 1200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00588539894670248
+Step 1200 finished: Loss: 0.04172730818390846
+Step 1250: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.007759443949908018
+Step 1250: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003249323694035411
+Step 1250: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.007580184377729893
+Step 1250 finished: Loss: 0.05422744154930115
+Step 1300: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.007240339182317257
+Step 1300: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003443856257945299
+Step 1300: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006865088362246752
+Step 1300 finished: Loss: 0.04114789143204689
+Step 1350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.010520297102630138
+Step 1350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0027639882173389196
+Step 1350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.010494232177734375
+Step 1350 finished: Loss: 0.05379122123122215
+Step 1400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.006214453838765621
+Step 1400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00416235625743866
+Step 1400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005710067693144083
+Step 1400 finished: Loss: 0.04061858728528023
+Step 1450: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.008415990509092808
+Step 1450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002919802675023675
+Step 1450: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00831910502165556
+Step 1450 finished: Loss: 0.05339259281754494
+Step 1500: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0068450323306024075
+Step 1500: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00435465294867754
+Step 1500: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.006343524903059006
+Step 1500 finished: Loss: 0.04013030603528023
+Step 1550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00934838131070137
+Step 1550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0030568810179829597
+Step 1550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.009271236136555672
+Step 1550 finished: Loss: 0.053024787455797195
+Step 1600: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0073948088102042675
+Step 1600: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003559474367648363
+Step 1600: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.007043295074254274
+Step 1600 finished: Loss: 0.03967611864209175
+Step 1650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00894603505730629
+Step 1650: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002477462636306882
+Step 1650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.008928769268095493
+Step 1650 finished: Loss: 0.05268251523375511
+Step 1700: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.007189229596406221
+Step 1700: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003511548275128007
+Step 1700: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006849088240414858
+Step 1700 finished: Loss: 0.03925060108304024
+Step 1750: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.010165354236960411
+Step 1750: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002745615551248193
+Step 1750: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.010158905759453773
+Step 1750 finished: Loss: 0.052361566573381424
+Step 1800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0066521745175123215
+Step 1800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0038753775879740715
+Step 1800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006253502331674099
+Step 1800 finished: Loss: 0.03884946554899216
+Step 1850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.007986837066709995
+Step 1850: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0026172357611358166
+Step 1850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.008488715626299381
+Step 1850 finished: Loss: 0.05205855891108513
+Step 1900: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.007075913716107607
+Step 1900: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0033701632637530565
+Step 1900: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006768219172954559
+Step 1900 finished: Loss: 0.03846926987171173
+Step 1950: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.010216508992016315
+Step 1950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0025615047197788954
+Step 1950: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.01023942418396473
+Step 1950 finished: Loss: 0.051770761609077454
+Step 2000: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.006360266823321581
+Step 2000: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004460556898266077
+Step 2000: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005886738654226065
+Step 2000 finished: Loss: 0.038107190281152725
+Step 2050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.008158096112310886
+Step 2050: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0030754702165722847
+Step 2050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.008074195124208927
+Step 2050 finished: Loss: 0.051495928317308426
+Step 2100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006661506835371256
+Step 2100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004233985673636198
+Step 2100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00623396597802639
+Step 2100 finished: Loss: 0.0377609059214592
+Step 2150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.009409146383404732
+Step 2150: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0021213216241449118
+Step 2150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00945969671010971
+Step 2150 finished: Loss: 0.0512322336435318
+Step 2200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.006889484357088804
+Step 2200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004109736066311598
+Step 2200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006490224041044712
+Step 2200 finished: Loss: 0.037428464740514755
+Step 2250: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.008899018168449402
+Step 2250: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0031702944543212652
+Step 2250: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00883342046290636
+Step 2250 finished: Loss: 0.050978150218725204
+Step 2300: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006267896853387356
+Step 2300: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0045479233376681805
+Step 2300: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005798702128231525
+Step 2300 finished: Loss: 0.03710823133587837
+Step 2350: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.008454776369035244
+Step 2350: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003248626831918955
+Step 2350: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.008372018113732338
+Step 2350 finished: Loss: 0.050732407718896866
+Step 2400: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006980851758271456
+Step 2400: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0043245526030659676
+Step 2400: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00656340504065156
+Step 2400 finished: Loss: 0.03679881617426872
+Step 2450: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00803969707340002
+Step 2450: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003264462575316429
+Step 2450: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00794646143913269
+Step 2450 finished: Loss: 0.05049394071102142
+Step 2500: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006986210122704506
+Step 2500: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004498340655118227
+Step 2500: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.006549232639372349
+Step 2500 finished: Loss: 0.03649900481104851
+Step 2550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.007612835615873337
+Step 2550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0024667561519891024
+Step 2550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.007586679887026548
+Step 2550 finished: Loss: 0.050261858850717545
+Step 2600: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0068260375410318375
+Step 2600: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004508178681135178
+Step 2600: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006387204397469759
+Step 2600 finished: Loss: 0.03620777279138565
+Step 2650: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.008457493036985397
+Step 2650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002677500480785966
+Step 2650: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.008435969240963459
+Step 2650 finished: Loss: 0.05003541335463524
+Step 2700: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005873880814760923
+Step 2700: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004365795757621527
+Step 2700: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005434270016849041
+Step 2700 finished: Loss: 0.03592422604560852
+Step 2750: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00441724294796586
+Step 2750: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003176184603944421
+Step 2750: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004839868284761906
+Step 2750 finished: Loss: 0.04981396719813347
+Step 2800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005738029256463051
+Step 2800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004429614637047052
+Step 2800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00528914388269186
+Step 2800 finished: Loss: 0.03564758598804474
+Step 2850: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.009522469714283943
+Step 2850: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0025128137785941362
+Step 2850: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.009548104368150234
+Step 2850 finished: Loss: 0.049596965312957764
+Step 2900: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0061600240878760815
+Step 2900: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003964678850024939
+Step 2900: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005783993750810623
+Step 2900 finished: Loss: 0.03537715971469879
+Step 2950: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.008757306262850761
+Step 2950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0020771322306245565
+Step 2950: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.008803480304777622
+Step 2950 finished: Loss: 0.04938396066427231
+Step 3000: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006021370179951191
+Step 3000: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003752842079848051
+Step 3000: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005671236198395491
+Step 3000 finished: Loss: 0.03511235862970352
+Step 3050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00823816005140543
+Step 3050: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0019875415600836277
+Step 3050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.008278909139335155
+Step 3050 finished: Loss: 0.049174558371305466
+Step 3100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006255566142499447
+Step 3100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004213225096464157
+Step 3100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005851964931935072
+Step 3100 finished: Loss: 0.034852661192417145
+Step 3150: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00823348667472601
+Step 3150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0023092569317668676
+Step 3150: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.008244587108492851
+Step 3150 finished: Loss: 0.04896841570734978
+Step 3200: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0061208149418234825
+Step 3200: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004107269924134016
+Step 3200: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005728890188038349
+Step 3200 finished: Loss: 0.03459760546684265
+Step 3250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00779459485784173
+Step 3250: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0022013660054653883
+Step 3250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.007804051972925663
+Step 3250 finished: Loss: 0.04876526817679405
+Step 3300: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.005663038231432438
+Step 3300: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0037765703164041042
+Step 3300: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005304222460836172
+Step 3300 finished: Loss: 0.03434678539633751
+Step 3350: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0069253030233085155
+Step 3350: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002524092560634017
+Step 3350: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006881522946059704
+Step 3350 finished: Loss: 0.048564862459897995
+Step 3400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005767730064690113
+Step 3400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004185671918094158
+Step 3400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005358856171369553
+Step 3400 finished: Loss: 0.03409983962774277
+Step 3450: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.007760174572467804
+Step 3450: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0026758972089737654
+Step 3450: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.007725491188466549
+Step 3450 finished: Loss: 0.04836699739098549
+Step 3500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005205849651247263
+Step 3500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004193597007542849
+Step 3500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004783368203788996
+Step 3500 finished: Loss: 0.03385647013783455
+Step 3550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.008218207396566868
+Step 3550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0018204631051048636
+Step 3550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.008274728432297707
+Step 3550 finished: Loss: 0.04817149043083191
+Step 3600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.005896861664950848
+Step 3600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0042081428691744804
+Step 3600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005488930270075798
+Step 3600 finished: Loss: 0.03361640125513077
+Step 3650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00603066710755229
+Step 3650: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002321462146937847
+Step 3650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005981862545013428
+Step 3650 finished: Loss: 0.04797821491956711
+Step 3700: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0054048276506364346
+Step 3700: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0042341407388448715
+Step 3700: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004982323851436377
+Step 3700 finished: Loss: 0.033379387110471725
+Step 3750: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.007632133085280657
+Step 3750: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0016284976154565811
+Step 3750: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00769020663574338
+Step 3750 finished: Loss: 0.04778704047203064
+Step 3800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0055777523666620255
+Step 3800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004446728155016899
+Step 3800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005131889600306749
+Step 3800 finished: Loss: 0.0331452414393425
+Step 3850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.007139850407838821
+Step 3850: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0015876534162089229
+Step 3850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.007188222836703062
+Step 3850 finished: Loss: 0.04759785532951355
+Step 3900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.005405292846262455
+Step 3900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00406274851411581
+Step 3900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005005184095352888
+Step 3900 finished: Loss: 0.03291376680135727
+Step 3950: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00611052056774497
+Step 3950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0016520775388926268
+Step 3950: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006125085987150669
+Step 3950 finished: Loss: 0.04741059988737106
+Step 4000: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.005018526688218117
+Step 4000: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003745523514226079
+Step 4000: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004650476388633251
+Step 4000 finished: Loss: 0.0326848141849041
+Step 4050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005969835910946131
+Step 4050: Cosine similarity between full gradient and Hessian's top eigenvector: -0.001906556892208755
+Step 4050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005957358982414007
+Step 4050 finished: Loss: 0.04722518473863602
+Step 4100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004965178668498993
+Step 4100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0038833231665194035
+Step 4100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004577974788844585
+Step 4100 finished: Loss: 0.03245825693011284
+Step 4150: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.006860723719000816
+Step 4150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0020338210742920637
+Step 4150: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006860595662146807
+Step 4150 finished: Loss: 0.04704156890511513
+Step 4200: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0049068802036345005
+Step 4200: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00410127267241478
+Step 4200: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0044899736531078815
+Step 4200 finished: Loss: 0.03223397210240364
+Step 4250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005623514764010906
+Step 4250: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0014541094424203038
+Step 4250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005642639007419348
+Step 4250 finished: Loss: 0.046859703958034515
+Step 4300: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004952928517013788
+Step 4300: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0042236908338963985
+Step 4300: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0045210858806967735
+Step 4300 finished: Loss: 0.03201186656951904
+Step 4350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006071464158594608
+Step 4350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0012589883990585804
+Step 4350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.006120156031101942
+Step 4350 finished: Loss: 0.04667956382036209
+Step 4400: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004910943564027548
+Step 4400: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003623471362516284
+Step 4400: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004555793944746256
+Step 4400 finished: Loss: 0.031791869550943375
+Step 4450: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006963053718209267
+Step 4450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0010161602403968573
+Step 4450: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.007057438138872385
+Step 4450 finished: Loss: 0.04650111496448517
+Step 4500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004755854140967131
+Step 4500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003681682050228119
+Step 4500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0043893721885979176
+Step 4500 finished: Loss: 0.03157390281558037
+Step 4550: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.005188003648072481
+Step 4550: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0013893538853153586
+Step 4550: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005200901534408331
+Step 4550 finished: Loss: 0.04632434621453285
+Step 4600: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005299696698784828
+Step 4600: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004372117575258017
+Step 4600: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004856138955801725
+Step 4600 finished: Loss: 0.03135792538523674
+Step 4650: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.007029855623841286
+Step 4650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.001317619695328176
+Step 4650: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00709821842610836
+Step 4650 finished: Loss: 0.04614924639463425
+Step 4700: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00490552606061101
+Step 4700: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003899447387084365
+Step 4700: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00451394310221076
+Step 4700 finished: Loss: 0.031143885105848312
+Step 4750: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005857442505657673
+Step 4750: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00104384939186275
+Step 4750: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005919069517403841
+Step 4750 finished: Loss: 0.045975808054208755
+Step 4800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0045006247237324715
+Step 4800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0034390578512102365
+Step 4800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004159218166023493
+Step 4800 finished: Loss: 0.030931759625673294
+Step 4850: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005675852298736572
+Step 4850: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0014041421236470342
+Step 4850: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005699935369193554
+Step 4850 finished: Loss: 0.04580402746796608
+Step 4900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0048833186738193035
+Step 4900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003927326295524836
+Step 4900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004487281199544668
+Step 4900 finished: Loss: 0.030721521005034447
+Step 4950: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005770246032625437
+Step 4950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00098906469065696
+Step 4950: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00583406537771225
+Step 4950 finished: Loss: 0.04563391953706741
+Step 5000: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004840716253966093
+Step 5000: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003911976236850023
+Step 5000: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004445543512701988
+Step 5000 finished: Loss: 0.030513161793351173
+Step 5050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004783409181982279
+Step 5050: Cosine similarity between full gradient and Hessian's top eigenvector: -0.000609025068115443
+Step 5050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004855114500969648
+Step 5050 finished: Loss: 0.04546548053622246
+Step 5100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004799320828169584
+Step 5100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003815004136413336
+Step 5100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004415685776621103
+Step 5100 finished: Loss: 0.03030666708946228
+Step 5150: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005795156117528677
+Step 5150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0002672180125955492
+Step 5150: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00592410285025835
+Step 5150 finished: Loss: 0.045298706740140915
+Step 5200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004961877129971981
+Step 5200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004116799682378769
+Step 5200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004542709793895483
+Step 5200 finished: Loss: 0.03010203130543232
+Step 5250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004721077159047127
+Step 5250: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00042398247751407325
+Step 5250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0048073455691337585
+Step 5250 finished: Loss: 0.04513363912701607
+Step 5300: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004626187961548567
+Step 5300: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0037415933329612017
+Step 5300: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0042479271069169044
+Step 5300 finished: Loss: 0.029899267479777336
+Step 5350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006600388791412115
+Step 5350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0004033359291497618
+Step 5350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0067376610822975636
+Step 5350 finished: Loss: 0.04497026279568672
+Step 5400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004211991559714079
+Step 5400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0033605238422751427
+Step 5400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00387358944863081
+Step 5400 finished: Loss: 0.02969837747514248
+Step 5450: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004587823059409857
+Step 5450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00018562388140708208
+Step 5450: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004691495560109615
+Step 5450 finished: Loss: 0.04480859637260437
+Step 5500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004143230151385069
+Step 5500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003389284946024418
+Step 5500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0037994899321347475
+Step 5500 finished: Loss: 0.029499376192688942
+Step 5550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005204334855079651
+Step 5550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.000373649614630267
+Step 5550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005307053681463003
+Step 5550 finished: Loss: 0.04464864730834961
+Step 5600: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004053947981446981
+Step 5600: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0032896106131374836
+Step 5600: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0037211563903838396
+Step 5600 finished: Loss: 0.02930227853357792
+Step 5650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005026074126362801
+Step 5650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00027673618751578033
+Step 5650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005181963089853525
+Step 5650 finished: Loss: 0.044490426778793335
+Step 5700: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004316059872508049
+Step 5700: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003692876547574997
+Step 5700: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003937044646590948
+Step 5700 finished: Loss: 0.029107101261615753
+Step 5750: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004320476669818163
+Step 5750: Cosine similarity between full gradient and Hessian's top eigenvector: -7.006616942817345e-05
+Step 5750: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004426707047969103
+Step 5750 finished: Loss: 0.04433395341038704
+Step 5800: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004390393849462271
+Step 5800: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0035897637717425823
+Step 5800: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004026699345558882
+Step 5800 finished: Loss: 0.028913864865899086
+Step 5850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004570880904793739
+Step 5850: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0002566691837273538
+Step 5850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004666747059673071
+Step 5850 finished: Loss: 0.04417923092842102
+Step 5900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004427984822541475
+Step 5900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0037039010785520077
+Step 5900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004050528164952993
+Step 5900 finished: Loss: 0.02872258797287941
+Step 5950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.006103748921304941
+Step 5950: Cosine similarity between full gradient and Hessian's top eigenvector: 1.64525681611849e-05
+Step 5950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00626040855422616
+Step 5950 finished: Loss: 0.04402627795934677
+Step 6000: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0038050261791795492
+Step 6000: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0030532621312886477
+Step 6000: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0034977286122739315
+Step 6000 finished: Loss: 0.028533292934298515
+Step 6050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.006331377197057009
+Step 6050: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00016036489978432655
+Step 6050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.006509195081889629
+Step 6050 finished: Loss: 0.04387509450316429
+Step 6100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004092396702617407
+Step 6100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0034789228811860085
+Step 6100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0037368019111454487
+Step 6100 finished: Loss: 0.028346005827188492
+Step 6150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004696302581578493
+Step 6150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0007307152263820171
+Step 6150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004882014822214842
+Step 6150 finished: Loss: 0.04372568801045418
+Step 6200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004341532476246357
+Step 6200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003706878749653697
+Step 6200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0039625330828130245
+Step 6200 finished: Loss: 0.02816075086593628
+Step 6250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005820134654641151
+Step 6250: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0005969794583506882
+Step 6250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00602245656773448
+Step 6250 finished: Loss: 0.043578069657087326
+Step 6300: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0036599617451429367
+Step 6300: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002849099226295948
+Step 6300: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003376583568751812
+Step 6300 finished: Loss: 0.02797754481434822
+Step 6350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004578433930873871
+Step 6350: Cosine similarity between full gradient and Hessian's top eigenvector: -9.516874706605449e-05
+Step 6350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004704180173575878
+Step 6350 finished: Loss: 0.04343224689364433
+Step 6400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003958607092499733
+Step 6400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003316715359687805
+Step 6400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003621988231316209
+Step 6400 finished: Loss: 0.027796415612101555
+Step 6450: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.005721591878682375
+Step 6450: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00031292642233893275
+Step 6450: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0058953724801540375
+Step 6450 finished: Loss: 0.0432882085442543
+Step 6500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004139950033277273
+Step 6500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003589811734855175
+Step 6500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003772687865421176
+Step 6500 finished: Loss: 0.027617376297712326
+Step 6550: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0059605310671031475
+Step 6550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0005934578948654234
+Step 6550: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0061645167879760265
+Step 6550 finished: Loss: 0.04314597696065903
+Step 6600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00375518505461514
+Step 6600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0033659408800303936
+Step 6600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003408338176086545
+Step 6600 finished: Loss: 0.02744045853614807
+Step 6650: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.005858111195266247
+Step 6650: Cosine similarity between full gradient and Hessian's top eigenvector: -0.000525888055562973
+Step 6650: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.006053012330085039
+Step 6650 finished: Loss: 0.043005529791116714
+Step 6700: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0035349184181541204
+Step 6700: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0030470876954495907
+Step 6700: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0032246035989373922
+Step 6700 finished: Loss: 0.027265675365924835
+Step 6750: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004208362195640802
+Step 6750: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0004591514589264989
+Step 6750: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004355075303465128
+Step 6750 finished: Loss: 0.04286687821149826
+Step 6800: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003775121411308646
+Step 6800: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003298902651295066
+Step 6800: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003438507206737995
+Step 6800 finished: Loss: 0.02709304355084896
+Step 6850: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005264456383883953
+Step 6850: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0012449431233108044
+Step 6850: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00550581980496645
+Step 6850 finished: Loss: 0.04273001477122307
+Step 6900: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0037582912482321262
+Step 6900: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002985454862937331
+Step 6900: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0034622568637132645
+Step 6900 finished: Loss: 0.02692258171737194
+Step 6950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004526045173406601
+Step 6950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0014483402483165264
+Step 6950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004765759687870741
+Step 6950 finished: Loss: 0.042594920843839645
+Step 7000: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003802345599979162
+Step 7000: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0033853184431791306
+Step 7000: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003456518054008484
+Step 7000 finished: Loss: 0.026754306629300117
+Step 7050: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003888442413881421
+Step 7050: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0007484841626137495
+Step 7050: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004050863906741142
+Step 7050 finished: Loss: 0.04246160760521889
+Step 7100: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0036587894428521395
+Step 7100: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0030340771190822124
+Step 7100: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0033553806133568287
+Step 7100 finished: Loss: 0.02658822014927864
+Step 7150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00490444665774703
+Step 7150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0015058403369039297
+Step 7150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005157146602869034
+Step 7150 finished: Loss: 0.042330052703619
+Step 7200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0036334460601210594
+Step 7200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0030747188720852137
+Step 7200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0033249096013605595
+Step 7200 finished: Loss: 0.026424340903759003
+Step 7250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005252224858850241
+Step 7250: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0005380874499678612
+Step 7250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005429576616734266
+Step 7250 finished: Loss: 0.042200252413749695
+Step 7300: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0034617544151842594
+Step 7300: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0028400409501045942
+Step 7300: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003179895458742976
+Step 7300 finished: Loss: 0.02626267820596695
+Step 7350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00517910486087203
+Step 7350: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0008358948980458081
+Step 7350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005379602778702974
+Step 7350 finished: Loss: 0.04207218438386917
+Step 7400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0033224632497876883
+Step 7400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0028397731948643923
+Step 7400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0030380680691450834
+Step 7400 finished: Loss: 0.026103228330612183
+Step 7450: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00556162791326642
+Step 7450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0010961954249069095
+Step 7450: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005793203599750996
+Step 7450 finished: Loss: 0.04194583743810654
+Step 7500: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0032967673614621162
+Step 7500: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002886072965338826
+Step 7500: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0030065944883972406
+Step 7500 finished: Loss: 0.02594600059092045
+Step 7550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004396875388920307
+Step 7550: Cosine similarity between full gradient and Hessian's top eigenvector: 0.001786268432624638
+Step 7550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004657699726521969
+Step 7550 finished: Loss: 0.0418212004005909
+Step 7600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00362212210893631
+Step 7600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00336128449998796
+Step 7600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003279974451288581
+Step 7600 finished: Loss: 0.025790996849536896
+Step 7650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0036672428250312805
+Step 7650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0015804277500137687
+Step 7650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0038917444180697203
+Step 7650 finished: Loss: 0.04169824346899986
+Step 7700: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003747182199731469
+Step 7700: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0034177512861788273
+Step 7700: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0034017383586615324
+Step 7700 finished: Loss: 0.025638217106461525
+Step 7750: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005394000560045242
+Step 7750: Cosine similarity between full gradient and Hessian's top eigenvector: 0.001153104123659432
+Step 7750: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005623943172395229
+Step 7750 finished: Loss: 0.04157695919275284
+Step 7800: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00335771800018847
+Step 7800: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0030407272279262543
+Step 7800: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0030518025159835815
+Step 7800 finished: Loss: 0.02548765391111374
+Step 7850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0035027391277253628
+Step 7850: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0017911669565364718
+Step 7850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003739444073289633
+Step 7850 finished: Loss: 0.04145731404423714
+Step 7900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003268669592216611
+Step 7900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002836952917277813
+Step 7900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002987254410982132
+Step 7900 finished: Loss: 0.02533930353820324
+Step 7950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0037630326114594936
+Step 7950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0020024992991238832
+Step 7950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004023006185889244
+Step 7950 finished: Loss: 0.04133929684758186
+Step 8000: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0035149480681866407
+Step 8000: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003166498150676489
+Step 8000: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0031986867543309927
+Step 8000 finished: Loss: 0.02519315853714943
+Step 8050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004812851082533598
+Step 8050: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0013693412765860558
+Step 8050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005044369958341122
+Step 8050 finished: Loss: 0.04122287407517433
+Step 8100: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003208194160833955
+Step 8100: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0028038769960403442
+Step 8100: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0029312418773770332
+Step 8100 finished: Loss: 0.02504921145737171
+Step 8150: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005117499269545078
+Step 8150: Cosine similarity between full gradient and Hessian's top eigenvector: 0.001324996119365096
+Step 8150: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0053518423810601234
+Step 8150 finished: Loss: 0.04110802337527275
+Step 8200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003485280554741621
+Step 8200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0033742005471140146
+Step 8200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0031443273182958364
+Step 8200 finished: Loss: 0.024907445535063744
+Step 8250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003480463521555066
+Step 8250: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0013677653623744845
+Step 8250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0036780540831387043
+Step 8250 finished: Loss: 0.04099472984671593
+Step 8300: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003054969245567918
+Step 8300: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0027250959537923336
+Step 8300: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002786064287647605
+Step 8300 finished: Loss: 0.02476784959435463
+Step 8350: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003127300413325429
+Step 8350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0018200901104137301
+Step 8350: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0033531379885971546
+Step 8350 finished: Loss: 0.04088295251131058
+Step 8400: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0035987836308777332
+Step 8400: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0035252708476036787
+Step 8400: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0032438829075545073
+Step 8400 finished: Loss: 0.024630405008792877
+Step 8450: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004976462107151747
+Step 8450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0022123849485069513
+Step 8450: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005278061144053936
+Step 8450 finished: Loss: 0.04077266901731491
+Step 8500: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0029899408109486103
+Step 8500: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0026444806717336178
+Step 8500: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0027313251048326492
+Step 8500 finished: Loss: 0.024495096877217293
+Step 8550: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0051698237657547
+Step 8550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0019720965065062046
+Step 8550: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0054551404900848866
+Step 8550 finished: Loss: 0.04066384956240654
+Step 8600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0031018590088933706
+Step 8600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0028840797021985054
+Step 8600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0028171036392450333
+Step 8600 finished: Loss: 0.02436191216111183
+Step 8650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0033306663390249014
+Step 8650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0019037778256461024
+Step 8650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0035656429827213287
+Step 8650 finished: Loss: 0.040556471794843674
+Step 8700: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003340700175613165
+Step 8700: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0032501332461833954
+Step 8700: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003017343347892165
+Step 8700 finished: Loss: 0.024230821058154106
+Step 8750: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003200290724635124
+Step 8750: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0017214042600244284
+Step 8750: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003416406689211726
+Step 8750 finished: Loss: 0.040450502187013626
+Step 8800: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003484336892142892
+Step 8800: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0036196657456457615
+Step 8800: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0031200251542031765
+Step 8800 finished: Loss: 0.024101806804537773
+Step 8850: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003345669712871313
+Step 8850: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0016965587856248021
+Step 8850: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003562353551387787
+Step 8850 finished: Loss: 0.04034591093659401
+Step 8900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00285307876765728
+Step 8900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002816892694681883
+Step 8900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002573821460828185
+Step 8900 finished: Loss: 0.023974845185875893
+Step 8950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004493932705372572
+Step 8950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.001601813011802733
+Step 8950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004729048348963261
+Step 8950 finished: Loss: 0.040242668241262436
+Step 9000: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003305131336674094
+Step 9000: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0034706054721027613
+Step 9000: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002957457909360528
+Step 9000 finished: Loss: 0.023849911987781525
+Step 9050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0031030874233692884
+Step 9050: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0016332311788573861
+Step 9050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003307327628135681
+Step 9050 finished: Loss: 0.040140748023986816
+Step 9100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0033884202130138874
+Step 9100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0036535244435071945
+Step 9100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0030216334853321314
+Step 9100 finished: Loss: 0.023726975545287132
+Step 9150: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003378894180059433
+Step 9150: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0015944041078910232
+Step 9150: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003585630329325795
+Step 9150 finished: Loss: 0.04004012420773506
+Step 9200: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0031285083387047052
+Step 9200: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0034682382829487324
+Step 9200: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002779553644359112
+Step 9200 finished: Loss: 0.02360602281987667
+Step 9250: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004641553852707148
+Step 9250: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0026341427583247423
+Step 9250: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004959984682500362
+Step 9250 finished: Loss: 0.03994075581431389
+Step 9300: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0033238325268030167
+Step 9300: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0037163044326007366
+Step 9300: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002950610127300024
+Step 9300 finished: Loss: 0.023487016558647156
+Step 9350: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0030898386612534523
+Step 9350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0017035340424627066
+Step 9350: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003296996233984828
+Step 9350 finished: Loss: 0.039842620491981506
+Step 9400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003064858727157116
+Step 9400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0034333302173763514
+Step 9400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0027211569249629974
+Step 9400 finished: Loss: 0.023369930684566498
+Step 9450: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004731529857963324
+Step 9450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002550262026488781
+Step 9450: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00504288449883461
+Step 9450 finished: Loss: 0.03974568843841553
+Step 9500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003125516464933753
+Step 9500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0035447629634290934
+Step 9500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002771056955680251
+Step 9500 finished: Loss: 0.02325473725795746
+Step 9550: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004888470284640789
+Step 9550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0019253313075751066
+Step 9550: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.005152741447091103
+Step 9550 finished: Loss: 0.03964991867542267
+Step 9600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00333988550119102
+Step 9600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0038738111034035683
+Step 9600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002952188951894641
+Step 9600 finished: Loss: 0.02314140647649765
+Step 9650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004025653004646301
+Step 9650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0028256892692297697
+Step 9650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004340218845754862
+Step 9650 finished: Loss: 0.03955530747771263
+Step 9700: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003018477465957403
+Step 9700: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0032446160912513733
+Step 9700: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002699961420148611
+Step 9700 finished: Loss: 0.023029904812574387
+Step 9750: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0033651941921561956
+Step 9750: Cosine similarity between full gradient and Hessian's top eigenvector: -0.001613706350326538
+Step 9750: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003568345448002219
+Step 9750 finished: Loss: 0.03946179896593094
+Step 9800: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0032492440659552813
+Step 9800: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0038345973007380962
+Step 9800: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0028669412713497877
+Step 9800 finished: Loss: 0.022920209914445877
+Step 9850: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003623235272243619
+Step 9850: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0025093357544392347
+Step 9850: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0039015202783048153
+Step 9850 finished: Loss: 0.0393693782389164
+Step 9900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002493098843842745
+Step 9900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0026113500352948904
+Step 9900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0022400598973035812
+Step 9900 finished: Loss: 0.022812282666563988
+Step 9950: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004549077711999416
+Step 9950: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002747784834355116
+Step 9950: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004865733440965414
+Step 9950 finished: Loss: 0.03927801549434662
+Step 10000: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003032343927770853
+Step 10000: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0037821289151906967
+Step 10000: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0026540555991232395
+Step 10000 finished: Loss: 0.02270609326660633
+Step 10050: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0023827252443879843
+Step 10050: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002672371920198202
+Step 10050: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002643761457875371
+Step 10050 finished: Loss: 0.03918769210577011
+Step 10100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0026166674215346575
+Step 10100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0029958945233374834
+Step 10100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002322952728718519
+Step 10100 finished: Loss: 0.022601615637540817
+Step 10150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004686236381530762
+Step 10150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002048150636255741
+Step 10150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004949378315359354
+Step 10150 finished: Loss: 0.03909837082028389
+Step 10200: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002728183288127184
+Step 10200: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003122334834188223
+Step 10200: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002423188416287303
+Step 10200 finished: Loss: 0.02249881625175476
+Step 10250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0024510687217116356
+Step 10250: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0026435167528688908
+Step 10250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0027094592805951834
+Step 10250 finished: Loss: 0.039010025560855865
+Step 10300: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0029847933910787106
+Step 10300: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003856149734929204
+Step 10300: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002600747859105468
+Step 10300 finished: Loss: 0.022397663444280624
+Step 10350: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00251064938493073
+Step 10350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002499024383723736
+Step 10350: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002758303890004754
+Step 10350 finished: Loss: 0.038922637701034546
+Step 10400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0025128484703600407
+Step 10400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003049885854125023
+Step 10400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002213594038039446
+Step 10400 finished: Loss: 0.02229812555015087
+Step 10450: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002487144898623228
+Step 10450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0020444048568606377
+Step 10450: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002698557684198022
+Step 10450 finished: Loss: 0.03883618488907814
+Step 10500: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0028761145658791065
+Step 10500: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0035939482040703297
+Step 10500: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0025227798614650965
+Step 10500 finished: Loss: 0.022200174629688263
+Step 10550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002269030548632145
+Step 10550: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002589326584711671
+Step 10550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002516492735594511
+Step 10550 finished: Loss: 0.038750626146793365
+Step 10600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0030630656983703375
+Step 10600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004060926381498575
+Step 10600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002660974394530058
+Step 10600 finished: Loss: 0.02210378460586071
+Step 10650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0021424947772175074
+Step 10650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0027297446504235268
+Step 10650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0023969989269971848
+Step 10650 finished: Loss: 0.038665954023599625
+Step 10700: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0027260484639555216
+Step 10700: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0035954101476818323
+Step 10700: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0023715682327747345
+Step 10700 finished: Loss: 0.02200891077518463
+Step 10750: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003086611395701766
+Step 10750: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0016954389866441488
+Step 10750: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003282317193225026
+Step 10750 finished: Loss: 0.03858213871717453
+Step 10800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002586273243650794
+Step 10800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0034998850896954536
+Step 10800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002240845700725913
+Step 10800 finished: Loss: 0.021915528923273087
+Step 10850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0021274839527904987
+Step 10850: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0024840671103447676
+Step 10850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0023613409139215946
+Step 10850 finished: Loss: 0.03849915787577629
+Step 10900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002684308448806405
+Step 10900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0037798003759235144
+Step 10900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002310027601197362
+Step 10900 finished: Loss: 0.021823612973093987
+Step 10950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0021187164820730686
+Step 10950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002151703927665949
+Step 10950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002326538087800145
+Step 10950 finished: Loss: 0.03841700032353401
+Step 11000: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0023274431005120277
+Step 11000: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0030431956984102726
+Step 11000: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002030814765021205
+Step 11000 finished: Loss: 0.021733129397034645
+Step 11050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004447413608431816
+Step 11050: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0026456203777343035
+Step 11050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0047416104935109615
+Step 11050 finished: Loss: 0.03833563253283501
+Step 11100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0027883923612535
+Step 11100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004027851857244968
+Step 11100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0023904943373054266
+Step 11100 finished: Loss: 0.021644052118062973
+Step 11150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.007939119823276997
+Step 11150: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0016220391262322664
+Step 11150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0079872515052557
+Step 11150 finished: Loss: 0.03825504332780838
+Step 11200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0026320787146687508
+Step 11200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003669092431664467
+Step 11200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002272820333018899
+Step 11200 finished: Loss: 0.021556349471211433
+Step 11250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003437503706663847
+Step 11250: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002476345980539918
+Step 11250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003695552935823798
+Step 11250 finished: Loss: 0.03817521035671234
+Step 11300: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002664269180968404
+Step 11300: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004017095547169447
+Step 11300: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002267278963699937
+Step 11300 finished: Loss: 0.021469995379447937
+Step 11350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002684652339667082
+Step 11350: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0032322632614523172
+Step 11350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0029821889474987984
+Step 11350 finished: Loss: 0.0380961112678051
+Step 11400: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002448555314913392
+Step 11400: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0037496527656912804
+Step 11400: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0020782630890607834
+Step 11400 finished: Loss: 0.021384961903095245
+Step 11450: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002759292023256421
+Step 11450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0032387475948780775
+Step 11450: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003057946916669607
+Step 11450 finished: Loss: 0.03801773861050606
+Step 11500: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0021095748525112867
+Step 11500: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0032092237379401922
+Step 11500: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0017939094686880708
+Step 11500 finished: Loss: 0.02130121737718582
+Step 11550: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002074712421745062
+Step 11550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0024514340329915285
+Step 11550: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0022997872438281775
+Step 11550 finished: Loss: 0.037940073758363724
+Step 11600: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002826554700732231
+Step 11600: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004456395283341408
+Step 11600: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002387196058407426
+Step 11600 finished: Loss: 0.021218735724687576
+Step 11650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.004230855032801628
+Step 11650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0024638117756694555
+Step 11650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.004501229152083397
+Step 11650 finished: Loss: 0.03786308318376541
+Step 11700: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.001993692945688963
+Step 11700: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0030973542015999556
+Step 11700: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.001689855009317398
+Step 11700 finished: Loss: 0.02113749273121357
+Step 11750: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00358296069316566
+Step 11750: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003337166039273143
+Step 11750: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003903317963704467
+Step 11750 finished: Loss: 0.03778676688671112
+Step 11800: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0023063605185598135
+Step 11800: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0036769709549844265
+Step 11800: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0019453295972198248
+Step 11800 finished: Loss: 0.021057462319731712
+Step 11850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00431848643347621
+Step 11850: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002596794394776225
+Step 11850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0045987386256456375
+Step 11850 finished: Loss: 0.037711113691329956
+Step 11900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0026533675845712423
+Step 11900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004251379985362291
+Step 11900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002236796310171485
+Step 11900 finished: Loss: 0.020978620275855064
+Step 11950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.004252275917679071
+Step 11950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0024269043933600187
+Step 11950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00451784348115325
+Step 11950 finished: Loss: 0.03763610124588013
+Step 12000: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002552462974563241
+Step 12000: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004140778910368681
+Step 12000: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0021471225190907717
+Step 12000 finished: Loss: 0.020900936797261238
+Step 12050: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0020530892070382833
+Step 12050: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0032540422398597
+Step 12050: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0023331553675234318
+Step 12050 finished: Loss: 0.03756171464920044
+Step 12100: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.001881806761957705
+Step 12100: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003229590831324458
+Step 12100: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0015640661586076021
+Step 12100 finished: Loss: 0.02082439325749874
+Step 12150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003267495660111308
+Step 12150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0033616686705499887
+Step 12150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003579507814720273
+Step 12150 finished: Loss: 0.0374879464507103
+Step 12200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.001785199623554945
+Step 12200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0029980940744280815
+Step 12200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0014918522210791707
+Step 12200 finished: Loss: 0.020748959854245186
+Step 12250: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.001492003328166902
+Step 12250: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0026010407600551844
+Step 12250: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0017116735689342022
+Step 12250 finished: Loss: 0.037414778023958206
+Step 12300: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00255189067684114
+Step 12300: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00442866375669837
+Step 12300: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002117767697200179
+Step 12300 finished: Loss: 0.02067461423575878
+Step 12350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0034047982189804316
+Step 12350: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003484178800135851
+Step 12350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0037268216256052256
+Step 12350 finished: Loss: 0.03734220191836357
+Step 12400: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0025115394964814186
+Step 12400: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0045212977565824986
+Step 12400: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0020673503167927265
+Step 12400 finished: Loss: 0.020601337775588036
+Step 12450: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0027281709481030703
+Step 12450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003492198884487152
+Step 12450: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003036292502656579
+Step 12450 finished: Loss: 0.037270210683345795
+Step 12500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0016549130668863654
+Step 12500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00299324793741107
+Step 12500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0013613835908472538
+Step 12500 finished: Loss: 0.020529108121991158
+Step 12550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0013837890001013875
+Step 12550: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0028676786459982395
+Step 12550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0016189874149858952
+Step 12550 finished: Loss: 0.03719878941774368
+Step 12600: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002295439364388585
+Step 12600: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00410531647503376
+Step 12600: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0018943828763440251
+Step 12600 finished: Loss: 0.020457901060581207
+Step 12650: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0017182299634441733
+Step 12650: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0032607370521873236
+Step 12650: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0019879660103470087
+Step 12650 finished: Loss: 0.03712792322039604
+Step 12700: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0022412054240703583
+Step 12700: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004137897398322821
+Step 12700: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0018362877890467644
+Step 12700 finished: Loss: 0.020387699827551842
+Step 12750: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0029464203398674726
+Step 12750: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0022680037654936314
+Step 12750: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0031685063149780035
+Step 12750 finished: Loss: 0.03705760836601257
+Step 12800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0022123984526842833
+Step 12800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004111310001462698
+Step 12800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0018106682691723108
+Step 12800 finished: Loss: 0.020318476483225822
+Step 12850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0016876920126378536
+Step 12850: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0021826294250786304
+Step 12850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0018781314138323069
+Step 12850 finished: Loss: 0.03698783367872238
+Step 12900: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0014720935141667724
+Step 12900: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0029695371631532907
+Step 12900: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0011797663755714893
+Step 12900 finished: Loss: 0.020250212401151657
+Step 12950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002292467514052987
+Step 12950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002486308803781867
+Step 12950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0025162380188703537
+Step 12950 finished: Loss: 0.03691859170794487
+Step 13000: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00145232817158103
+Step 13000: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002977101132273674
+Step 13000: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0011593566741794348
+Step 13000 finished: Loss: 0.020182890817523003
+Step 13050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0019028342794626951
+Step 13050: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0020655805710703135
+Step 13050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002088298322632909
+Step 13050 finished: Loss: 0.03684987872838974
+Step 13100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002389851026237011
+Step 13100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0047120326198637486
+Step 13100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0019291415810585022
+Step 13100 finished: Loss: 0.020116493105888367
+Step 13150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0011861864477396011
+Step 13150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0026978272944688797
+Step 13150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0014024705160409212
+Step 13150 finished: Loss: 0.036781664937734604
+Step 13200: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0018526212079450488
+Step 13200: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003969877026975155
+Step 13200: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0014616935513913631
+Step 13200 finished: Loss: 0.02005099691450596
+Step 13250: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0035950762685388327
+Step 13250: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0028141553048044443
+Step 13250: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0038662462029606104
+Step 13250 finished: Loss: 0.036713968962430954
+Step 13300: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002054954878985882
+Step 13300: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004454671870917082
+Step 13300: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0016166225541383028
+Step 13300 finished: Loss: 0.019986389204859734
+Step 13350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003929019905626774
+Step 13350: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002777328249067068
+Step 13350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004203455988317728
+Step 13350 finished: Loss: 0.036646768450737
+Step 13400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002222356852144003
+Step 13400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004754194989800453
+Step 13400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.001756096025928855
+Step 13400 finished: Loss: 0.019922645762562752
+Step 13450: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0016366970958188176
+Step 13450: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002185987075790763
+Step 13450: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0018240915378555655
+Step 13450 finished: Loss: 0.036580055952072144
+Step 13500: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.001917071407660842
+Step 13500: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004313320852816105
+Step 13500: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0014926418662071228
+Step 13500 finished: Loss: 0.019859757274389267
+Step 13550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0019842542242258787
+Step 13550: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0031956364400684834
+Step 13550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0022498529870063066
+Step 13550 finished: Loss: 0.03651383891701698
+Step 13600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0013928533298894763
+Step 13600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0033797023352235556
+Step 13600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0010584632400423288
+Step 13600 finished: Loss: 0.01979769952595234
+Step 13650: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0012886907206848264
+Step 13650: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0029479393269866705
+Step 13650: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0015229105483740568
+Step 13650 finished: Loss: 0.036448098719120026
+Step 13700: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0013152187457308173
+Step 13700: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0032768792007118464
+Step 13700: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0009907952044159174
+Step 13700 finished: Loss: 0.019736463204026222
+Step 13750: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002259404631331563
+Step 13750: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0033043925650417805
+Step 13750: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002537113381549716
+Step 13750 finished: Loss: 0.036382827907800674
+Step 13800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002186127007007599
+Step 13800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004741084296256304
+Step 13800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0017238534055650234
+Step 13800 finished: Loss: 0.019676024094223976
+Step 13850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003463941626250744
+Step 13850: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002607290865853429
+Step 13850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0037146806716918945
+Step 13850 finished: Loss: 0.036318033933639526
+Step 13900: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0014259035233408213
+Step 13900: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003660401562228799
+Step 13900: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.001063782605342567
+Step 13900 finished: Loss: 0.019616372883319855
+Step 13950: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.001013841712847352
+Step 13950: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0028102658689022064
+Step 13950: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0012321091489866376
+Step 13950 finished: Loss: 0.03625369444489479
+Step 14000: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0022583934478461742
+Step 14000: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005024409387260675
+Step 14000: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0017688474617898464
+Step 14000 finished: Loss: 0.019557496532797813
+Step 14050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0034941057674586773
+Step 14050: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002700268058106303
+Step 14050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0037510860711336136
+Step 14050 finished: Loss: 0.03618980571627617
+Step 14100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.001721213455311954
+Step 14100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004375326447188854
+Step 14100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0012901299633085728
+Step 14100 finished: Loss: 0.01949937455356121
+Step 14150: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0031584843527525663
+Step 14150: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003655285807326436
+Step 14150: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0034762404393404722
+Step 14150 finished: Loss: 0.036126382648944855
+Step 14200: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0018751928582787514
+Step 14200: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0045331306755542755
+Step 14200: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0014313104329630733
+Step 14200 finished: Loss: 0.019441992044448853
+Step 14250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.008083526045084
+Step 14250: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0009945392375811934
+Step 14250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.008304963819682598
+Step 14250 finished: Loss: 0.03606340289115906
+Step 14300: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0012046844931319356
+Step 14300: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0034886759240180254
+Step 14300: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0008582760929130018
+Step 14300 finished: Loss: 0.019385337829589844
+Step 14350: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00290989619679749
+Step 14350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0030472336802631617
+Step 14350: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003179198829457164
+Step 14350 finished: Loss: 0.03600086271762848
+Step 14400: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0011750240810215473
+Step 14400: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00347808375954628
+Step 14400: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0008295975858345628
+Step 14400 finished: Loss: 0.019329404458403587
+Step 14450: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002232458908110857
+Step 14450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0028114719316363335
+Step 14450: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0024721866939216852
+Step 14450 finished: Loss: 0.03593876212835312
+Step 14500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0013862864580005407
+Step 14500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003966238349676132
+Step 14500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0009939739247784019
+Step 14500 finished: Loss: 0.019274171441793442
+Step 14550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0008953458163887262
+Step 14550: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0023997591342777014
+Step 14550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0010810440871864557
+Step 14550 finished: Loss: 0.03587708994746208
+Step 14600: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.001327161560766399
+Step 14600: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003670915961265564
+Step 14600: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0009655512403696775
+Step 14600 finished: Loss: 0.019219622015953064
+Step 14650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0016749268397688866
+Step 14650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002351972507312894
+Step 14650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.001871440908871591
+Step 14650 finished: Loss: 0.03581584244966507
+Step 14700: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002114734845235944
+Step 14700: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005177641287446022
+Step 14700: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0016108272830024362
+Step 14700 finished: Loss: 0.019165752455592155
+Step 14750: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0032178382389247417
+Step 14750: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0028020048048347235
+Step 14750: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003474104916676879
+Step 14750 finished: Loss: 0.03575503081083298
+Step 14800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00184313440695405
+Step 14800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004962666425853968
+Step 14800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0013566974084824324
+Step 14800 finished: Loss: 0.01911255158483982
+Step 14850: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0006521631730720401
+Step 14850: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002413989044725895
+Step 14850: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.000833939528092742
+Step 14850 finished: Loss: 0.03569464385509491
+Step 14900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0020497983787208796
+Step 14900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.005144183523952961
+Step 14900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0015493484679609537
+Step 14900 finished: Loss: 0.019060000777244568
+Step 14950: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0029596108943223953
+Step 14950: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0036244059447199106
+Step 14950: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0032683704048395157
+Step 14950 finished: Loss: 0.035634662955999374
+Step 15000: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0020162162836641073
+Step 15000: Cosine similarity between full gradient and Hessian's top eigenvector: 0.005134444683790207
+Step 15000: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.001516687567345798
+Step 15000 finished: Loss: 0.0190080888569355
+Step 15050: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0005587935447692871
+Step 15050: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002505430718883872
+Step 15050: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0007450634730048478
+Step 15050 finished: Loss: 0.03557509928941727
+Step 15100: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0018827355233952403
+Step 15100: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005099121946841478
+Step 15100: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0013845927314832807
+Step 15100 finished: Loss: 0.018956806510686874
+Step 15150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003706451505422592
+Step 15150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0032963587436825037
+Step 15150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.004005019087344408
+Step 15150 finished: Loss: 0.03551594167947769
+Step 15200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.002059970051050186
+Step 15200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005398647394031286
+Step 15200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0015347043517977
+Step 15200 finished: Loss: 0.01890614442527294
+Step 15250: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002237719250842929
+Step 15250: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003401933703571558
+Step 15250: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002516963751986623
+Step 15250 finished: Loss: 0.03545719385147095
+Step 15300: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0009620698401704431
+Step 15300: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003563814563676715
+Step 15300: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0006068365182727575
+Step 15300 finished: Loss: 0.01885608583688736
+Step 15350: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0031382932793349028
+Step 15350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0029995334334671497
+Step 15350: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0034051944967359304
+Step 15350 finished: Loss: 0.03539884462952614
+Step 15400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0019403558690100908
+Step 15400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005181901156902313
+Step 15400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0014365562237799168
+Step 15400 finished: Loss: 0.01880662515759468
+Step 15450: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002658675890415907
+Step 15450: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002806176198646426
+Step 15450: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0029031727463006973
+Step 15450 finished: Loss: 0.035340890288352966
+Step 15500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0014950369950383902
+Step 15500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004392201080918312
+Step 15500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.001065148739144206
+Step 15500 finished: Loss: 0.018757754936814308
+Step 15550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0009469717042520642
+Step 15550: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0023306880611926317
+Step 15550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0011274359421804547
+Step 15550 finished: Loss: 0.03528334200382233
+Step 15600: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0013330135261639953
+Step 15600: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004243363160640001
+Step 15600: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.000915658485610038
+Step 15600 finished: Loss: 0.018709462136030197
+Step 15650: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0021474820096045732
+Step 15650: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00291261519305408
+Step 15650: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002389977453276515
+Step 15650 finished: Loss: 0.03522618114948273
+Step 15700: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.001572202774696052
+Step 15700: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004599276930093765
+Step 15700: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0011231951648369431
+Step 15700 finished: Loss: 0.018661735579371452
+Step 15750: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003420132678002119
+Step 15750: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0033872106578201056
+Step 15750: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0037182418163865805
+Step 15750 finished: Loss: 0.03516940400004387
+Step 15800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0018157034646719694
+Step 15800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005375977605581284
+Step 15800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00129093904979527
+Step 15800 finished: Loss: 0.01861456409096718
+Step 15850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0033474043011665344
+Step 15850: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0034710487816482782
+Step 15850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0036498766858130693
+Step 15850 finished: Loss: 0.03511301428079605
+Step 15900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0009463148890063167
+Step 15900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003876405768096447
+Step 15900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0005601670709438622
+Step 15900 finished: Loss: 0.018567942082881927
+Step 15950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003522791899740696
+Step 15950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0034721489064395428
+Step 15950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0038281958550214767
+Step 15950 finished: Loss: 0.03505701571702957
+Step 16000: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0018544804770499468
+Step 16000: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005342963617295027
+Step 16000: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.001335149398073554
+Step 16000 finished: Loss: 0.018521858379244804
+Step 16050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003524107625707984
+Step 16050: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0034930519759655
+Step 16050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003830777248367667
+Step 16050 finished: Loss: 0.03500138968229294
+Step 16100: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.001278379582799971
+Step 16100: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00430231774225831
+Step 16100: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0008557880646549165
+Step 16100 finished: Loss: 0.018476303666830063
+Step 16150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0027204614598304033
+Step 16150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0037962289061397314
+Step 16150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0030342056415975094
+Step 16150 finished: Loss: 0.034946147352457047
+Step 16200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0013980923686176538
+Step 16200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004877843428403139
+Step 16200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.000918288656976074
+Step 16200 finished: Loss: 0.018431277945637703
+Step 16250: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0019176097121089697
+Step 16250: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0031077389139682055
+Step 16250: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.002168960403650999
+Step 16250 finished: Loss: 0.034891266375780106
+Step 16300: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0010202466510236263
+Step 16300: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004204410593956709
+Step 16300: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0006029091309756041
+Step 16300 finished: Loss: 0.018386757001280785
+Step 16350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0004398353339638561
+Step 16350: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002638238947838545
+Step 16350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0006325925933197141
+Step 16350 finished: Loss: 0.03483676165342331
+Step 16400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0008755935705266893
+Step 16400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003971274942159653
+Step 16400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00047978173824958503
+Step 16400 finished: Loss: 0.018342748284339905
+Step 16450: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00342813809402287
+Step 16450: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0035117475781589746
+Step 16450: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003733683144673705
+Step 16450 finished: Loss: 0.03478262573480606
+Step 16500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0006948332884348929
+Step 16500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0035668648779392242
+Step 16500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00033757471828721464
+Step 16500 finished: Loss: 0.018299227580428123
+Step 16550: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003335402812808752
+Step 16550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0035067207645624876
+Step 16550: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0036388388834893703
+Step 16550 finished: Loss: 0.034728847444057465
+Step 16600: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.001054049702361226
+Step 16600: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004165175836533308
+Step 16600: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0006427250918932259
+Step 16600 finished: Loss: 0.018256202340126038
+Step 16650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00038708612555637956
+Step 16650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0025905123911798
+Step 16650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0005755877355113626
+Step 16650 finished: Loss: 0.034675437957048416
+Step 16700: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0010717175900936127
+Step 16700: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004083144944161177
+Step 16700: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0006697221542708576
+Step 16700 finished: Loss: 0.018213653936982155
+Step 16750: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.001998783089220524
+Step 16750: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003479565493762493
+Step 16750: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0022772226948291063
+Step 16750 finished: Loss: 0.03462238237261772
+Step 16800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00069828936830163
+Step 16800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0037718999665230513
+Step 16800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0003206580877304077
+Step 16800 finished: Loss: 0.018171576783061028
+Step 16850: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0029654677491635084
+Step 16850: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003420209977775812
+Step 16850: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003256110940128565
+Step 16850 finished: Loss: 0.03456968069076538
+Step 16900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0006147916428744793
+Step 16900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003531942842528224
+Step 16900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00026059706578962505
+Step 16900 finished: Loss: 0.018129967153072357
+Step 16950: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.000790080928709358
+Step 16950: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002872640732675791
+Step 16950: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0010052871657535434
+Step 16950 finished: Loss: 0.03451733663678169
+Step 17000: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.001759516540914774
+Step 17000: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005462617613375187
+Step 17000: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.001230502617545426
+Step 17000 finished: Loss: 0.018088815733790398
+Step 17050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.003388086101040244
+Step 17050: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0037093928549438715
+Step 17050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003705988870933652
+Step 17050 finished: Loss: 0.03446534276008606
+Step 17100: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0007497600163333118
+Step 17100: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0040074968710541725
+Step 17100: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0003497229772619903
+Step 17100 finished: Loss: 0.0180481169372797
+Step 17150: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0033707257825881243
+Step 17150: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003711656667292118
+Step 17150: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003688383148983121
+Step 17150 finished: Loss: 0.034413691610097885
+Step 17200: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0006264684488996863
+Step 17200: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0037738115061074495
+Step 17200: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0002482584968674928
+Step 17200 finished: Loss: 0.018007859587669373
+Step 17250: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0003403499140404165
+Step 17250: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0024742749519646168
+Step 17250: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0005200344603508711
+Step 17250 finished: Loss: 0.03436238318681717
+Step 17300: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0005969328922219574
+Step 17300: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003734295256435871
+Step 17300: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0002224548370577395
+Step 17300 finished: Loss: 0.017968038097023964
+Step 17350: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0033360826782882214
+Step 17350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0037735984660685062
+Step 17350: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003657326800748706
+Step 17350 finished: Loss: 0.03431141749024391
+Step 17400: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.001428972464054823
+Step 17400: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004934590309858322
+Step 17400: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0009490874363109469
+Step 17400 finished: Loss: 0.017928648740053177
+Step 17450: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.00634127389639616
+Step 17450: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0032929345034062862
+Step 17450: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.006678758189082146
+Step 17450 finished: Loss: 0.034260790795087814
+Step 17500: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0015692856395617127
+Step 17500: Cosine similarity between full gradient and Hessian's top eigenvector: 0.005207790061831474
+Step 17500: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0010646486189216375
+Step 17500 finished: Loss: 0.017889684066176414
+Step 17550: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0031512894202023745
+Step 17550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003883748548105359
+Step 17550: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003477059304714203
+Step 17550 finished: Loss: 0.03421049565076828
+Step 17600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0005876199575141072
+Step 17600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003828199580311775
+Step 17600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00020407016563694924
+Step 17600 finished: Loss: 0.01785113476216793
+Step 17650: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003370773745700717
+Step 17650: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00394515972584486
+Step 17650: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003704451723024249
+Step 17650 finished: Loss: 0.03416053205728531
+Step 17700: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0014121332205832005
+Step 17700: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004983801394701004
+Step 17700: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0009279460064135492
+Step 17700 finished: Loss: 0.017812997102737427
+Step 17750: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0031187457498162985
+Step 17750: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003582967910915613
+Step 17750: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0034226838033646345
+Step 17750 finished: Loss: 0.0341109000146389
+Step 17800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0016522440128028393
+Step 17800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005644076969474554
+Step 17800: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0011055590584874153
+Step 17800 finished: Loss: 0.017775265499949455
+Step 17850: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0006767062586732209
+Step 17850: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0027816807851195335
+Step 17850: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0008838696521706879
+Step 17850 finished: Loss: 0.03406159579753876
+Step 17900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0007472809520550072
+Step 17900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004133063834160566
+Step 17900: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0003366966266185045
+Step 17900 finished: Loss: 0.01773793064057827
+Step 17950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0033542178571224213
+Step 17950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0040153320878744125
+Step 17950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003692415775731206
+Step 17950 finished: Loss: 0.03401261195540428
+Step 18000: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0010483807418495417
+Step 18000: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00494338246062398
+Step 18000: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0005612083477899432
+Step 18000 finished: Loss: 0.017700985074043274
+Step 18050: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003011036431416869
+Step 18050: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003710000077262521
+Step 18050: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0033220381010323763
+Step 18050 finished: Loss: 0.03396395593881607
+Step 18100: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0014457544311881065
+Step 18100: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005156281404197216
+Step 18100: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0009460479486733675
+Step 18100 finished: Loss: 0.017664428800344467
+Step 18150: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00042091432260349393
+Step 18150: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00256519066169858
+Step 18150: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0006087797810323536
+Step 18150 finished: Loss: 0.03391561284661293
+Step 18200: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0024547427892684937
+Step 18200: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004067856818437576
+Step 18200: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0020909563172608614
+Step 18200 finished: Loss: 0.017628248780965805
+Step 18250: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0016972990706562996
+Step 18250: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0025910360272973776
+Step 18250: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0019078570185229182
+Step 18250 finished: Loss: 0.03386758640408516
+Step 18300: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0010969499126076698
+Step 18300: Cosine similarity between full gradient and Hessian's top eigenvector: 0.005144556984305382
+Step 18300: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0005912333144806325
+Step 18300 finished: Loss: 0.017592450603842735
+Step 18350: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0019905860535800457
+Step 18350: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003624566365033388
+Step 18350: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0022789076901972294
+Step 18350 finished: Loss: 0.03381987661123276
+Step 18400: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0010346164926886559
+Step 18400: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0044893529266119
+Step 18400: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0005954083753749728
+Step 18400 finished: Loss: 0.017557017505168915
+Step 18450: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0033266334794461727
+Step 18450: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003960385452955961
+Step 18450: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003660372458398342
+Step 18450 finished: Loss: 0.03377246856689453
+Step 18500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0015606654342263937
+Step 18500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0055666049011051655
+Step 18500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0010228577302768826
+Step 18500 finished: Loss: 0.017521947622299194
+Step 18550: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.002993424888700247
+Step 18550: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003887441009283066
+Step 18550: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.003316610585898161
+Step 18550 finished: Loss: 0.033725373446941376
+Step 18600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.001199223450385034
+Step 18600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.005282113794237375
+Step 18600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0006828100304119289
+Step 18600 finished: Loss: 0.017487233504652977
+Step 18650: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003286934457719326
+Step 18650: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004002225585281849
+Step 18650: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0036229738034307957
+Step 18650 finished: Loss: 0.033678583800792694
+Step 18700: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0014682296896353364
+Step 18700: Cosine similarity between full gradient and Hessian's top eigenvector: 0.005238911136984825
+Step 18700: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0009628375410102308
+Step 18700 finished: Loss: 0.017452873289585114
+Step 18750: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.005658216308802366
+Step 18750: Cosine similarity between full gradient and Hessian's top eigenvector: 0.00266894674859941
+Step 18750: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.005938053596764803
+Step 18750 finished: Loss: 0.03363208845257759
+Step 18800: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0004178410745225847
+Step 18800: Cosine similarity between full gradient and Hessian's top eigenvector: -0.003682068781927228
+Step 18800: Cosine similarity between gradient difference and Hessian's top eigenvector: 4.8753467126516625e-05
+Step 18800 finished: Loss: 0.017418861389160156
+Step 18850: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.001542021636851132
+Step 18850: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0029816061723977327
+Step 18850: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0017778221517801285
+Step 18850 finished: Loss: 0.03358589485287666
+Step 18900: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0004802066250704229
+Step 18900: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004013631492853165
+Step 18900: Cosine similarity between gradient difference and Hessian's top eigenvector: -7.872775313444436e-05
+Step 18900 finished: Loss: 0.017385194078087807
+Step 18950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003191209863871336
+Step 18950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004082656931132078
+Step 18950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00353142898529768
+Step 18950 finished: Loss: 0.03354000300168991
+Step 19000: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.001518481643870473
+Step 19000: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005439071450382471
+Step 19000: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0009948279475793242
+Step 19000 finished: Loss: 0.01735185831785202
+Step 19050: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0032191320788115263
+Step 19050: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004192774184048176
+Step 19050: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003567621111869812
+Step 19050 finished: Loss: 0.03349440172314644
+Step 19100: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0006355367950163782
+Step 19100: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004488724749535322
+Step 19100: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.00018943137547466904
+Step 19100 finished: Loss: 0.017318859696388245
+Step 19150: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0005809673457406461
+Step 19150: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0027256628964096308
+Step 19150: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0007834709831513464
+Step 19150 finished: Loss: 0.033449091017246246
+Step 19200: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.001505418331362307
+Step 19200: Cosine similarity between full gradient and Hessian's top eigenvector: 0.005416924133896828
+Step 19200: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0009845190215855837
+Step 19200 finished: Loss: 0.017286187037825584
+Step 19250: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0022477705497294664
+Step 19250: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0037371402140706778
+Step 19250: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.002548572141677141
+Step 19250 finished: Loss: 0.03340407460927963
+Step 19300: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0004692554066423327
+Step 19300: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0039911577478051186
+Step 19300: Cosine similarity between gradient difference and Hessian's top eigenvector: 7.092663872754201e-05
+Step 19300 finished: Loss: 0.017253834754228592
+Step 19350: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00043121009366586804
+Step 19350: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0024810489267110825
+Step 19350: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0006141391349956393
+Step 19350 finished: Loss: 0.033359333872795105
+Step 19400: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0013034690637141466
+Step 19400: Cosine similarity between full gradient and Hessian's top eigenvector: 0.005719287320971489
+Step 19400: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0007476819446310401
+Step 19400 finished: Loss: 0.017221806570887566
+Step 19450: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.003429244738072157
+Step 19450: Cosine similarity between full gradient and Hessian's top eigenvector: -0.004360520280897617
+Step 19450: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0037930903490632772
+Step 19450 finished: Loss: 0.03331487998366356
+Step 19500: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0014612197410315275
+Step 19500: Cosine similarity between full gradient and Hessian's top eigenvector: -0.00540320435538888
+Step 19500: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0009418457630090415
+Step 19500 finished: Loss: 0.017190083861351013
+Step 19550: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0008889501332305372
+Step 19550: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002828614553436637
+Step 19550: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.001103951595723629
+Step 19550 finished: Loss: 0.033270709216594696
+Step 19600: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0014395880280062556
+Step 19600: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0053638615645468235
+Step 19600: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.0009241243242286146
+Step 19600 finished: Loss: 0.01715867407619953
+Step 19650: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0013049186673015356
+Step 19650: Cosine similarity between full gradient and Hessian's top eigenvector: 0.002445872174575925
+Step 19650: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0014993216609582305
+Step 19650 finished: Loss: 0.03322681412100792
+Step 19700: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00036234434810467064
+Step 19700: Cosine similarity between full gradient and Hessian's top eigenvector: -0.0038722893223166466
+Step 19700: Cosine similarity between gradient difference and Hessian's top eigenvector: -2.5235140128643252e-05
+Step 19700 finished: Loss: 0.017127564176917076
+Step 19750: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.00345315458253026
+Step 19750: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004546445328742266
+Step 19750: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.003830723697319627
+Step 19750 finished: Loss: 0.03318319097161293
+Step 19800: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0007575087365694344
+Step 19800: Cosine similarity between full gradient and Hessian's top eigenvector: 0.004289704840630293
+Step 19800: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.00033671321580186486
+Step 19800 finished: Loss: 0.017096756026148796
+Step 19850: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0028605377301573753
+Step 19850: Cosine similarity between full gradient and Hessian's top eigenvector: 0.0036584320478141308
+Step 19850: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0031656816136091948
+Step 19850 finished: Loss: 0.03313984349370003
+Step 19900: Cosine similarity between batch gradient and Hessian's top eigenvector: -0.0014545265585184097
+Step 19900: Cosine similarity between full gradient and Hessian's top eigenvector: -0.005858143791556358
+Step 19900: Cosine similarity between gradient difference and Hessian's top eigenvector: 0.0008900475222617388
+Step 19900 finished: Loss: 0.017066240310668945
+Step 19950: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0009605899103917181
+Step 19950: Cosine similarity between full gradient and Hessian's top eigenvector: -0.002947036875411868
+Step 19950: Cosine similarity between gradient difference and Hessian's top eigenvector: -0.001185457338578999
+Step 19950 finished: Loss: 0.033096764236688614
+Step 20000: Cosine similarity between batch gradient and Hessian's top eigenvector: 0.0003416071995161474
+Step 20000: Cosine similarity between full gradient and Hessian's top eigenvector: 0.003982982598245144
+Step 20000: Cosine similarity between gradient difference and Hessian's top eigenvector: 5.6986420531757176e-05
+Step 20000 finished: Loss: 0.01703602261841297
+Training Finished
+Plotting cosine similarity...
+Invalid format in history for batch gradient
+Invalid format in history for full gradient
+Invalid format in history for gradient difference
+Invalid format for batch gradient
+Invalid format for full gradient
+Invalid format for gradient difference
+/home/ouyangzl/BaseLine/MNIST/Experiment_7_test_1.py:174: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  plt.legend()
+Saved combined plot to /home/ouyangzl/BaseLine/MNIST/images
+Plotting Finished

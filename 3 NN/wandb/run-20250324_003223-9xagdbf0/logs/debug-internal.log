@@ -1,0 +1,47 @@
+{"time":"2025-03-24T00:32:23.447676+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/wandb/run-20250324_003223-9xagdbf0/logs/debug-core.log"}
+{"time":"2025-03-24T00:32:23.56016+08:00","level":"INFO","msg":"created new stream","id":"9xagdbf0"}
+{"time":"2025-03-24T00:32:23.560356+08:00","level":"INFO","msg":"stream: started","id":"9xagdbf0"}
+{"time":"2025-03-24T00:32:23.560482+08:00","level":"INFO","msg":"handler: started","stream_id":"9xagdbf0"}
+{"time":"2025-03-24T00:32:23.560546+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"9xagdbf0"}
+{"time":"2025-03-24T00:32:23.560725+08:00","level":"INFO","msg":"sender: started","stream_id":"9xagdbf0"}
+{"time":"2025-03-24T00:32:25.080935+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-24T00:32:45.572295+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T00:32:45.572556+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T00:32:45.572575+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T00:32:45.572583+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T00:32:45.572591+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T00:32:45.572597+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T00:32:45.572603+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T00:32:45.590467+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":500}
+{"time":"2025-03-24T00:32:45.590502+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T00:32:45.600378+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T00:32:45.600448+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T00:32:45.600457+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T00:32:45.600463+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T00:32:45.600469+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T00:32:45.600474+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T00:32:45.600479+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":500}
+{"time":"2025-03-24T00:32:45.609477+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T00:32:45.609516+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T00:32:45.609524+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T00:32:45.60953+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T00:32:45.609535+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T00:32:45.609541+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T00:32:45.609546+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T00:32:45.609558+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":500}
+{"time":"2025-03-24T00:32:45.609563+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":500}
+{"time":"2025-03-24T00:32:45.60959+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":500}
+{"time":"2025-03-24T00:32:45.609595+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":50,"current":500}
+{"time":"2025-03-24T00:32:45.609599+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":100,"current":500}
+{"time":"2025-03-24T00:32:45.609602+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":150,"current":500}
+{"time":"2025-03-24T00:32:45.609606+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":200,"current":500}
+{"time":"2025-03-24T00:32:45.60961+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":350,"current":500}
+{"time":"2025-03-24T00:33:09.697495+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-24T00:33:09.699937+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-24T00:33:10.702647+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/Cosine Similarity of The Largest Hessian Eigenvectors Between Different Recorded Steps and The Last Recorded Steps_509_b7f67f27792f4b70b232.png","runtime_seconds":9.027428792,"progress":"32.7KB/32.7KB"},{"desc":"uploading media/images/PCA Spectrum of Top-k Largest Hessian Eigenvectors Between Different Recorded Steps and The Last Recorded Steps_510_ad11fb34a29eeac1abc7.png","runtime_seconds":7.86538225,"progress":"93.1KB/93.1KB"},{"desc":"uploading output.log","runtime_seconds":0.726648834,"progress":"7.3KB/7.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.726613333,"progress":"18.7KB/18.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.486281333,"progress":"1001B/1001B"}],"total_operations":5}}
+{"time":"2025-03-24T00:33:15.027292+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-24T00:33:15.40948+08:00","level":"INFO","msg":"stream: closing","id":"9xagdbf0"}
+{"time":"2025-03-24T00:33:15.409541+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9xagdbf0"}
+{"time":"2025-03-24T00:33:15.409758+08:00","level":"INFO","msg":"handler: closed","stream_id":"9xagdbf0"}
+{"time":"2025-03-24T00:33:15.409773+08:00","level":"INFO","msg":"sender: closed","stream_id":"9xagdbf0"}
+{"time":"2025-03-24T00:33:15.410436+08:00","level":"INFO","msg":"stream: closed","id":"9xagdbf0"}

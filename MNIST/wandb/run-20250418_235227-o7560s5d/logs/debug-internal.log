@@ -1,0 +1,15 @@
+{"time":"2025-04-18T23:52:27.886027073+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ouyangzl/BaseLine/MNIST/wandb/run-20250418_235227-o7560s5d/logs/debug-core.log"}
+{"time":"2025-04-18T23:52:28.102571011+08:00","level":"INFO","msg":"created new stream","id":"o7560s5d"}
+{"time":"2025-04-18T23:52:28.102643053+08:00","level":"INFO","msg":"stream: started","id":"o7560s5d"}
+{"time":"2025-04-18T23:52:28.102695303+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"o7560s5d"}
+{"time":"2025-04-18T23:52:28.10270422+08:00","level":"INFO","msg":"handler: started","stream_id":"o7560s5d"}
+{"time":"2025-04-18T23:52:28.102886303+08:00","level":"INFO","msg":"sender: started","stream_id":"o7560s5d"}
+{"time":"2025-04-18T23:52:28.518930334+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T23:52:31.940948382+08:00","level":"INFO","msg":"stream: closing","id":"o7560s5d"}
+{"time":"2025-04-18T23:52:31.941009882+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T23:52:31.942149924+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T23:52:32.758192758+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T23:52:33.041421072+08:00","level":"INFO","msg":"handler: closed","stream_id":"o7560s5d"}
+{"time":"2025-04-18T23:52:33.041510072+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"o7560s5d"}
+{"time":"2025-04-18T23:52:33.04152528+08:00","level":"INFO","msg":"sender: closed","stream_id":"o7560s5d"}
+{"time":"2025-04-18T23:52:33.041634363+08:00","level":"INFO","msg":"stream: closed","id":"o7560s5d"}

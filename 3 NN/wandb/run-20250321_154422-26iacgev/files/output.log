@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/train.py", line 49, in <module>
+    loss = loss_fn(output, target)
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/loss_utils.py", line 4, in loss_fn
+    return 0.5 * torch.norm(output - target, p='fro')**2
+RuntimeError: The size of tensor a (10) must match the size of tensor b (16) at non-singleton dimension 1
+Traceback (most recent call last):
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/train.py", line 49, in <module>
+    loss = loss_fn(output, target)
+  File "/Users/xuanxuan/Documents/藤校/Loss Landspace and Hessian Paper List/Code/Low Rank/loss_utils.py", line 4, in loss_fn
+    return 0.5 * torch.norm(output - target, p='fro')**2
+RuntimeError: The size of tensor a (10) must match the size of tensor b (16) at non-singleton dimension 1
